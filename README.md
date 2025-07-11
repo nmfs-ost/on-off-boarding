@@ -1,4 +1,4 @@
-# NOAA Fisheries OST Onboarding and Offboarding Protocols
+# NOAA Fisheries OST Onboarding and Offboarding Protocols <img src="assets/noaa-logo.png" align="right" height="200" style="float:right; height:200px;" />
 
 Workflows for onboarding and offboarding collaborators to projects within NOAA 
 Fisheries Office of Science and Technology. This README describes the process 
@@ -9,7 +9,9 @@ successfully integrate or leave the agency.
 
 We are happy for you to join onto our NOAA team! We here at OST take on a large 
 breadth of responsibilities. We aim to execute modern and high-quality data 
-collection, management, and open access programs.
+collection, management, and open access programs. For more information, please 
+go to our [internal webpage](https://sites.google.com/noaa.gov/inside-fisheries-ost/office-of-science-and-technology) 
+to access resources, organization charts, and more.
 
 ![GitHub stats](https://github-readme-stats.vercel.app/api?username=nmfs-ost&show_icons=true&theme=transparent&role=OWNER,COLLABORATOR,ORGANIZATION_MEMBER)
 
