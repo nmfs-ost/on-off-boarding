@@ -1,5 +1,5 @@
-name: Onboard team member
-description: Checklist for onboarding a new team member to National Stock Assessment Program.
+name: Onboard Team Member
+description: Checklist for onboarding a new team member to the National Stock Assessment Program.
 title: "[Onboard]: <name>"
 labels: ["onboarding"]
 assignees: ["Melissa-Karp"]
@@ -9,18 +9,18 @@ body:
     id: welcome-message
     attributes:
       label: Welcome Message 
-      description: Welcome message to the new team member, including brief
-        instructions on how to use this issue template. Don't modify.
+      description: Do not modify. This is a pre-filled welcome message for the onboardee, including brief instructions on how to use this issue template.
       value: |
-        :clap: Welcome! :clap: [The README](https://github.com/nmfs-ost/on-off-boarding) describes the onboarding process for new team members of the National Stock Assessment Program (NSAP). Below are the checklist items that will drive the onboarding process.
+        :clap: Welcome! :clap: [The README](https://github.com/nmfs-ost/on-off-boarding) describes the onboarding process for new members of the National 
+        Stock Assessment Program (NSAP). Below are the checklist items that will drive the onboarding process.
     validations:
       required: false 
 
   - type: input
     id: user-name
     attributes:
-      label: Team Member Name
-      description: The full name of the team member being onboarded.
+      label: Onboardee's Name
+      description: The full name of the onboardee.
       placeholder: Ex. Jane Doe
     validations:
       required: true
@@ -37,9 +37,9 @@ body:
   - type: textarea
     id: role-description
     attributes:
-      label: Team Member's Role and Department
-      description: Briefly describe the team member's role and which department they will be joining.
-      placeholder: Ex. Software Engineer, ST4 National Stock Assessment Program
+      label: Onboardee's Role and Department
+      description: Briefly describe the onboardee's role and which department they will be joining.
+      placeholder: Ex. Fish Biologist, ST4 National Stock Assessment Program
     validations:
       required: true
 
@@ -47,43 +47,88 @@ body:
     id: nsap-checklist
     attributes:
       label: NSAP Onboarding Checklist
-      description: This is a checklist of tasks to be completed during the 
-        onboarding process. Don't modify.
+      description: Do not modify. This is a pre-filled checklist of tasks to be completed during the onboarding process.
       value: |
-        Please mark the checklist items as complete as you progress through the onboarding process. If you have any questions, please feel free to comment on this issue or reach out to the relevant POCs listed above. Please close this issue once all tasks are completed.
+        # Onboarding Task Checklist
 
         ## Assignee: Assessment Branch Director (Acting) @Melissa-Karp
-        - [x] **Create an onboarding issue on GitHub [First Day]**: Create a new issue in the `nmfs-ost/on-off-boarding` repository.
-        - [ ] **Schedule a 1:1 welcome meeting [First Day]**: Review onboarding process and update the onboarding issue as they see fit. Provide an introduction to the NSAP. [NSAP onboarding resources and links (internal)](https://docs.google.com/document/d/1YGP5NzoatWrk95D8GqouXTUzinqBq5KG8RBPjTNCUU4/edit?usp=sharing).
-        - [ ] **Give access to program-level resources [First Week]**: Provide access to NSAP or higher-level email distribution lists, meetings, NSAP Shared Drive, and chat spaces.  
-        <details>
-          <summary>
-            Expand this section to see the list of resources:
-          </summary>
+        ### First Day
+        - [ ] Schedule first-day welcome meeting to review the onboarding process to the NSAP.
 
-        - [ ] Provide access to NSAP stand up meetings (optional based on activities, weekly on Mondays, [meeting notes](https://docs.google.com/document/d/1YLs7JLYAlzQaG2xDXxh9elUfUS-JvU0ShrQmJ-HuKQ8/edit#heading=h.g2wld1n2klxy))
-        - [ ] Provide access to NSAP space (Chat space for those at NSAP to ask questions and have discussions)
-        </details>
+        ### First Week
+        - [ ] Provide access to NSAP or higher-level email distribution lists, meetings (e.g., NSAP standup), [NSAP Shared Drive](https://drive.google.com/drive/folders/0AIE09HE4PUVeUk9PVA), and chat spaces.
+          <details>
+              <summary>
+                Expand this section to see the list of email distribution lists, meetings, Google Drive folders, and chat spaces to be added to
+              </summary>
 
-        - [ ] **Sign Github user agreement [Second Week]**: Assessment Branch Director signs user agreement and sends back to new team member.
+            - Email Distribution Lists
+              - OST email distribution list (Should be added to this listserv when onboardee starts)
+              - ST4 email distribution list (Not typically used, as the assessment branch listserv is kept more up to date)
+              - _NMFS HQ ST4 Assessment Branch
+              - _NMFS Fish Assessment
+            - Meetings
+              - NSAP stand-up meetings (optional based on activities, weekly on Mondays)
+              - Stock Assessment Communication Forum (optional, every 6 weeks on Thursdays)
+              - Assessment & Monitoring Division Staff Meeting (monthly on the first Tuesday, sometimes moved to accommodate schedules)
+              - ST4 Office Hours (optional, monthly on the fourth Thursday)
+            - Google Drive Folders
+              - [NMFS HQ OST National Stock Assessment Program](https://drive.google.com/drive/folders/0AIE09HE4PUVeUk9PVA)
+              - [National Stock Assessment Program](https://drive.google.com/drive/folders/0B33Ah5-cit8gTE11RVIzRUxERWc?resourcekey=0-l29iQdYGYcMCgZ9UVbt3FA&usp=drive_link)
+            - Google Chat Spaces
+              - NSAP: Chat space for those at NSAP to ask questions and have discussions.
+              - National Fish Assessment Chat Space: Chat space for fish assessment staff and friends. Use it to ask questions, collaborate across regions, etc. Set up threads for specific topics.
+              - NMFS R-User Space: National Marine Fisheries Service R User Group for announcements and questions.
+              - NMFS GitHub User Space: Chat space for those at NMFS to ask questions and have discussions about GitHub/GitHub Enterprise Cloud.
+              - NMFS Open Science: Chat space for those at NMFS to make announcements and have discussions about open science activities.
+            
+            Please report if you encounter any problems and leave a comment on this onboarding issue. 
+            </details>
+        
+        ## Assignee: Onboardee
+        ### First Week
+        - [ ] Write a short bio and send it to [Assessment Branch Director](mailto:melissa.karp@noaa.gov) so it can be included in a welcome email to members of OST and add your bio to the [NSAP bios document ](https://docs.google.com/document/d/1_E8D4-m8F3FLYzGrYeZXm2NBDpMeroXb1miQxYf1wgo/edit?tab=t.0).
+        - [ ] Contact [IT](mailto:christopher.bradley@example.com) and cc the [service desk](mailto:nmfs.servicedesk@noaa.gov) to set up workstation. 
+            <details>
+              <summary>
+                Expand this section to see the list of software applications to be installed
+              </summary>
 
-        ## Assignee: Project Lead (@ GitHub handle here)
-        - [ ] **Schedule a 1:1 welcome meeting [First Day]**: Review onboarding process with project lead, if applicable. Provide an overview of the project.
+            - Adobe Acrobat
+            - Chrome/Firefox (personal preference)
+            - Git 
+            - GitHub Desktop
+            - Microsoft Office
+            - R 
+            - Rtools (Windows only)
+            - RStudio 
+            - VSCode  
+            
+            Other NMFS-approved software applications can be found [here](https://docs.google.com/spreadsheets/d/1oPaTegdBGEmkjrmkbOVjGAJpPFg755p3Wws50ddLwCI/edit?usp=sharing).
+            </details>
+        - [ ] Set up a GitHub account by following the [guide](https://sites.google.com/noaa.gov/nmfs-st-github-governance-team/github-users) and request access to GitHub Enterprise Cloud by emailing the completed [GitHub user agreement](https://drive.google.com/file/d/1yP0mLpD5d5rsgNv5-_Z6OWpwhLROjxMg/view) to the [Assessment Branch Director](mailto:melissa.karp@noaa.gov).
+        - [ ] Email [Kathryn](mailto:kathryn.doering@noaa.gov) and Elizabeth(mailto:elizabeth.gugliotti@noaa.gov) to be added to the noaa-ost GitHub organization, and the NSAP team.
+        - [ ] Share your Google calendar ([instructions here](https://support.google.com/calendar/answer/37082?hl=en)) with those that need to know your schedule because everyone by default sees you as busy instead of getting appointment details.
+        - [ ] Add the following calendars to your Google Calendar
+            <details>
+              <summary>
+                Expand this section to see the list of calendars to be added
+              </summary>
 
-        ## Assignee: New Team Member
-        - [ ] **Write a short bio for the welcome email and complete the "NSAP Bios" doc [First Week]**: Send the bio to Assessment Branch Director. Refer to the [bio email template](https://docs.google.com/document/d/1FbJwasO6lTAlg04wU2CHIq96_aoOo_g896_d907XCM8/edit?usp=sharing) and the "NSAP Bios" [doc](https://docs.google.com/document/d/1_E8D4-m8F3FLYzGrYeZXm2NBDpMeroXb1miQxYf1wgo/edit?usp=sharing).
-        - [ ] **Contact IT to set up workstation [First Week]**: Have a working laptop and install software applications. POC: example@noaa.gov
+            - NMFS-OST-Leadership calendar ID: noaa.gov_1888qfecncjisg5mnvhtcilbn4go46gb6crjcd1o68o38chi6c@resource.calendar.google.com
+            - NMFS GitHub trainings calendar ID: c_3edf762e4a47019b1e86b98fd0c9e89102982a78d50cb65f72bb21d6c7539654@group.calendar.google.com
+            - NMFS Open Science calendar ID: c_916b6948ef2ee8b7d49c28661efc0798303c2742be399c9290fa02d9320c769e@group.calendar.google.com
+            - NMFS NMFS R Users calendar ID: noaa.gov_60rfn7ml9rpchl63vs4af9n018@group.calendar.google.com
+            - Assessment Events calendar ID: c_43jjc1ei4kujqki7o5ud918ea8@group.calendar.google.com
+            </details>
+        - [ ] Email [Bai](mailto:bai.li@noaa.gov) to be added to the ECS Comms chat space if you are a contractor from ECS Federal LLC.
 
-        <details>
-          <summary>
-            Expand this section to see the list of software applications:
-          </summary>
+        :bulb: **Tips**
+        - Please mark the checklist items as complete as you progress through the onboarding process. 
+        - You can edit this issue to add more details about your progress by clicking the "..." button in the top-right corner of the issue. 
+        - If you have any questions or encounter any problems, please feel free to comment on this issue. 
+        - Please close this issue once all tasks are completed.
 
-        - [ ] Git
-        - [ ] RStudio
-        Other NMFS-approved software applications can be found [here](https://docs.google.com/spreadsheets/d/1oPaTegdBGEmkjrmkbOVjGAJpPFg755p3Wws50ddLwCI/edit?usp=sharing).
-        </details>
-
-        :tada: :tada: :tada: Thank you for your cooperation and welcome to the team!
+        :tada: :tada: :tada: Thank you for your cooperation and welcome aboard!
     validations:
       required: false 
