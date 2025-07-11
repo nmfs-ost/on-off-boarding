@@ -1,4 +1,4 @@
-# NOAA Fisheries OST Onboarding and Offboarding Protocols <img src="assets/noaa-logo.png" align="right" height="200" style="float:right; height:200px;" />
+# NOAA Fisheries OST Onboarding and Offboarding <img src="assets/noaa-logo.png" align="right" height="150" style="float:right; height:150px;" />
 
 Workflows for onboarding and offboarding collaborators to projects within NOAA 
 Fisheries Office of Science and Technology. This README describes the process 
