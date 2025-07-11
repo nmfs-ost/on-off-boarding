@@ -6,17 +6,20 @@ Workflows for onboarding and offboarding collaborators to projects within NOAA F
 
 ```mermaid
 flowchart TD;
-    ti{"Onboarding New Employee"};
+    ti{"Onboarding Process"};
     A0("Branch Director") --- A(["Navigate to Issues"]);
     A --> B(["Select Onboarding or Offboarding Template"]);
     B --> C("Fill out details of your template");
-    D("Add project specific command (i.e. \fims"));
+    D("Add project specific command (i.e. \fims)");
     E["Assign issue to onboardee"];
-    C --> D + E;
+    C --> D;
+    C --> E;
     
     A1("New Employee") --- A;
-    A --> new("Complete onboarding tasks");
+    A --> G["Read through README"];
+    G --> new("Complete onboarding tasks of assigned issue");
     
-    E + new --> F["Close issue"];
+    E --> F["Close issue"];
+    new --> F;
 ```
     
