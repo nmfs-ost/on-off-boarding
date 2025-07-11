@@ -7,9 +7,11 @@ successfully integrate or leave the agency.
 
 ## Welcome
 
-We are happy for you to join onto our NOAA team! We here at OST take on a large breadth of responsibilities. We mainly focus on 
+We are happy for you to join onto our NOAA team! We here at OST take on a large 
+breadth of responsibilities. We aim to execute modern and high-quality data 
+collection, management, and open access programs.
 
-[![GitHub Trends SVG](https://api.githubtrends.io/user/svg/nmfs-ost/langs)](https://githubtrends.io)
+![GitHub stats](https://github-readme-stats.vercel.app/api?username=nmfs-ost&show_icons=true&theme=transparent&role=OWNER,COLLABORATOR,ORGANIZATION_MEMBER)
 
 ## Getting Started
 
