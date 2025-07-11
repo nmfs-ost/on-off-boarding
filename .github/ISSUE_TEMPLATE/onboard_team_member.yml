@@ -1,0 +1,89 @@
+name: Onboard team member
+description: Checklist for onboarding a new team member to National Stock Assessment Program.
+title: "[Onboard]: <name>"
+labels: ["onboarding"]
+assignees: ["Melissa-Karp"]
+
+body:
+  - type: textarea
+    id: welcome-message
+    attributes:
+      label: Welcome Message 
+      description: Welcome message to the new team member, including brief
+        instructions on how to use this issue template. Don't modify.
+      value: |
+        :clap: Welcome! :clap: [The README](https://github.com/nmfs-ost/on-off-boarding) describes the onboarding process for new team members of the National Stock Assessment Program (NSAP). Below are the checklist items that will drive the onboarding process.
+    validations:
+      required: false 
+
+  - type: input
+    id: user-name
+    attributes:
+      label: Team Member Name
+      description: The full name of the team member being onboarded.
+      placeholder: Ex. Jane Doe
+    validations:
+      required: true
+
+  - type: input
+    id: start-date
+    attributes:
+      label: Desired Start Date
+      description: When should the onboarding process begin? (e.g., YYYY-MM-DD)
+      placeholder: Ex. 2025-07-15
+    validations:
+      required: true
+
+  - type: textarea
+    id: role-description
+    attributes:
+      label: Team Member's Role and Department
+      description: Briefly describe the team member's role and which department they will be joining.
+      placeholder: Ex. Software Engineer, ST4 National Stock Assessment Program
+    validations:
+      required: true
+
+  - type: textarea
+    id: nsap-checklist
+    attributes:
+      label: NSAP Onboarding Checklist
+      description: This is a checklist of tasks to be completed during the 
+        onboarding process. Don't modify.
+      value: |
+        Please mark the checklist items as complete as you progress through the onboarding process. If you have any questions, please feel free to comment on this issue or reach out to the relevant POCs listed above. Please close this issue once all tasks are completed.
+
+        ## Assignee: Assessment Branch Director (Acting) @Melissa-Karp
+        - [x] **Create an onboarding issue on GitHub [First Day]**: Create a new issue in the `nmfs-ost/on-off-boarding` repository.
+        - [ ] **Schedule a 1:1 welcome meeting [First Day]**: Review onboarding process and update the onboarding issue as they see fit. Provide an introduction to the NSAP. [NSAP onboarding resources and links (internal)](https://docs.google.com/document/d/1YGP5NzoatWrk95D8GqouXTUzinqBq5KG8RBPjTNCUU4/edit?usp=sharing).
+        - [ ] **Give access to program-level resources [First Week]**: Provide access to NSAP or higher-level email distribution lists, meetings, NSAP Shared Drive, and chat spaces.  
+        <details>
+          <summary>
+            Expand this section to see the list of resources:
+          </summary>
+
+        - [ ] Provide access to NSAP stand up meetings (optional based on activities, weekly on Mondays, [meeting notes](https://docs.google.com/document/d/1YLs7JLYAlzQaG2xDXxh9elUfUS-JvU0ShrQmJ-HuKQ8/edit#heading=h.g2wld1n2klxy))
+        - [ ] Provide access to NSAP space (Chat space for those at NSAP to ask questions and have discussions)
+        </details>
+
+        - [ ] **Sign Github user agreement [Second Week]**: Assessment Branch Director signs user agreement and sends back to new team member.
+
+        ## Assignee: Project Lead (@ GitHub handle here)
+        - [ ] **Schedule a 1:1 welcome meeting [First Day]**: Review onboarding process with project lead, if applicable. Provide an overview of the project.
+
+        ## Assignee: New Team Member
+        - [ ] **Write a short bio for the welcome email and complete the "NSAP Bios" doc [First Week]**: Send the bio to Assessment Branch Director. Refer to the [bio email template](https://docs.google.com/document/d/1FbJwasO6lTAlg04wU2CHIq96_aoOo_g896_d907XCM8/edit?usp=sharing) and the "NSAP Bios" [doc](https://docs.google.com/document/d/1_E8D4-m8F3FLYzGrYeZXm2NBDpMeroXb1miQxYf1wgo/edit?usp=sharing).
+        - [ ] **Contact IT to set up workstation [First Week]**: Have a working laptop and install software applications. POC: example@noaa.gov
+
+        <details>
+          <summary>
+            Expand this section to see the list of software applications:
+          </summary>
+
+        - [ ] Git
+        - [ ] RStudio
+        Other NMFS-approved software applications can be found [here](https://docs.google.com/spreadsheets/d/1oPaTegdBGEmkjrmkbOVjGAJpPFg755p3Wws50ddLwCI/edit?usp=sharing).
+        </details>
+
+        :tada: :tada: :tada: Thank you for your cooperation and welcome to the team!
+    validations:
+      required: false 
