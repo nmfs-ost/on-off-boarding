@@ -1,0 +1,40 @@
+name: onboard-fims-command
+on:
+  repository_dispatch:
+    types: [onboard-fims-command]
+jobs:
+  list:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Create comment
+        uses: peter-evans/create-or-update-comment@v4
+        with:
+          token: ${{ secrets.PAT }}
+          repository: ${{ github.event.client_payload.github.payload.repository.full_name }}
+          issue-number: ${{ github.event.client_payload.github.payload.issue.number }}
+          # TODO: Figure out if lines are wrapped as given or not
+          body: |
+            Welcome :wave: to the [Fisheries Integrated Modeling System (FIMS) organization](https://github.com/NOAA-FIMS/),
+            below you will find a list of onboarding tasks for both the onboardee and for the Project Lead.
+            Please mark off tasks once they are accomplished to ease the communication chain and decrease duplication. Feel free reach out on the [FIMS Discussion Board](
+            https://github.com/orgs/NOAA-FIMS/discussions) if you want to chat about anything.
+
+            ## Onboardee
+              - [ ] VS Code
+              - [ ] R
+              - [ ] Rtools (Windows users)
+              - [ ] git
+              - [ ] gcc or clang to compile (can be found in Rtools or Xcode)
+              - [ ] CMake
+              - [ ] ninja
+              - [ ] gdb (Linux and Mac users)
+              - [ ] doxygen
+              - [ ] Add [FIMS Google Calendar](https://calendar.google.com/calendar/u/0?cid=Y182ZWx1djFoOG84MzBrN3Z0OGN0Y3M2Z2h0b0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t) to your Google Calendar
+
+            ## Project Lead
+              - [ ] Add to monthly FIMS Implementation Team Google meet
+              - [ ] Add to Tuesday Google meet Code Club
+              - [ ] Add to Thursday Google meet Seaside Chat
+              - [ ] Add email to FIMS email list
+              - [ ] Share FIMS calendar
+              - [ ] Add to FIMS Google drive

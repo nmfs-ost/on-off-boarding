@@ -1,0 +1,29 @@
+name: Slash Command Dispatch
+on:
+# Will only run when a new comment is created but there are three types of
+# issue_comment: created, edited, and deleted
+  issue_comment:
+    types: [created]
+jobs:
+  slashCommandDispatch:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Slash Command Dispatch
+        uses: peter-evans/slash-command-dispatch@v4
+        with:
+          # Must link a personal PAT to this repository
+          token: ${{ secrets.PAT }}
+          # List all of the commands that you want to work in lowercase
+          # Where onboarding options are listed first and then offboarding
+          commands: |
+              onboard-fims
+              onboard-fit
+              onboard-nsap
+              onboard-sis
+              onboard-workflows
+              offboard-fims
+              offboard-fit
+              offboard-nsap
+              offboard-sis
+              offboard-workflows
+          permission: write
