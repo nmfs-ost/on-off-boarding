@@ -57,10 +57,13 @@ flowchart TD;
 
 ## Project Contacts
 
-| Project | Person |
-| ------- | ------ |
-| Workflows | <a href="https://github.com/Schiano-NOAA"><img src="https://avatars.githubusercontent.com/u/125507018?u=b6dab08f04000188734eb3bbf78a40616e99b921&v=4" width="100px;" alt=""/> |
-| SIS | Jeff |
+### National Stock Assessment Program (NSAP)
+
+|  |  | | | | | |
+| ------- | ------ | -----| ------- | ------- | ------- | ------- |
+| NSAP | Worflows | FIMS | DisMAP | SIS | FIT | SS3 |
+| <a href="https://github.com/Melissa-Karp"><img src="https://avatars.githubusercontent.com/u/61592412?v=4" width="100px;" alt=""/> | <a href="https://github.com/Schiano-NOAA"><img src="https://avatars.githubusercontent.com/u/125507018?u=b6dab08f04000188734eb3bbf78a40616e99b921&v=4" width="100px;" alt=""/> | <a href="https://github.com/kellijohnson-NOAA"><img src="https://avatars.githubusercontent.com/u/4108564?v=4" width="100px;" alt=""/> | <a href="https://github.com/Melissa-Karp"><img src="https://avatars.githubusercontent.com/u/61592412?v=4" width="100px;" alt=""/> | <a href="https://github.com/orgs/nmfs-ost/teams/nsap"><img src="https://avatars.githubusercontent.com/t/9092421?s=116&v=4" width="100px;" alt=""/> | <a href="https://github.com/k-doering-NOAA"><img src="https://avatars.githubusercontent.com/u/48930335?v=4" width="100px;" alt=""/> | <a href="https://github.com/e-perl-NOAA"><img src="https://avatars.githubusercontent.com/u/118312785?v=4" width="100px;" alt=""/> |
+| Melissa Karp | Sam Schiano | Kelli Johnson | Melissa Karp | Jeff Vieser | Kathryn Doering | Elizabeth Perl |
 
 ## Software and Tools 
 
@@ -74,7 +77,10 @@ flowchart TD;
 <img src="assets/asar-hex.png" alt="asar logo" width="45" height="45"/>
 <img src="assets/stockplotr-hex.png" alt="stock plot R logo" width="45" height="45"/>
 </p>
-          
+
+### National Survey Program
+
+### Other OST Divisions
           
 ## AI Resources at NOAA Fisheries
 
