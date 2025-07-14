@@ -17,6 +17,28 @@ to access resources, organization charts, and more.
 ![GitHub stats](https://github-readme-stats.vercel.app/api?username=nmfs-ost&show_icons=true&theme=transparent&role=OWNER,COLLABORATOR,ORGANIZATION_MEMBER)
 --->
 
+[![GitHub followers](https://img.shields.io/github/followers/your-username?style=social)](https://github.com/your-username)
+
+| Project               | Status                                                       | Description                                             |
+| --------------------- | ------------------------------------------------------------ | ------------------------------------------------------- |
+| [FIMS]                | [![fims-status]][fims-status-link]                           | Fisheries Integrated Modelling System                   |
+| [asar]                | [![asar-status]][asar-status-link]                           | Partially Automated Stock Assessment Reporting          |
+| [stockplotr]          | [![stockplotr-status]][stockplotr-status-link]               | Tables and figures for stock assessment documents       |
+| [ss3-source-code]     | [![ss3-status]][ss3-status-link]                             | Stock Synthesis source code                             |
+
+[FIMS]: https://github.com/noaa-fims/fims/
+[fims-status]: https://noaa-fims.r-universe.dev/badges/FIMS
+[fims-status-link]: https://noaa-fims.r-universe.dev/FIMS
+[asar]: https://github.com/nmfs-ost/asar
+[asar-status]: https://camo.githubusercontent.com/ec28d5c98ba24b18acce2adfea29626c528588d2600739498b9918899fb89851/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f6c6966656379636c652d6578706572696d656e74616c2d6f72616e67652e737667
+[asar-status-link]: https://lifecycle.r-lib.org/articles/stages.html#experimental
+[stockplotr]: https://github.com/nmfs-ost/stockplotr
+[stockplotr-status]:https://camo.githubusercontent.com/ec28d5c98ba24b18acce2adfea29626c528588d2600739498b9918899fb89851/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f6c6966656379636c652d6578706572696d656e74616c2d6f72616e67652e737667
+[stockplotr-status-link]: https://lifecycle.r-lib.org/articles/stages.html#experimental
+[ss3-source-code]: https://github.com/nmfs-ost/ss3-source-code
+[ss3-status]: https://camo.githubusercontent.com/cb06a0179e842ca184a96ef71ef6bca508b245577b474e301951a79641c71406/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f762f72656c656173652f6e6d66732d6f73742f7373332d736f757263652d636f6465
+[ss3-status-link]: https://github.com/nmfs-ost/ss3-source-code/releases/tag/v3.30.23.2
+
 ## Getting Started
 
 ```mermaid 
@@ -59,29 +81,28 @@ flowchart TD;
 
 ### National Stock Assessment Program (NSAP)
 
-|  |  | | | | | |
-| ------- | ------ | -----| ------- | ------- | ------- | ------- |
-| NSAP | Worflows | FIMS | DisMAP | SIS | FIT | SS3 |
+| Director | Workflows | FIMS | DisMAP | SIS | FIT | SS3 |
+| -------- | -------- | -------- | -------- | -------- | -------- | -------- |
 | <a href="https://github.com/Melissa-Karp"><img src="https://avatars.githubusercontent.com/u/61592412?v=4" width="100px;" alt=""/> | <a href="https://github.com/Schiano-NOAA"><img src="https://avatars.githubusercontent.com/u/125507018?u=b6dab08f04000188734eb3bbf78a40616e99b921&v=4" width="100px;" alt=""/> | <a href="https://github.com/kellijohnson-NOAA"><img src="https://avatars.githubusercontent.com/u/4108564?v=4" width="100px;" alt=""/> | <a href="https://github.com/Melissa-Karp"><img src="https://avatars.githubusercontent.com/u/61592412?v=4" width="100px;" alt=""/> | <a href="https://github.com/orgs/nmfs-ost/teams/nsap"><img src="https://avatars.githubusercontent.com/t/9092421?s=116&v=4" width="100px;" alt=""/> | <a href="https://github.com/k-doering-NOAA"><img src="https://avatars.githubusercontent.com/u/48930335?v=4" width="100px;" alt=""/> | <a href="https://github.com/e-perl-NOAA"><img src="https://avatars.githubusercontent.com/u/118312785?v=4" width="100px;" alt=""/> |
 | Melissa Karp | Sam Schiano | Kelli Johnson | Melissa Karp | Jeff Vieser | Kathryn Doering | Elizabeth Perl |
-
-## Software and Tools 
-
-<p>
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/rstudio/rstudio-original.svg" alt="Rstudio" width="45" height="45"/>
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vscode/vscode-original.svg" alt="vscode" width="45" height="45" />
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg" alt="git" width="45" height="45" />
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original-wordmark.svg" alt="github" width="45" height="45" />
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/googlecloud/googlecloud-plain.svg" alt="google cloud" width="45" height="45"/>
-<img src="assets/FIMS-logo.png" alt="FIMS logo" width="45" height="45"/>
-<img src="assets/asar-hex.png" alt="asar logo" width="45" height="45"/>
-<img src="assets/stockplotr-hex.png" alt="stock plot R logo" width="45" height="45"/>
-</p>
 
 ### National Survey Program
 
 ### Other OST Divisions
           
+## Software and Tools 
+
+<p>
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/rstudio/rstudio-original.svg" alt="Rstudio" width="55" height="55"/>
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vscode/vscode-original.svg" alt="vscode" width="55" height="55" />
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg" alt="git" width="55" height="55" />
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original-wordmark.svg" alt="github" width="55" height="55" />
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/googlecloud/googlecloud-plain.svg" alt="google cloud" width="55" height="55"/>
+<img src="assets/FIMS-logo.png" alt="FIMS logo" width="55" height="55"/>
+<img src="assets/asar-hex.png" alt="asar logo" width="55" height="55"/>
+<img src="assets/stockplotr-hex.png" alt="stock plot R logo" width="55" height="55"/>
+</p>
+
 ## AI Resources at NOAA Fisheries
 
 ![Google Gemini](https://img.shields.io/badge/google%20gemini-8E75B2?style=for-the-badge&logo=google%20gemini&logoColor=white) ![ChatGPT](https://img.shields.io/badge/chatGPT-74aa9c?style=for-the-badge&logo=openai&logoColor=white)
