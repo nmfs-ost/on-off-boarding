@@ -17,14 +17,14 @@ to access resources, organization charts, and more.
 ![GitHub stats](https://github-readme-stats.vercel.app/api?username=nmfs-ost&show_icons=true&theme=transparent&role=OWNER,COLLABORATOR,ORGANIZATION_MEMBER)
 --->
 
-[![GitHub followers](https://img.shields.io/github/followers/your-username?style=social)](https://github.com/your-username)
+[![Organization Followers](https://img.shields.io/github/followers/nmfs-ost)](https://github.com/nmfs-ost)
 
-| Project               | Status                                                       | Description                                             |
-| --------------------- | ------------------------------------------------------------ | ------------------------------------------------------- |
-| [FIMS]                | [![fims-status]][fims-status-link]                           | Fisheries Integrated Modelling System                   |
-| [asar]                | [![asar-status]][asar-status-link]                           | Partially Automated Stock Assessment Reporting          |
-| [stockplotr]          | [![stockplotr-status]][stockplotr-status-link]               | Tables and figures for stock assessment documents       |
-| [ss3-source-code]     | [![ss3-status]][ss3-status-link]                             | Stock Synthesis source code                             |
+| Project     | Stars                           | Status                              | Description                                             |
+| ----------- | ----------- | ----------------------------------- | ------------------------------------------------------- |
+| [FIMS] | ![fims-stars]               | [![fims-status]][fims-status-link]  | Fisheries Integrated Modelling System                   |
+| [asar] | ![asar-stars]               | [![asar-status]][asar-status-link]  | Partially Automated Stock Assessment Reporting          |
+| [stockplotr] | ![stockplotr-stars]   | [![stockplotr-status]][stockplotr-status-link] | Tables and figures for stock assessment documents       |
+| [ss3-source-code] | ![ss3-stars]     | [![ss3-status]][ss3-status-link]    | Stock Synthesis source code                             |
 
 [FIMS]: https://github.com/noaa-fims/fims/
 [fims-status]: https://noaa-fims.r-universe.dev/badges/FIMS
@@ -38,6 +38,12 @@ to access resources, organization charts, and more.
 [ss3-source-code]: https://github.com/nmfs-ost/ss3-source-code
 [ss3-status]: https://camo.githubusercontent.com/cb06a0179e842ca184a96ef71ef6bca508b245577b474e301951a79641c71406/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f762f72656c656173652f6e6d66732d6f73742f7373332d736f757263652d636f6465
 [ss3-status-link]: https://github.com/nmfs-ost/ss3-source-code/releases/tag/v3.30.23.2
+
+[fims-stars]: https://img.shields.io/github/stars/noaa-fims/fims?style=social
+[asar-stars]: https://img.shields.io/github/stars/nmfs-ost/asar?style=social
+[stockplotr-stars]: https://img.shields.io/github/stars/nmfs-ost/stockplotr?style=social
+[ss3-stars]: https://img.shields.io/github/stars/nmfs-ost/ss3-source-code?style=social
+[stars-badge]: https://img.shields.io/github/stars/nmfs-ost/fims?style=social
 
 ## Getting Started
 
