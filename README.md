@@ -13,14 +13,23 @@ collection, management, and open access programs. For more information, please
 go to our [internal webpage](https://sites.google.com/noaa.gov/inside-fisheries-ost/office-of-science-and-technology) 
 to access resources, organization charts, and more.
 
+<!---
 ![GitHub stats](https://github-readme-stats.vercel.app/api?username=nmfs-ost&show_icons=true&theme=transparent&role=OWNER,COLLABORATOR,ORGANIZATION_MEMBER)
+--->
 
 ## Getting Started
 
-```mermaid
+```mermaid 
+---
+config:
+  theme: redux
+  look: handDrawn
+---
+
 flowchart TD;
     A00["Onboarding Process"];
-    A(["Navigate to Issues"]) --- A0(("Branch Director")) & A1(("New Employee"));
+    A(["Navigate to Issues"]);
+    A --- A0(("Branch Director")) & A1(("New Employee"));
     A0 --> B(["Select Onboarding or Offboarding Template"]);
     A1 ----> G["Read through README"];
     B --> C(["Fill out details of your template"]);
@@ -46,7 +55,14 @@ flowchart TD;
     click A "https://github.com/nmfs-ost/on-off-boarding/issues";
 ```
 
-## Commonly Used Software 
+## Project Contacts
+
+| Project | Person |
+| ------- | ------ |
+| Workflows | <a href="https://github.com/Schiano-NOAA"><img src="https://avatars.githubusercontent.com/u/125507018?u=b6dab08f04000188734eb3bbf78a40616e99b921&v=4" width="100px;" alt=""/> |
+| SIS | Jeff |
+
+## Software and Tools 
 
 <p>
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/rstudio/rstudio-original.svg" alt="Rstudio" width="45" height="45"/>
@@ -54,6 +70,9 @@ flowchart TD;
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg" alt="git" width="45" height="45" />
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original-wordmark.svg" alt="github" width="45" height="45" />
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/googlecloud/googlecloud-plain.svg" alt="google cloud" width="45" height="45"/>
+<img src="assets/FIMS-logo.png" alt="FIMS logo" width="45" height="45"/>
+<img src="assets/asar-hex.png" alt="asar logo" width="45" height="45"/>
+<img src="assets/stockplotr-hex.png" alt="stock plot R logo" width="45" height="45"/>
 </p>
           
           
