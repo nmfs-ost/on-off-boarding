@@ -19,24 +19,34 @@ to access resources, organization charts, and more.
 
 ```mermaid
 flowchart TD;
-    ti{"Onboarding Process"};
-    A0("Branch Director") --- A(["Navigate to Issues"]);
-    A --> B(["Select Onboarding or Offboarding Template"]);
-    B --> C("Fill out details of your template");
-    D("Add project specific command (i.e. \fims)");
-    E["Assign issue to onboardee"];
-    C --> D;
-    C --> E;
-    
-    A1("New Employee") --- A;
-    A --> G["Read through README"];
+    A00["Onboarding Process"];
+    A(["Navigate to Issues"]) --- A0(("Branch Director")) & A1(("New Employee"));
+    A0 --> B(["Select Onboarding or Offboarding Template"]);
+    A1 ----> G["Read through README"];
+    B --> C(["Fill out details of your template"]);
+    C --> D["Add project specific command (i.e. \FIMS)"] & E["Assign issue to onboardee"];
     G --> new("Complete onboarding tasks of assigned issue");
+    new --> F["Close issue"];
     
-    E --> F["Close issue"];
-    new --> F;
+    D@{ shape: lin-rect};
+    E@{ shape: lin-rect};
+    F@{ shape: dbl-circ};
+    A00@{ shape: delay};
+    style A fill:transparent;
+    style A0 fill:#BBDEFB;
+    style A1 fill:#C8E6C9;
+    style B fill:#FFCDD2;
+    style G fill:#E1BEE7;
+    style C fill:#FFCDD2;
+    style D fill:#FFE0B2;
+    style E fill:#FFE0B2;
+    style new fill:#FFCDD2;
+    style F fill:#D50000;
+    style A00 fill:#FFF9C4;
+    click A "https://github.com/nmfs-ost/on-off-boarding/issues";
 ```
 
-## Common Software 
+## Commonly Used Software 
 
 <p>
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/rstudio/rstudio-original.svg" alt="Rstudio" width="45" height="45"/>
