@@ -7,7 +7,7 @@ Fisheries Office of Science and Technology. This README describes the process
 that a branch director and onboarded/offboarded employee should follow to 
 successfully integrate or leave the agency.
 
-## Welcome
+## 👋 Welcome
 
 We are happy for you to join onto our NOAA team! We here at OST take on a large 
 breadth of responsibilities. We aim to execute modern and high-quality data 
@@ -27,6 +27,10 @@ to access resources, organization charts, and more.
 | [asar] | ![asar-stars]               | [![asar-status]][asar-status-link]  | Partially Automated Stock Assessment Reporting          |
 | [stockplotr] | ![stockplotr-stars]   | [![stockplotr-status]][stockplotr-status-link] | Tables and figures for stock assessment documents       |
 | [ss3-source-code] | ![ss3-stars]     | [![ss3-status]][ss3-status-link]    | Stock Synthesis source code                             |
+| [DisMAP] | ![dismap-stars] | ![dismap-status] | Distribution Mapping and Analysis Portal |
+| [FIT] | ![fit-stars] | ![fit-status] | Fisheries Integrated Toolbox |
+| [journals] | ![journals-stars] | ![journals-status-link] | Bibliography files for journals of interest to fisheries |
+| [nmfspalette] | ![nmfspalette-stars] | ![nmfspalette-status] | R Color palette for NOAA Fisheries official colors |
 
 [FIMS]: https://github.com/noaa-fims/fims/
 [fims-status]: https://noaa-fims.r-universe.dev/badges/FIMS
@@ -40,14 +44,26 @@ to access resources, organization charts, and more.
 [ss3-source-code]: https://github.com/nmfs-ost/ss3-source-code
 [ss3-status]: https://camo.githubusercontent.com/cb06a0179e842ca184a96ef71ef6bca508b245577b474e301951a79641c71406/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f762f72656c656173652f6e6d66732d6f73742f7373332d736f757263652d636f6465
 [ss3-status-link]: https://github.com/nmfs-ost/ss3-source-code/releases/tag/v3.30.23.2
+[DisMAP]: https://apps-st.fisheries.noaa.gov/dismap/index.html
+[dismap-status]: https://lifecycle.r-lib.org/articles/figures/lifecycle-stable.svg
+[fit-status]: https://lifecycle.r-lib.org/articles/figures/lifecycle-stable.svg
+[FIT]: https://nmfs-ost.github.io/noaa-fit/
+[journals]: https://github.com/nmfs-ost/journals
+[journals-status-link]: https://lifecycle.r-lib.org/articles/figures/lifecycle-experimental.svg
+[nmfspalette]: https://github.com/nmfs-ost/nmfspalette
+[nmfspalette-status]: https://github.com/nmfs-ost/nmfspalette/actions/workflows/call-r-cmd-check.yml/badge.svg
 
 [fims-stars]: https://img.shields.io/github/stars/noaa-fims/fims?style=social
 [asar-stars]: https://img.shields.io/github/stars/nmfs-ost/asar?style=social
 [stockplotr-stars]: https://img.shields.io/github/stars/nmfs-ost/stockplotr?style=social
 [ss3-stars]: https://img.shields.io/github/stars/nmfs-ost/ss3-source-code?style=social
 [stars-badge]: https://img.shields.io/github/stars/nmfs-ost/fims?style=social
+[dismap-stars]: https://img.shields.io/github/stars/nmfs-ost/DisMAP?style=social
+[fit-stars]: https://img.shields.io/github/stars/nmfs-ost/noaa-fit-resources?style=social
+[journals-stars]: https://img.shields.io/github/stars/nmfs-ost/journals?style=social
+[nmfspalette-stars]: https://img.shields.io/github/stars/nmfs-ost/nmfspalette?style=social
 
-## Getting Started
+## 👉 Getting Started
 
 ```mermaid 
 ---
@@ -93,20 +109,20 @@ flowchart TD;
     click A "https://github.com/nmfs-ost/on-off-boarding/issues";
 ```
 
-## Project Contacts
+## 📣 Project Contacts
 
-### National Stock Assessment Program (NSAP)
+### 🎏 National Stock Assessment Program (NSAP)
 
 | Director | Workflows | FIMS | DisMAP | SIS | FIT | SS3 |
 | -------- | -------- | -------- | -------- | -------- | -------- | -------- |
 | <a href="https://github.com/Melissa-Karp"><img src="https://avatars.githubusercontent.com/u/61592412?v=4" width="100px;" alt=""/> | <a href="https://github.com/Schiano-NOAA"><img src="https://avatars.githubusercontent.com/u/125507018?u=b6dab08f04000188734eb3bbf78a40616e99b921&v=4" width="100px;" alt=""/> | <a href="https://github.com/kellijohnson-NOAA"><img src="https://avatars.githubusercontent.com/u/4108564?v=4" width="100px;" alt=""/> | <a href="https://github.com/Melissa-Karp"><img src="https://avatars.githubusercontent.com/u/61592412?v=4" width="100px;" alt=""/> | <a href="https://github.com/orgs/nmfs-ost/teams/nsap"><img src="https://avatars.githubusercontent.com/t/9092421?s=116&v=4" width="100px;" alt=""/> | <a href="https://github.com/k-doering-NOAA"><img src="https://avatars.githubusercontent.com/u/48930335?v=4" width="100px;" alt=""/> | <a href="https://github.com/e-perl-NOAA"><img src="https://avatars.githubusercontent.com/u/118312785?v=4" width="100px;" alt=""/> |
 | Melissa Karp | Sam Schiano | Kelli Johnson | Melissa Karp | Jeff Vieser | Kathryn Doering | Elizabeth Perl |
 
-### National Survey Program
+### 🎣 National Survey Program
 
-### Other OST Divisions
+### 🐟 Other OST Divisions
           
-## Software and Tools 
+## 💻 Software and Tools 
 
 <p>
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/rstudio/rstudio-original.svg" alt="Rstudio" width="55" height="55"/>
@@ -119,7 +135,7 @@ flowchart TD;
 <img src="assets/stockplotr-hex.png" alt="stock plot R logo" width="55" height="55"/>
 </p>
 
-## AI Resources at NOAA Fisheries
+## 💬 AI Resources at NOAA Fisheries
 
 ![Google Gemini](https://img.shields.io/badge/google%20gemini-8E75B2?style=for-the-badge&logo=google%20gemini&logoColor=white) ![ChatGPT](https://img.shields.io/badge/chatGPT-74aa9c?style=for-the-badge&logo=openai&logoColor=white)
 	
