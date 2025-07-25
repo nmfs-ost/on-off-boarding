@@ -57,30 +57,38 @@ config:
 ---
 
 flowchart TD;
-    A00["Onboarding Process"];
-    A(["Navigate to Issues"]);
-    A --- A0(("Branch Director")) & A1(("New Employee"));
+    A(["Navigate to Issues"]) --- A0(("Branch Director")) & A1(("New Employee")) & PL(("Project Lead"));
     A0 --> B(["Select Onboarding or Offboarding Template"]);
     A1 ----> G["Read through README"];
     B --> C(["Fill out details of your template"]);
-    C --> D["Add project specific command (i.e. \FIMS)"] & E["Assign issue to onboardee"];
+    C --> E["Assign issue to onboardee"];
+    PL --> D["Add project specific command (i.e. \FIMS)"];
     G --> new("Complete onboarding tasks of assigned issue");
     new --> F["Close issue"];
-    
-    D@{ shape: lin-rect};
+    E ---> H["Direct employee to this repo"];
+    new ~~~ I["Please leave a comment on the issue if you have any questions or issues."];
+    G ~~~ I;
+    I ~~~ F;
+    A00["Onboarding Process"];
     E@{ shape: lin-rect};
+    D@{ shape: lin-rect};
     F@{ shape: dbl-circ};
+    H@{ shape: div-rect};
+    I@{ shape: hex};
     A00@{ shape: delay};
     style A fill:transparent;
     style A0 fill:#BBDEFB;
     style A1 fill:#C8E6C9;
-    style B fill:#FFCDD2;
-    style G fill:#E1BEE7;
-    style C fill:#FFCDD2;
-    style D fill:#FFE0B2;
+    style PL fille:#F54927,fill:#E1BEE7,color:none;
+    style B fill:#BBDEFB;
+    style G fill:#C8E6C9;
+    style C fill:#BBDEFB;
     style E fill:#FFE0B2;
-    style new fill:#FFCDD2;
+    style D fill:#E1BEE7;
+    style new fill:#C8E6C9;
     style F fill:#D50000;
+    style H fill:#FFCDD2;
+    style I fill:#FFD600,stroke:#FFD600;
     style A00 fill:#FFF9C4;
     click A "https://github.com/nmfs-ost/on-off-boarding/issues";
 ```
