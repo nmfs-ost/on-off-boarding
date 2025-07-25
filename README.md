@@ -53,10 +53,10 @@ to access resources, organization charts, and more.
 ---
 config:
   theme: redux
-  look: handDrawn
 ---
 
 flowchart TD;
+    A00["Onboarding Process"];
     A(["Navigate to Issues"]) --- A0(("Branch Director")) & A1(("New Employee")) & PL(("Project Lead"));
     A0 --> B(["Select Onboarding or Offboarding Template"]);
     A1 ----> G["Read through README"];
@@ -69,7 +69,7 @@ flowchart TD;
     new ~~~ I["Please leave a comment on the issue if you have any questions or issues."];
     G ~~~ I;
     I ~~~ F;
-    A00["Onboarding Process"];
+
     E@{ shape: lin-rect};
     D@{ shape: lin-rect};
     F@{ shape: dbl-circ};
