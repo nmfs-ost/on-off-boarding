@@ -52,7 +52,7 @@ to access resources, organization charts, and more.
 ```mermaid 
 ---
 config:
-  theme: redux
+  theme: default
 ---
 
 flowchart TD;
