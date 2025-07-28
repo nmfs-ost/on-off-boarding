@@ -19,11 +19,13 @@ jobs:
               onboard-fims
               onboard-fit
               onboard-nsap
+              onboard-projections
               onboard-sis
               onboard-workflows
               offboard-fims
               offboard-fit
               offboard-nsap
+              offboard-projections
               offboard-sis
               offboard-workflows
           permission: write
