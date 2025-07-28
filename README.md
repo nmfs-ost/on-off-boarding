@@ -14,8 +14,6 @@ Below is a table of some of our projects that we work on. See the next section o
 ![GitHub stats](https://github-readme-stats.vercel.app/api?username=nmfs-ost&show_icons=true&theme=transparent&role=OWNER,COLLABORATOR,ORGANIZATION_MEMBER)
 --->
 
-[![Organization Followers](https://img.shields.io/github/followers/nmfs-ost)](https://github.com/nmfs-ost)
-
 | Project     | Stars                           | Status                              | Description                                             |
 | ----------- | ----------- | ----------------------------------- | ------------------------------------------------------- |
 | [FIMS] | ![fims-stars]               | [![fims-status]][fims-status-link]  | Fisheries Integrated Modelling System                   |
