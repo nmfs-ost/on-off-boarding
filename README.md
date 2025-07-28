@@ -2,18 +2,13 @@
 
 # NOAA Fisheries OST Onboarding and Offboarding <img src="assets/noaa-logo.png" align="right" height="150" style="float:right; height:150px;" />
 
-Workflows for onboarding and offboarding collaborators to projects within NOAA 
-Fisheries Office of Science and Technology. This README describes the process 
-that a branch director and onboarded/offboarded employee should follow to 
-successfully integrate or leave the agency.
+This repository stores information about onboarding and offboarding collaborators to projects within NOAA Fisheries Office of Science and Technology (OST). This README describes the process that a branch director and onboarded/offboarded employee should follow to successfully integrate or leave the agency.
 
 ## 👋 Welcome
 
-We are happy for you to join onto our NOAA team! We here at OST take on a large 
-breadth of responsibilities. We aim to execute modern and high-quality data 
-collection, management, and open access programs. For more information, please 
-go to our [internal webpage](https://sites.google.com/noaa.gov/inside-fisheries-ost/office-of-science-and-technology) 
-to access resources, organization charts, and more.
+We are happy for you to join onto our team in NOAA! Here at OST, we take on a large breadth of responsibilities. We aim to execute modern and high-quality data collection, management, and open access programs. For more information, please go to our [internal webpage](https://sites.google.com/noaa.gov/inside-fisheries-ost/office-of-science-and-technology) to access resources, organization charts, and more.
+
+Below is a table of some of our projects that we work on. See the next section on [Getting Started](#-getting-started) for how to join or add someone to one of these projects.
 
 <!---
 ![GitHub stats](https://github-readme-stats.vercel.app/api?username=nmfs-ost&show_icons=true&theme=transparent&role=OWNER,COLLABORATOR,ORGANIZATION_MEMBER)
@@ -65,33 +60,29 @@ to access resources, organization charts, and more.
 
 ## 👉 Getting Started
 
-```mermaid 
+### Onboarding
+
+```mermaid
 ---
 config:
   theme: default
 ---
 
 flowchart TD;
-    A00["Onboarding Process"];
     A(["Navigate to Issues"]) --- A0(("Branch Director")) & A1(("New Employee")) & PL(("Project Lead"));
-    A0 --> B(["Select Onboarding or Offboarding Template"]);
+    A0 --> B(["Create a new Issue using 'Onboard Team Member' issue type"]);
     A1 ----> G["Read through README"];
-    B --> C(["Fill out details of your template"]);
-    C --> E["Assign issue to onboardee"];
-    PL --> D["Add project specific command (i.e. \FIMS)"];
-    G --> new("Complete onboarding tasks of assigned issue");
-    new --> F["Close issue"];
-    E ---> H["Direct employee to this repo"];
-    new ~~~ I["Please leave a comment on the issue if you have any questions or issues."];
-    G ~~~ I;
-    I ~~~ F;
+    B --> C(["Follow instructions in the Issue"]);
+    C --> E["Assign Issue to Onboardee"];
+    PL --> D["Add project specific command (e.g., comment /onboard-FIMS)"];
+    G --> new("Navigate to your Onboarding Issue and complete onboarding tasks or comment on the issue to get help when you reach roadblocks");
+    new --> F["Close Issue after tasks are completed"];
+    E ---> H["Direct employee to this README"];
 
     E@{ shape: lin-rect};
     D@{ shape: lin-rect};
     F@{ shape: dbl-circ};
     H@{ shape: div-rect};
-    I@{ shape: hex};
-    A00@{ shape: delay};
     style A fill:transparent;
     style A0 fill:#BBDEFB;
     style A1 fill:#C8E6C9;
@@ -104,8 +95,6 @@ flowchart TD;
     style new fill:#C8E6C9;
     style F fill:#D50000;
     style H fill:#FFCDD2;
-    style I fill:#FFD600,stroke:#FFD600;
-    style A00 fill:#FFF9C4;
     click A "https://github.com/nmfs-ost/on-off-boarding/issues";
 ```
 
