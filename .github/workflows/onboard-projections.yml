@@ -1,0 +1,24 @@
+name: onboard-projections-command
+on:
+  repository_dispatch:
+    types: [onboard-projections-command]
+jobs:
+  list:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Create comment
+        uses: peter-evans/create-or-update-comment@v4
+        with:
+          token: ${{ secrets.PAT }}
+          repository: ${{ github.event.client_payload.github.payload.repository.full_name }}
+          issue-number: ${{ github.event.client_payload.github.payload.issue.number }}
+          # TODO: Figure out if lines are wrapped as given or not
+          body: |
+            Welcome :wave: to the Stock Assessment Projections Project team,
+            below you will find a list of onboarding tasks for both the onboardee and for the Project Lead.
+            Please mark off tasks once they are accomplished to ease the communication chain and decrease duplication. 
+
+                      
+            ## Project Lead
+              - [ ] Add to monthly Projections steering committee meet
+              - [ ] Give access to and review materials in the [Projections Google drive folder](https://drive.google.com/drive/folders/1LyAdDaLAEQ_fAnrWbBYg60bknfUTpFhL)  
