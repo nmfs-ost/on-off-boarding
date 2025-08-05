@@ -1,0 +1,48 @@
+name: Sync Code of Conduct
+
+on:
+  # Allows to run this workflow manually from the Actions tab
+  workflow_dispatch:
+  # Runs at 00:00 UTC on the 1st day of every month
+  schedule:
+    - cron: '0 0 1 * *'
+
+# Grant the GITHUB_TOKEN write permissions to push the changes
+permissions:
+  contents: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      # Check out repository's code
+      - name: Checkout Repo
+        uses: actions/checkout@v4
+
+      # Download the CoC file from the source repository
+      - name: Download CoC from Source Repo
+        run: |
+          curl -o CODE_OF_CONDUCT.md https://raw.githubusercontent.com/nmfs-ost/FIT-resource-files/refs/heads/main/CODE_OF_CONDUCT.md
+
+      # Modify the downloaded file with custom details
+      - name: Modify Enforcement Section
+        run: |
+          sed -i 's|enforcement at.*|enforcement at [Contact information to be determined].|' CODE_OF_CONDUCT.md
+      
+      # Check for changes, and if there are any, commit and push them
+      - name: Commit and Push if Changed
+        run: |
+          # Configure Git with a bot user
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+          
+          # Add the downloaded file to the staging area
+          git add CODE_OF_CONDUCT.md
+          
+          # Commit and push only if there are changes
+          if ! git diff --staged --quiet; then
+            git commit -m "chore: Sync Code of Conduct from source repo"
+            git push
+          else
+            echo "No changes to the Code of Conduct. No commit needed."
+          fi

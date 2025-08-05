@@ -1,0 +1,28 @@
+name: Developer (other issue)
+description: |
+  This issue form is for developers of nmfs-ost/on-off-boarding to
+  document anything that is not related to a bug or feature.
+title: "[Developers]: "
+type: Task
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to fill out this issue! By 
+        submitting this issue, you agree to follow our [Code of Conduct](https://github.com/nmfs-ost/on-off-boarding?tab=coc-ov-file),
+        which uses the NOAA Fisheries Integrated Toolbox Code of Conduct.
+
+        ---
+
+        Before filling out this report please search the existing issues to see
+        if the problem has already been reported. If it has, please add a
+        comment to the open issue or link to the related, but closed, issue in
+        this report.
+  - type: textarea
+    id: describe
+    attributes:
+      label: Description
+      description: Please describe the problem.
+    validations:
+      required: true
+      
