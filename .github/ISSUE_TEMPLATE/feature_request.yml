@@ -1,0 +1,47 @@
+name: Feature Request
+description: Request new features or changes to features
+title: "[Feature]: "
+labels: ["enhancement"]
+type: Feature
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to fill out this issue! By 
+        submitting this issue, you agree to follow our [Code of Conduct](https://github.com/nmfs-ost/on-off-boarding?tab=coc-ov-file),
+        which uses the NOAA Fisheries Integrated Toolbox Code of Conduct.
+        
+        ---
+
+        Before filling out this report please search the existing issues to see
+        if the feature has already been reported. If it has, please add a
+        comment to the open issue or link to the related, but closed, issue in
+        this report.
+  - type: textarea
+    id: description
+    attributes:
+      label: Describe the situation that led to the request and a solution
+      description: |
+        Provide (1) a description of your new feature or change to a current feature, (2) the problem that led to you thinking that the enhancement
+        is a good idea, and (3) a proposed solution.
+      placeholder: |
+        I would like <x> because I am frustrated when <y> happens and this
+        could be fixed by <z>.
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternative solutions
+      description: |
+        Please provide descriptions of any alternative solutions to fulfilling
+        this enhancement request that you have considered.
+    validations:
+      required: false
+  - type: textarea
+    id: context
+    attributes:
+      label: Additional context
+      description: Add any other context or screenshots about the feature request here.
+    validations:
+      required: false
