@@ -20,21 +20,17 @@ jobs:
             https://github.com/orgs/NOAA-FIMS/discussions) if you want to chat about anything.
 
             ## Onboardee
-              - [ ] VS Code
-              - [ ] R
-              - [ ] Rtools (Windows users)
-              - [ ] git
-              - [ ] gcc or clang to compile (can be found in Rtools or Xcode)
-              - [ ] CMake
-              - [ ] ninja
+              - [ ] [Configure VS Code for C++](https://code.visualstudio.com/docs/languages/cpp)
+              - [ ] [VS Code extension Rewrap](https://marketplace.visualstudio.com/items?itemName=stkb.rewrap)
+              - [ ] gcc or clang to compile C++ (can be found in Rtools or Xcode)
+              - [ ] [CMake](https://cmake.org/) build system
+              - [ ] [ninja](https://ninja-build.org/) build tool
               - [ ] gdb (Linux and Mac users)
-              - [ ] doxygen
-              - [ ] Add [FIMS Google Calendar](https://calendar.google.com/calendar/u/0?cid=Y182ZWx1djFoOG84MzBrN3Z0OGN0Y3M2Z2h0b0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t) to your Google Calendar
+              - [ ] [doxygen](https://www.doxygen.nl/manual/install.html)
+              - [ ] Linux and Mac users might need to alter permissions of downloaded executables, e.g., `sudo chmod +x ninja`
 
             ## Project Lead
               - [ ] Add to monthly FIMS Implementation Team Google meet
               - [ ] Add to Tuesday Google meet Code Club
               - [ ] Add to Thursday Google meet Seaside Chat
               - [ ] Add email to FIMS email list
-              - [ ] Share FIMS calendar
-              - [ ] Add to FIMS Google drive

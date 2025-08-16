@@ -88,23 +88,21 @@ body:
         ## Assignee: Onboardee
         ### First Week
         - [ ] Write a short bio and send it to [Assessment Branch Director](mailto:melissa.karp@noaa.gov) so it can be included in a welcome email to members of OST and add your bio to the [NSAP bios document ](https://docs.google.com/document/d/1_E8D4-m8F3FLYzGrYeZXm2NBDpMeroXb1miQxYf1wgo/edit?tab=t.0).
-        - [ ] Contact [IT](mailto:christopher.bradley@example.com) and cc the [service desk](mailto:nmfs.servicedesk@noaa.gov) to set up workstation. 
+        - [ ] Contact [IT](mailto:christopher.bradley@example.com) and cc the [service desk](mailto:nmfs.servicedesk@noaa.gov) to set up your workstation. 
             <details>
               <summary>
-                Expand this section to see the list of software applications to be installed
+                Expand this section to see the list of software applications to be installed, all of which are on the [list of NMFS-approved software](https://docs.google.com/spreadsheets/d/1oPaTegdBGEmkjrmkbOVjGAJpPFg755p3Wws50ddLwCI/edit?usp=sharing)
               </summary>
 
             - Adobe Acrobat
             - Chrome/Firefox (personal preference)
-            - Git 
+            - [Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) 
             - GitHub Desktop
             - Microsoft Office
             - R 
             - Rtools (Windows only)
             - RStudio 
-            - VSCode  
-            
-            Other NMFS-approved software applications can be found [here](https://docs.google.com/spreadsheets/d/1oPaTegdBGEmkjrmkbOVjGAJpPFg755p3Wws50ddLwCI/edit?usp=sharing).
+            - [VS Code](https://code.visualstudio.com/Download) [configured for R](configure it for using [`R`](https://github.com/REditorSupport/vscode-R/wiki/Installation:-Windows)
             </details>
         - [ ] Set up a GitHub account by following the [guide](https://sites.google.com/noaa.gov/nmfs-st-github-governance-team/github-users) and request access to GitHub Enterprise Cloud by emailing the completed [GitHub user agreement](https://drive.google.com/file/d/1yP0mLpD5d5rsgNv5-_Z6OWpwhLROjxMg/view) to the [Assessment Branch Director](mailto:melissa.karp@noaa.gov).
         - [ ] Email [Kathryn](mailto:kathryn.doering@noaa.gov) and Elizabeth(mailto:elizabeth.gugliotti@noaa.gov) to be added to the noaa-ost GitHub organization, and the NSAP team.
