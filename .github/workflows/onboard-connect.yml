@@ -1,7 +1,7 @@
-name: onboard-dismap-command
+name: onboard-connect-command
 on:
   repository_dispatch:
-    types: [onboard-dismap-command]
+    types: [onboard-connect-command]
 jobs:
   list:
     runs-on: ubuntu-latest
@@ -14,16 +14,16 @@ jobs:
           issue-number: ${{ github.event.client_payload.github.payload.issue.number }}
           # TODO: Figure out if lines are wrapped as given or not
           body: |
-            Welcome :wave: to the [DisMAP Team](https://github.com/nmfs-ost/DisMAP),
+            Welcome :wave: to the NMFS RStudio Connect Team,
             below you will find a list of onboarding tasks for both the onboardee and for the Project Lead.
             Please mark off tasks once they are accomplished to ease the communication chain and decrease duplication. 
             Feel free reach out on the project lead, leave a comment on this issue, or open a new issue if you want 
             to chat about anything.
 
             ## Onboardee
-              - [ ] Request access to [DisMAWG google folder](https://drive.google.com/drive/folders/15KC3DDLVyNGDfZ9ChpjaHUuesYhF6ai0)
+              - [ ] Ask project lead for additional tasks
 
             ## Project Lead
-              - [ ] Add to monthly DisMAWG meetings
-              - [ ] Add to biweekly development team meetings
-              - [ ] Add as collaborator to [DisMAP GitHub Repository](https://github.com/nmfs-ost/DisMAP)
+              - [ ] Add to _NMFS RStudio Connect on [whitepages.noaa.gov](whitepages.noaa.gov)
+              - [ ] Add to [Jira project](https://apps-st.fisheries.noaa.gov/jira/projects/NPCG/issues/NPCG-44?filter=allopenissues)
+              - [ ] Share link to the [connect website](https://sites.google.com/noaa.gov/nmfs-hq-st-posit-connect/governance)
