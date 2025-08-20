@@ -26,4 +26,7 @@ jobs:
             ## Project Lead
               - [ ] Add to _NMFS GitHub Governance Reps group on [whitepages.noaa.gov](whitepages.noaa.gov)
               - [ ] Send intro email with resources
-              - [ ] Provide instructions on requesting access to GitHub Enterprise
+              - [ ] Provide instructions on requesting access to GitHub Enterprise which includes sending them 
+                    [this form](https://docs.google.com/forms/d/1zUrJJu_SbfZnOoIlQ0xMZEGIetp9b-1WU05GymmLvEs/edit) which 
+                    will need to be signed by the NSAP lead after it is filled out by the onboardee.
+              
