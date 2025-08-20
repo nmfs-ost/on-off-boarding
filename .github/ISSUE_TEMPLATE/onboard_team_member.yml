@@ -56,37 +56,21 @@ body:
         - [ ] Schedule first-day welcome meeting to review the onboarding process to the NSAP.
 
         ### First Week
-        - [ ] Provide access to NSAP or higher-level email distribution lists, meetings (e.g., NSAP standup), [NSAP Shared Drive](https://drive.google.com/drive/folders/0AIE09HE4PUVeUk9PVA), and chat spaces.
+        - [ ] Provide access to NSAP or higher-level email distribution lists.
           <details>
               <summary>
-                Expand this section to see the list of email distribution lists, meetings, Google Drive folders, and chat spaces to be added to
+                Expand this section to see the list of email distribution lists to be added to
               </summary>
 
-            - Email Distribution Lists
-              - OST email distribution list (Should be added to this listserv when onboardee starts)
-              - ST4 email distribution list (Not typically used, as the assessment branch listserv is kept more up to date)
-              - _NMFS HQ ST4 Assessment Branch
-              - _NMFS Fish Assessment
-            - Meetings
-              - NSAP stand-up meetings (optional based on activities, weekly on Mondays)
-              - Stock Assessment Communication Forum (optional, every 6 weeks on Thursdays)
-              - Assessment & Monitoring Division Staff Meeting (monthly on the first Tuesday, sometimes moved to accommodate schedules)
-              - ST4 Office Hours (optional, monthly on the fourth Thursday)
-            - Google Drive Folders
-              - [NMFS HQ OST National Stock Assessment Program](https://drive.google.com/drive/folders/0AIE09HE4PUVeUk9PVA)
-              - [National Stock Assessment Program](https://drive.google.com/drive/folders/0B33Ah5-cit8gTE11RVIzRUxERWc?resourcekey=0-l29iQdYGYcMCgZ9UVbt3FA&usp=drive_link)
-            - Google Chat Spaces
-              - NSAP: Chat space for those at NSAP to ask questions and have discussions.
-              - National Fish Assessment Chat Space: Chat space for fish assessment staff and friends. Use it to ask questions, collaborate across regions, etc. Set up threads for specific topics.
-              - NMFS R-User Space: National Marine Fisheries Service R User Group for announcements and questions.
-              - NMFS GitHub User Space: Chat space for those at NMFS to ask questions and have discussions about GitHub/GitHub Enterprise Cloud.
-              - NMFS Open Science: Chat space for those at NMFS to make announcements and have discussions about open science activities.
-            
+            - [ ] OST email distribution list (Should be added to this listserv when onboardee starts)
+            - [ ] ST4 email distribution list (Not typically used, as the assessment branch listserv is kept more up to date)
+            - [ ] _NMFS HQ ST4 Assessment Branch
+            - [ ] _NMFS Fish Assessment
             Please report if you encounter any problems and leave a comment on this onboarding issue. 
             </details>
         
         ## Assignee: Onboardee
-        ### First Week
+        ### Desired completion: First week
         - [ ] Write a short bio and send it to [Assessment Branch Director](mailto:melissa.karp@noaa.gov) so it can be included in a welcome email to members of OST and add your bio to the [NSAP bios document ](https://docs.google.com/document/d/1_E8D4-m8F3FLYzGrYeZXm2NBDpMeroXb1miQxYf1wgo/edit?tab=t.0).
         - [ ] Contact [IT](mailto:christopher.bradley@example.com) and cc the [service desk](mailto:nmfs.servicedesk@noaa.gov) to set up your workstation. 
             <details>
@@ -94,18 +78,18 @@ body:
                 Expand this section to see the list of software applications to be installed, all of which are on the [list of NMFS-approved software](https://docs.google.com/spreadsheets/d/1oPaTegdBGEmkjrmkbOVjGAJpPFg755p3Wws50ddLwCI/edit?usp=sharing)
               </summary>
 
-            - Adobe Acrobat
-            - Chrome/Firefox (personal preference)
-            - [Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) 
-            - GitHub Desktop
-            - Microsoft Office
-            - R 
-            - Rtools (Windows only)
-            - RStudio 
-            - [VS Code](https://code.visualstudio.com/Download) [configured for R](configure it for using [`R`](https://github.com/REditorSupport/vscode-R/wiki/Installation:-Windows)
+            - [ ] Adobe Acrobat
+            - [ ] Chrome/Firefox (personal preference)
+            - [ ] [Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) 
+            - [ ] GitHub Desktop
+            - [ ] Microsoft Office
+            - [ ] R 
+            - [ ] Rtools (Windows only)
+            - [ ] RStudio 
+            - [ ] [VS Code](https://code.visualstudio.com/Download) [configured for R](configure it for using [`R`](https://github.com/REditorSupport/vscode-R/wiki/Installation:-Windows)
             </details>
         - [ ] Set up a GitHub account by following the [guide](https://sites.google.com/noaa.gov/nmfs-st-github-governance-team/github-users) and request access to GitHub Enterprise Cloud by emailing the completed [GitHub user agreement](https://drive.google.com/file/d/1yP0mLpD5d5rsgNv5-_Z6OWpwhLROjxMg/view) to the [Assessment Branch Director](mailto:melissa.karp@noaa.gov).
-        - [ ] Email [Kathryn](mailto:kathryn.doering@noaa.gov) and Elizabeth(mailto:elizabeth.gugliotti@noaa.gov) to be added to the noaa-ost GitHub organization, and the NSAP team.
+        - [ ] Email [Kathryn](mailto:kathryn.doering@noaa.gov) and [Elizabeth](mailto:elizabeth.gugliotti@noaa.gov) to be added to the noaa-ost GitHub organization, and the NSAP team.
         - [ ] Share your Google calendar ([instructions here](https://support.google.com/calendar/answer/37082?hl=en)) with those that need to know your schedule because everyone by default sees you as busy instead of getting appointment details.
         - [ ] Add the following calendars to your Google Calendar
             <details>
@@ -119,8 +103,18 @@ body:
             - NMFS NMFS R Users calendar ID: noaa.gov_60rfn7ml9rpchl63vs4af9n018@group.calendar.google.com
             - Assessment Events calendar ID: c_43jjc1ei4kujqki7o5ud918ea8@group.calendar.google.com
             </details>
-        - [ ] Email [Bai](mailto:bai.li@noaa.gov) to be added to the ECS Comms chat space if you are a contractor from ECS Federal LLC.
+        - [ ] Add the following Google chat spaces if you're interested
+            <details>
+              <summary>
+                Expand this section to see the list of chat spaces and click the links to request access
+              </summary>
 
+            - [ ] [NMFS R-User Space](https://chat.google.com/room/AAAAKtkbXIA?cls=7): NMFS R User Group Google Space for announcements and questions.
+            - [ ] [NMFS GitHub User Space](https://chat.google.com/room/AAAAJ6cl1_4?cls=7): This is a space for those at NMFS to ask questions and have discussions about GitHub/GitHub Enterprise Cloud.
+            - [ ] [NMFS Open Science](https://chat.google.com/room/AAAAuuftzDk?cls=7): Announcements and discussion for NMFS Open Science activities.
+            - [ ] [ECS Comms](https://chat.google.com/room/AAAANDzN_GU?cls=7): Chat space for ECS contractors at NSAP to ask questions and have discussions. 
+            </details>
+            
         :bulb: **Tips**
         - Please mark the checklist items as complete as you progress through the onboarding process. 
         - You can edit this issue to add more details about your progress by clicking the "..." button in the top-right corner of the issue. 
