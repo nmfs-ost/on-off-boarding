@@ -1,0 +1,43 @@
+name: onboard-workflows-command
+on:
+  repository_dispatch:
+    types: [onboard-workflows-command]
+jobs:
+  list:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Create comment
+        uses: peter-evans/create-or-update-comment@v4
+        with:
+          token: ${{ secrets.PAT }}
+          repository: ${{ github.event.client_payload.github.payload.repository.full_name }}
+          issue-number: ${{ github.event.client_payload.github.payload.issue.number }}
+          # TODO: Figure out if lines are wrapped as given or not
+          body: |
+            Welcome :wave: to the Stock Assessment Workflows Team!
+            Below you will find a list of onboarding tasks for both the onboardee and for the Project Lead.
+            Please mark off tasks once they are accomplished to ease the communication chain and decrease duplication. Feel free reach out on the [asar Discussion Board](
+            https://github.com/nmfs-ost/asar/discussions) if you want to chat about anything.
+
+            ## Onboardee
+              - [ ] Discuss/establish with project lead the Github collaboration workflow and norms (e.g., when to make a PR vs. directly change a branch, reviewer requests, code review expectations...)
+              - [ ] Review materials in [asar GitHub Repository](https://github.com/nmfs-ost/asar) 
+              - [ ] Review materials in [stockplotr GitHub Repository](https://github.com/nmfs-ost/stockplotr)
+              - [ ] Review materials in [stock assessment workflows google folder](https://drive.google.com/drive/folders/1Hls-4La8Jp0CUJfMPGtbAyo2PUfwmzgD)
+              - [ ] Install tinytex full version (see below)
+                ```{r}
+                install.packages(""tinytex"")
+                tinytex::install_tinytex(bundle = ""TinyTeX-2"")
+                ```
+
+            ## Project Lead
+              - [ ] Provide access to Workflows check-in meetings
+              - [ ] Provide access to Stock Assessment Workflows Project meetings
+              - [ ] Provide access to SA Workflows Work Time/Check-In meetings
+              - [ ] Provide access to IRA assessment workflows space
+              - [ ] Ensure new team member has access to [workflows google folder](https://drive.google.com/drive/folders/1Hls-4La8Jp0CUJfMPGtbAyo2PUfwmzgD)
+              - [ ] Add to steering committee meeting
+              - [ ] Add to the [GitHub asar collaborators team](https://github.com/orgs/nmfs-ost/teams/asar-collaborators)
+              - [ ] Provide write permissions to asar GitHub repository
+              - [ ] Provide write permissions to stockplotr GitHub repository
+
