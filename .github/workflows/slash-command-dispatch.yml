@@ -16,6 +16,7 @@ jobs:
           # List all of the commands that you want to work in lowercase
           # Where onboarding options are listed first and then offboarding
           commands: |
+              onboard-connect
               onboard-fims
               onboard-fit
               onboard-nsap
@@ -23,6 +24,7 @@ jobs:
               onboard-sis
               onboard-workflows
               onboard-dismap
+              offboard-connect
               offboard-fims
               offboard-fit
               offboard-nsap
