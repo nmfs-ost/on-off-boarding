@@ -75,7 +75,7 @@ body:
         - [ ] Contact [IT](mailto:christopher.bradley@example.com) and cc the [service desk](mailto:nmfs.servicedesk@noaa.gov) to set up your workstation. 
             <details>
               <summary>
-                Expand this section to see the list of software applications to be installed, all of which are on the [list of NMFS-approved software](https://docs.google.com/spreadsheets/d/1oPaTegdBGEmkjrmkbOVjGAJpPFg755p3Wws50ddLwCI/edit?usp=sharing)
+                Expand this section to see the list of software applications to be installed
               </summary>
 
             - [ ] Adobe Acrobat
@@ -87,6 +87,7 @@ body:
             - [ ] Rtools (Windows only)
             - [ ] RStudio 
             - [ ] [VS Code](https://code.visualstudio.com/Download) [configured for R](configure it for using [`R`](https://github.com/REditorSupport/vscode-R/wiki/Installation:-Windows)
+            All of the software applications are on the [list of NMFS-approved software](https://docs.google.com/spreadsheets/d/1oPaTegdBGEmkjrmkbOVjGAJpPFg755p3Wws50ddLwCI/edit?usp=sharing).
             </details>
 
         - [ ] Set up a GitHub account by following the [guide](https://sites.google.com/noaa.gov/nmfs-st-github-governance-team/github-users) and request access to GitHub Enterprise Cloud by emailing the completed [GitHub user agreement](https://drive.google.com/file/d/1yP0mLpD5d5rsgNv5-_Z6OWpwhLROjxMg/view) to the [Assessment Branch Director](mailto:melissa.karp@noaa.gov).
