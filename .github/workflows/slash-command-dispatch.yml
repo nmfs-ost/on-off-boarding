@@ -22,10 +22,12 @@ jobs:
               onboard-projections
               onboard-sis
               onboard-workflows
+              onboard-dismap
               offboard-fims
               offboard-fit
               offboard-nsap
               offboard-projections
               offboard-sis
               offboard-workflows
+              offboard-dismap
           permission: write
