@@ -58,16 +58,16 @@ body:
         ### First Week
         - [ ] Provide access to NSAP or higher-level email distribution lists.
           <details>
-              <summary>
-                Expand this section to see the list of email distribution lists to be added to
-              </summary>
+            <summary>
+              Expand this section to see the list of email distribution lists to be added to
+            </summary>
 
-            - [ ] OST email distribution list (Should be added to this listserv when onboardee starts)
-            - [ ] ST4 email distribution list (Not typically used, as the assessment branch listserv is kept more up to date)
-            - [ ] _NMFS HQ ST4 Assessment Branch
-            - [ ] _NMFS Fish Assessment
-            Please report if you encounter any problems and leave a comment on this onboarding issue. 
-            </details>
+          - [ ] OST email distribution list (Should be added to this listserv when onboardee starts)
+          - [ ] ST4 email distribution list (Not typically used, as the assessment branch listserv is kept more up to date)
+          - [ ] _NMFS HQ ST4 Assessment Branch
+          - [ ] _NMFS Fish Assessment
+          Please report if you encounter any problems and leave a comment on this onboarding issue. 
+          </details>
         
         ## Assignee: Onboardee
         ### Desired completion: First week
@@ -88,6 +88,7 @@ body:
             - [ ] RStudio 
             - [ ] [VS Code](https://code.visualstudio.com/Download) [configured for R](configure it for using [`R`](https://github.com/REditorSupport/vscode-R/wiki/Installation:-Windows)
             </details>
+
         - [ ] Set up a GitHub account by following the [guide](https://sites.google.com/noaa.gov/nmfs-st-github-governance-team/github-users) and request access to GitHub Enterprise Cloud by emailing the completed [GitHub user agreement](https://drive.google.com/file/d/1yP0mLpD5d5rsgNv5-_Z6OWpwhLROjxMg/view) to the [Assessment Branch Director](mailto:melissa.karp@noaa.gov).
         - [ ] Email [Kathryn](mailto:kathryn.doering@noaa.gov) and [Elizabeth](mailto:elizabeth.gugliotti@noaa.gov) to be added to the noaa-ost GitHub organization, and the NSAP team.
         - [ ] Share your Google calendar ([instructions here](https://support.google.com/calendar/answer/37082?hl=en)) with those that need to know your schedule because everyone by default sees you as busy instead of getting appointment details.
