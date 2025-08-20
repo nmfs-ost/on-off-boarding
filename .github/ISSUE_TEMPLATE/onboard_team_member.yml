@@ -105,6 +105,7 @@ body:
         - [ ] NMFS NMFS R Users calendar ID: noaa.gov_60rfn7ml9rpchl63vs4af9n018@group.calendar.google.com
         - [ ] Assessment Events calendar ID: c_43jjc1ei4kujqki7o5ud918ea8@group.calendar.google.com
         </details>
+        
         - [ ] Add the following Google chat spaces if you're interested
         <details>
           <summary>
@@ -126,3 +127,4 @@ body:
         :tada: :tada: :tada: Thank you for your cooperation and welcome aboard!
     validations:
       required: false 
+      
