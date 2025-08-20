@@ -1,0 +1,30 @@
+name: onboard-fit-command
+on:
+  repository_dispatch:
+    types: [onboard-fit-command]
+jobs:
+  list:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Create comment
+        uses: peter-evans/create-or-update-comment@v4
+        with:
+          token: ${{ secrets.PAT }}
+          repository: ${{ github.event.client_payload.github.payload.repository.full_name }}
+          issue-number: ${{ github.event.client_payload.github.payload.issue.number }}
+          # TODO: Figure out if lines are wrapped as given or not
+          body: |
+            Welcome :wave: to the [FIT Team](https://nmfs-ost.github.io/noaa-fit/),
+            below you will find a list of onboarding tasks for both the onboardee and for the Project Lead.
+            Please mark off tasks once they are accomplished to ease the communication chain and decrease duplication. 
+            Feel free reach out on the project lead, leave a comment on this issue, or open a new issue if you want 
+            to chat about anything.
+
+            ## Onboardee
+              - [ ] Ask project lead for additional tasks
+
+            ## Project Lead
+              - [ ] Add to _NMFS OST Toolbox Committee group on [whitepages.noaa.gov](whitepages.noaa.gov)
+              - [ ] Provide instructions on requesting access to GitHub Enterprise
+              - [ ] Send intro email with resources
+              - [ ] Provide access to fisheries.toolbox@noaa.gov service account
