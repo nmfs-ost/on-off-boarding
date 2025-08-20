@@ -1,0 +1,39 @@
+name: onboard-sis-command
+on:
+  repository_dispatch:
+    types: [onboard-sis-command]
+jobs:
+  list:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Create comment
+        uses: peter-evans/create-or-update-comment@v4
+        with:
+          token: ${{ secrets.PAT }}
+          repository: ${{ github.event.client_payload.github.payload.repository.full_name }}
+          issue-number: ${{ github.event.client_payload.github.payload.issue.number }}
+          # TODO: Figure out if lines are wrapped as given or not
+          body: |
+            Welcome :wave: to the [SIS Team]](https://www.fisheries.noaa.gov/resource/data/species-information-system),
+            below you will find a list of onboarding tasks for both the onboardee and for the Project Lead.
+            Please mark off tasks once they are accomplished to ease the communication chain and decrease duplication. 
+            Feel free reach out on the project lead, leave a comment on this issue, or open a new issue if you want 
+            to chat about anything.
+
+            ## Onboardee
+              - [ ] Request access to [google drive folder - SIS POC WG](https://drive.google.com/drive/u/0/folders/0B57aOEaukI73NUFrbHk5OGNhWk0?resourcekey=0-vt2RLmQVZopDJW5e3TB3zA)
+              - [ ] Reuqest access to [SIS Admin google folder](https://drive.google.com/drive/u/0/folders/0BzyzwD9atEoxZndhbWNLN2hJNmc?resourcekey=0-jNvL1HzWUYh-qQPJxejBUQ)
+              - [ ] Request access to [eAOP folder](https://drive.google.com/drive/u/0/folders/175LMF5uUnQmb4-a8sNb4SMAGRWKfVi1h)
+              - [ ] Schedule one-on-one with OST6 Dev Lead
+              - [ ] Review SIS Administrative Manual
+              - [ ] Review SIS POC Manual
+
+            ## Project Lead
+              - [ ] Add permissions to SIS database - Test / Dev / Prod
+              - [ ] Add to monthly SIS POC meetings
+              - [ ] Add to monthly SIS Admin team meetings
+              - [ ] Coordinate web content editing access
+              - [ ] Share SIS Administrative Manual
+              - [ ] Share SIS POC Manual
+              - [ ] Demo SIS functions & Features
+              - [ ] Demo Stock SMART Functions & Features
