@@ -21,9 +21,11 @@ jobs:
             to chat about anything.
 
             ## Onboardee
-              - [ ] Ask project lead for additional tasks
+            - [ ] Request access to [your home office organization and the nmfs-ost organization on GitHub Enterprise Cloud](https://sites.google.com/noaa.gov/nmfs-st-github-governance-team/github-users#h.le8f02tylt40)
+
 
             ## Project Lead
               - [ ] Add to _NMFS GitHub Governance Reps group on [whitepages.noaa.gov](whitepages.noaa.gov)
               - [ ] Send intro email with resources
-              - [ ] Provide instructions on requesting access to GitHub Enterprise
+              - [ ] Add onboardee to the [GGT members team](https://github.com/orgs/nmfs-ost/teams/ggt-members)
+              - [ ] Add onboardee to the [GGT chat space](https://chat.google.com/room/AAAAXJOn8SQ?cls=7)
