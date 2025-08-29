@@ -11,8 +11,7 @@ body:
       label: Welcome Message 
       description: Do not modify. This is a pre-filled welcome message for the onboardee, including brief instructions on how to use this issue template.
       value: |
-        :clap: Welcome! :clap: [The README](https://github.com/nmfs-ost/on-off-boarding) describes the onboarding process for new members of the National 
-        Stock Assessment Program (NSAP). Below are the checklist items that will drive the onboarding process.
+        :clap: Welcome! :clap: [The README](https://github.com/nmfs-ost/on-off-boarding) describes the onboarding process for new members of the National Stock Assessment Program (NSAP). Below are the checklist items that will drive the onboarding process.
     validations:
       required: false 
 
@@ -29,7 +28,7 @@ body:
     id: start-date
     attributes:
       label: Desired Start Date
-      description: When should the onboarding process begin? (e.g., YYYY-MM-DD)
+      description: When should the onboarding process begin (e.g., YYYY-MM-DD)?
       placeholder: Ex. 2025-07-15
     validations:
       required: true
