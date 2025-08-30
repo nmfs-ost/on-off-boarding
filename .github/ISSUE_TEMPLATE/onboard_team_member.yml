@@ -5,6 +5,13 @@ labels: ["onboarding"]
 assignees: ["Melissa-Karp"]
 
 body:
+  - type: markdown
+    attributes:
+      value: |
+        # :warning: Read Before Proceeding :warning:
+
+        Please ask the onboardee if they are comfortable with announcing their onboarding to the team via a GitHub Issue BEFORE filling out this Issue Template. This repository is public and they might not want to announce their future position until a certain date or they might prefer to use email instead of GitHub to track their onboarding. 
+
   - type: textarea
     id: welcome-message
     attributes:
@@ -12,6 +19,7 @@ body:
       description: Do not modify. This is a pre-filled welcome message for the onboardee, including brief instructions on how to use this issue template.
       value: |
         :clap: Welcome! :clap: [The README](https://github.com/nmfs-ost/on-off-boarding) describes the onboarding process for new members of the National Stock Assessment Program (NSAP). Below are the checklist items that will drive the onboarding process.
+        Please feel free to email your Supervisor or the Assessment Branch Director if you prefer to use email instead of this GitHub issue to track your onboarding progress.
     validations:
       required: false 
 
