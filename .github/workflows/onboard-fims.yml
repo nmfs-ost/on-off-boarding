@@ -15,12 +15,9 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
           repository: ${{ github.event.client_payload.github.payload.repository.full_name }}
           issue-number: ${{ github.event.client_payload.github.payload.issue.number }}
-          # TODO: Figure out if lines are wrapped as given or not
           body: |
-            Welcome :wave: to the [Fisheries Integrated Modeling System (FIMS) organization](https://github.com/NOAA-FIMS/),
-            below you will find a list of onboarding tasks for both the onboardee and for the Project Lead.
-            Please mark off tasks once they are accomplished to ease the communication chain and decrease duplication. Feel free reach out on the [FIMS Discussion Board](
-            https://github.com/orgs/NOAA-FIMS/discussions) if you want to chat about anything.
+            Welcome :wave: to the [Fisheries Integrated Modeling System (FIMS) organization](https://github.com/NOAA-FIMS/), below you will find a list of onboarding tasks for both the onboardee and for the Project Lead.
+            Please mark off tasks once they are accomplished to ease the communication chain and decrease duplication. Feel free reach out on the [FIMS Discussion Board]( https://github.com/orgs/NOAA-FIMS/discussions) if you want to chat about anything.
 
             ## Onboardee
               - [ ] [Configure VS Code for C++](https://code.visualstudio.com/docs/languages/cpp)
