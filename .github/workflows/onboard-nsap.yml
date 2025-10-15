@@ -1,0 +1,97 @@
+name: onboard-ggt-command
+on:
+  repository_dispatch:
+    types: [onboard-ggt-command]
+jobs:
+  list:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      issues: write
+    steps:
+      - name: Create comment
+        uses: peter-evans/create-or-update-comment@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          repository: ${{ github.event.client_payload.github.payload.repository.full_name }}
+          issue-number: ${{ github.event.client_payload.github.payload.issue.number }}
+          body: |
+            Welcome :wave: to the NMFS GitHub Governance Team (GGT), below you will find a list of onboarding tasks for both the onboardee and for the Project Lead.
+            Please mark off tasks once they are accomplished to ease the communication chain and decrease duplication. 
+            Feel free reach out on the project lead, leave a comment on this issue, or open a new issue if you want to chat about anything.
+
+            ## Onboarding Task Checklist
+
+            ## Assignee: Assessment Branch Director (Acting) @Melissa-Karp
+            ### First Day
+            - [ ] Schedule first-day welcome meeting to review the onboarding process to the NSAP.
+    
+            ### First Week
+            - [ ] Provide access to NSAP or higher-level email distribution lists.
+            <details>
+              <summary>
+                Expand this section to see the list of email distribution lists to be added to
+              </summary>
+    
+            - [ ] OST email distribution list (Should be added to this listserv when onboardee starts)
+            - [ ] ST4 email distribution list (Not typically used, as the assessment branch listserv is kept more up to date)
+            - [ ] _NMFS HQ ST4 Assessment Branch
+            - [ ] _NMFS Fish Assessment
+            Please report if you encounter any problems and leave a comment on this onboarding issue. 
+            </details>
+            
+            ## Assignee: Onboardee
+            ### Desired completion: First week
+            - [ ] Write a short bio and send it to [Assessment Branch Director](mailto:melissa.karp@noaa.gov) so it can be included in a welcome email to members of OST and add your bio to the [NSAP bios document ](https://docs.google.com/document/d/1_E8D4-m8F3FLYzGrYeZXm2NBDpMeroXb1miQxYf1wgo/edit?tab=t.0).
+            - [ ] Contact [IT](mailto:christopher.bradley@example.com) and cc the [service desk](mailto:nmfs.servicedesk@noaa.gov) to set up your workstation. 
+            <details>
+              <summary>
+                Expand this section to see the list of software applications to be installed
+              </summary>
+    
+            - [ ] Adobe Acrobat
+            - [ ] Chrome/Firefox (personal preference)
+            - [ ] [Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) 
+            - [ ] GitHub Desktop
+            - [ ] Microsoft Office
+            - [ ] R 
+            - [ ] Rtools (Windows only)
+            - [ ] RStudio 
+            - [ ] [VS Code](https://code.visualstudio.com/Download) [configured for R](configure it for using [`R`](https://github.com/REditorSupport/vscode-R/wiki/Installation:-Windows)
+            All of the software applications are on the [list of NMFS-approved software](https://docs.google.com/spreadsheets/d/1oPaTegdBGEmkjrmkbOVjGAJpPFg755p3Wws50ddLwCI/edit?usp=sharing).
+            </details>
+    
+            - [ ] Set up a GitHub account and request access to the nmfs-ost GitHub Enterprise organization by following the [guide](https://sites.google.com/noaa.gov/nmfs-st-github-governance-team/github-users). Note the [GitHub user agreement](https://drive.google.com/file/d/1yP0mLpD5d5rsgNv5-_Z6OWpwhLROjxMg/view) should be signed by the [Assessment Branch Director](mailto:melissa.karp@noaa.gov) as supervisor or manager.
+            - [ ] Share your Google calendar ([instructions here](https://support.google.com/calendar/answer/37082?hl=en)) with those that need to know your schedule because everyone by default sees you as busy instead of getting appointment details.
+            - [ ] Add the following calendars to your Google Calendar if you're interested
+            <details>
+              <summary>
+                Expand this section to see the list of calendars to be added
+              </summary>
+    
+            - [ ] NMFS-OST-Leadership calendar ID: noaa.gov_1888qfecncjisg5mnvhtcilbn4go46gb6crjcd1o68o38chi6c@resource.calendar.google.com
+            - [ ] NMFS GitHub trainings calendar ID: c_3edf762e4a47019b1e86b98fd0c9e89102982a78d50cb65f72bb21d6c7539654@group.calendar.google.com
+            - [ ] NMFS Open Science calendar ID: c_916b6948ef2ee8b7d49c28661efc0798303c2742be399c9290fa02d9320c769e@group.calendar.google.com
+            - [ ] NMFS NMFS R Users calendar ID: noaa.gov_60rfn7ml9rpchl63vs4af9n018@group.calendar.google.com
+            - [ ] Assessment Events calendar ID: c_43jjc1ei4kujqki7o5ud918ea8@group.calendar.google.com
+            </details>
+            
+            - [ ] Add the following Google chat spaces if you're interested
+            <details>
+              <summary>
+                Expand this section to see the list of chat spaces and click the links to request access
+              </summary>
+    
+            - [ ] [NMFS R-User Space](https://chat.google.com/room/AAAAKtkbXIA?cls=7): NMFS R User Group Google Space for announcements and questions.
+            - [ ] [NMFS GitHub User Space](https://chat.google.com/room/AAAAJ6cl1_4?cls=7): This is a space for those at NMFS to ask questions and have discussions about GitHub/GitHub Enterprise Cloud.
+            - [ ] [NMFS Open Science](https://chat.google.com/room/AAAAuuftzDk?cls=7): Announcements and discussion for NMFS Open Science activities.
+            - [ ] [ECS Comms](https://chat.google.com/room/AAAANDzN_GU?cls=7): Chat space for ECS contractors at NSAP to ask questions and have discussions. 
+            </details>
+                
+            :bulb: **Tips**
+            - Please mark the checklist items as complete as you progress through the onboarding process. 
+            - You can edit this issue to add more details about your progress by clicking the "..." button in the top-right corner of the issue. 
+            - If you have any questions or encounter any problems, please feel free to comment on this issue. 
+            - Please close this issue once all tasks are completed.
+    
+            :tada: :tada: :tada: Thank you for your cooperation and welcome aboard!
