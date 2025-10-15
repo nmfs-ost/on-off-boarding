@@ -1,0 +1,38 @@
+name: offboard-nsap-command
+on:
+  repository_dispatch:
+    types: [offboard-nsap-command]
+jobs:
+  list:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      issues: write
+    steps:
+      - name: Create comment
+        uses: peter-evans/create-or-update-comment@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          repository: ${{ github.event.client_payload.github.payload.repository.full_name }}
+          issue-number: ${{ github.event.client_payload.github.payload.issue.number }}
+          body: |
+            Farewell :v: : wishing you goodluck in your endeavors outside of our organization!
+            Below you will find a list of offboarding tasks for both you and for the Project Lead.
+            Please mark off tasks once they are accomplished to ease the communication chain and decrease duplication. 
+            Feel free reach out on the [asar Discussion Board]( https://github.com/nmfs-ost/asar/discussions) if you
+            want to chat about anything.
+
+            ## Offboardee
+              - [ ] Schedule 1:1 meeting with project lead
+              - [ ] Transfer ownership of any documents/files in Google Drive
+              - [ ] Back up all files/created assets made during work
+              - [ ] Contact Chris Bradley for directions on returning your laptop
+              
+            ## Relevant leads (please edit this comment and assign the following tasks to the revelant people)
+              - [ ] Remove access to *project* level resources
+              - [ ] Remove access to *program* level-resources
+              - [ ] Remove from noaa-ost GitHub organization
+              - [ ] Remove from the NSAP GitHub Team
+              - [ ] Remove from project specific GitHub repository(ies)
+              - [ ] Remove offboardee from individual Google Meet invites (meet owners will receieve a kickback email once their account is deactivated)
+              
