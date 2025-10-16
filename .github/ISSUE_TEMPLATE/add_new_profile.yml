@@ -1,0 +1,102 @@
+name: Add new profile
+description: Use this template to submit information for a new collaborator profile and track their progress.
+title: "[Profile]: <full name>"
+labels: ["profile"]
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        # :warning: Read Before Proceeding :warning:
+
+        Please ask the collaborator if they are comfortable with announcing their onboarding and offboarding to the team via a GitHub Issue BEFORE filling out this Issue Template. This repository is public and they might not want to announce their future position until a certain date or they might prefer to use email instead of GitHub to track their onboarding and offboarding. 
+
+  - type: textarea
+    id: welcome-message
+    attributes:
+      label: Welcome Message 
+      description: Do not modify. This is a pre-filled welcome message for the collaborator, including brief instructions on how to use this issue template.
+      value: |
+        :clap: Welcome! :clap: [The README](https://github.com/nmfs-ost/on-off-boarding) describes the onboarding and offboarding processes for new collaborators of the Office of Science and Technology (OST). 
+        Please feel free to email your Supervisor or Project Lead if you prefer to use email instead of this GitHub issue to track your onboarding and offboarding progress.
+    validations:
+      required: false 
+
+  - type: input
+    id: profile-name
+    attributes:
+      label: Collaborator's Full Name
+      description: The full name of the collaborator.
+      placeholder: Ex. Jane Doe
+    validations:
+      required: true
+
+  - type: input
+    id: onboarding-date
+    attributes:
+      label: Desired Onboarding Date
+      description: When should the onboarding process begin (e.g., YYYY-MM-DD)? (optional)
+      placeholder: Ex. 2025-07-15
+    validations:
+      required: false
+  
+  - type: input
+    id: offboarding-date
+    attributes:
+      label: Desired Offboarding Date
+      description: When should the offboarding process begin (e.g., YYYY-MM-DD)? (optional)
+      placeholder: Ex. 2025-07-15
+    validations:
+      required: false
+
+  - type: textarea
+    id: role-affiliation
+    attributes:
+      label: Collaborator's Title and Affiliation
+      description: Briefly describe the collaborator's title and their department or affiliation.
+      placeholder: Ex. Fish Biologist, ST4 National Stock Assessment Program
+    validations:
+      required: true
+  
+  - type: textarea
+    id: biography
+    attributes:
+      label: Biography
+      description: Provide a brief, third-person biography for the public profile (optional).
+      placeholder: Ex. Jane Doe supports the National Stock Assessment Program on software projects...
+    validations:
+      required: false
+  
+  - type: input
+    id: email
+    attributes:
+      label: Professional Email
+      description: The email address to be listed on the profile (optional).
+      placeholder: Ex. jane.doe@noaa.gov
+    validations:
+      required: false
+
+  - type: input
+    id: github-username
+    attributes:
+      label: GitHub Username
+      description: The person's GitHub username (optional).
+      placeholder: Ex. jane-doe-noaa
+    validations:
+      required: false
+
+  - type: textarea
+    id: issue-instructions
+    attributes:
+      label: How to Use This Issue
+      description: Do not modify. These are instructions for using this issue to track progress.
+      value: |            
+        :bulb: **Tips**
+        - After this issue is created, onboarding or offboarding checklists may be added. Please mark items as complete as you progress.
+        - You can edit this issue to add more details about your progress by clicking the "..." button in the top-right corner of the issue. 
+        - If you have any questions or encounter any problems, please feel free to comment on this issue. 
+
+        :tada: :tada: :tada: Thank you for your cooperation and welcome aboard!
+    validations:
+      required: false 
+      
