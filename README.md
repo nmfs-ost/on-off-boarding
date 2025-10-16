@@ -2,7 +2,13 @@
 
 # NOAA Fisheries OST Onboarding and Offboarding <img src="assets/noaa-logo.png" align="right" height="150" style="float:right; height:150px;" />
 
-This repository stores information about onboarding and offboarding collaborators to projects within NOAA Fisheries Office of Science and Technology (OST). This README describes the process that a branch director and onboarded/offboarded employee should follow to successfully integrate or leave the agency.
+This repository stores information about onboarding and offboarding collaborators 
+to projects within NOAA Fisheries Office of Science and Technology (OST). This 
+README describes the process that a branch director and onboarded/offboarded 
+employee should follow to successfully integrate or leave the agency.
+
+Each employee should  have a "profile" located under the issues page. There you 
+will find onboarding or offboarding tasks and other relevant information to understand who is currently in the organization.
 
 ## 👋 Welcome
 
@@ -71,10 +77,10 @@ flowchart TD;
     A0 --> B(["Create a new Issue using 'Add new profile' issue type"]);
     A1 ----> G["Read through README"];
     B --> C(["Follow instructions in the Issue"]);
-    C --> E["Assign Issue to Onboardee"];
+    C --> E["Assign Issue to Onboardee/Team Member"];
     PL --> D["Add project specific command (e.g., comment /onboard-FIMS)"];
-    G --> new("Navigate to your Profile and complete opened tasks or comment on the issue to get help when you reach roadblocks");
-    new --> F["Check off each task after they are completed"];
+    G --> new("Navigate to your profile and complete onboarding tasks or comment on the issue to get help when you reach roadblocks");
+    new --> F["Keep your profile open! It will only be closed upon exit with the agency."];
     E ---> H["Direct employee to this README"];
 
     E@{ shape: lin-rect};
