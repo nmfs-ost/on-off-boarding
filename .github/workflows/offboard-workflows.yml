@@ -1,0 +1,30 @@
+name: offboard-workflows-command
+on:
+  repository_dispatch:
+    types: [offboard-workflows-command]
+jobs:
+  list:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      issues: write
+    steps:
+      - name: Create comment
+        uses: peter-evans/create-or-update-comment@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          repository: ${{ github.event.client_payload.github.payload.repository.full_name }}
+          issue-number: ${{ github.event.client_payload.github.payload.issue.number }}
+          body: |
+            Farewell :v: : wishing you goodluck in your endeavors outside of our organization!
+            Below you will find a list of additional offboarding tasks to complete before your last day!
+
+            ## Offboardee
+              - [ ] Schedule 1:1 meeting with project lead
+              - [ ] Create a list of current and future tasks that were assigned to you
+              - [ ] Ensure that all recent work to 'asar' or 'stockplotr' has been submitted or pushed to the remote repository
+              
+            ## Project leads
+              - [ ] Remove access to *project* level resources
+              - [ ] Remove offboardee from individual Google Meet invites
+              
