@@ -1,7 +1,7 @@
-name: onboard-ggt-command
+name: onboard-nsap-command
 on:
   repository_dispatch:
-    types: [onboard-ggt-command]
+    types: [onboard-nsap-command]
 jobs:
   list:
     runs-on: ubuntu-latest
@@ -16,9 +16,7 @@ jobs:
           repository: ${{ github.event.client_payload.github.payload.repository.full_name }}
           issue-number: ${{ github.event.client_payload.github.payload.issue.number }}
           body: |
-            Welcome :wave: to the NMFS GitHub Governance Team (GGT), below you will find a list of onboarding tasks for both the onboardee and for the Project Lead.
-            Please mark off tasks once they are accomplished to ease the communication chain and decrease duplication. 
-            Feel free reach out on the project lead, leave a comment on this issue, or open a new issue if you want to chat about anything.
+            Welcome :wave: the [README](https://github.com/nmfs-ost/on-off-boarding) describes the onboarding process for new members of the National Stock Assessment Program (NSAP). Below are the checklist items that will drive the onboarding process.
 
             ## Onboarding Task Checklist
 

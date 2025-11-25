@@ -27,6 +27,7 @@ jobs:
               onboard-sis
               onboard-workflows
               onboard-dismap
+              onboard-ggt
               offboard-connect
               offboard-fims
               offboard-fit
@@ -35,4 +36,5 @@ jobs:
               offboard-sis
               offboard-workflows
               offboard-dismap
+              offboard-ggt
           permission: write
