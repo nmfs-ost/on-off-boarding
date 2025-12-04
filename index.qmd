@@ -1,0 +1,13 @@
+---
+pagetitle: "NOAA Fisheries OST Onboarding and Offboarding"
+page-layout: full
+title-block-banner: false
+---
+
+This repository stores information about onboarding and offboarding collaborators to projects within NOAA Fisheries Office of Science and Technology (OST). This README describes the process that a branch director and onboarded/offboarded employee should follow to successfully integrate or leave the agency.
+
+## 👋 Welcome
+
+We are happy for you to join onto our team in NOAA! Here at OST, we take on a large breadth of responsibilities. We aim to execute modern and high-quality data collection, management, and open access programs. For more information, please go to our [internal webpage](https://sites.google.com/noaa.gov/inside-fisheries-ost/office-of-science-and-technology) to access resources, organization charts, and more.
+
+See the next section on [Getting Started](#-getting-started) for how to join or add someone to one of these projects.

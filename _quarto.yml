@@ -1,0 +1,79 @@
+project:
+  type: website
+  output-dir: docs
+  render:
+    - "*.qmd"
+
+  resources:
+    - assets/
+
+website:
+  favicon: assets/noaa-logo.png
+  title: "NOAA Fisheries OST Onboarding and Offboarding"
+  # site-url: https://noaa-fims.github.io
+  repo-url: https://github.com/nmfs-ost/on-off-boarding
+  open-graph: true
+  navbar:
+    right:
+      - text: home
+        href: index.qmd
+      # - text: about
+      #   href:
+      - text: projects & software
+        href: projects_software.qmd
+      # - text: st4 community
+      #   menu:
+      #     - text: nsap
+      #       href: 
+      #     - text: monitoring
+      #       href: 
+      # - text: resources
+      #   href:
+      - icon: github
+        href: https://github.com/nmfs-ost/on-off-boarding
+  page-footer:
+    border: false
+    background: light
+    left: >-
+      <span id="copyright-year"></span> NOAA Fisheries OST Onboarding and Offboarding
+    right: >-
+      <a class="link-dark" href="https://github.com/nmfs-ost/on-off-boarding" title="github" target="_blank" rel="noopener"><i class="fab fa-github"></i></a>
+
+format:
+  html:
+    body-width: 100%
+    anchor-sections: true
+    include-after-body: assets/open-in-new-tab.html
+    header-includes: |
+      <script>
+        window.addEventListener('DOMContentLoaded', function() {
+          var year = new Date().getFullYear();
+          var el = document.getElementById('copyright-year');
+          if (el) el.textContent = '© ' + year;
+        });
+      </script>
+    include-in-header:
+      - text: |
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+          <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+    theme:
+      light:
+        - zephyr
+        - assets/styles-elm-light.scss
+        - assets/styles-elm-base.scss
+        - assets/colors.scss
+      dark:
+        - assets/zephyr-dark.scss
+        - assets/styles-elm-dark.scss
+        - assets/styles-elm-base.scss
+        - assets/colors.scss
+    css:
+      - assets/panelset-extras.css
+    highlight-style:
+      light: assets/syntax-elm-light.theme
+      dark: assets/syntax-elm-dark.theme
+    code-block-bg: false
+
+execute:
+  freeze: auto
+
