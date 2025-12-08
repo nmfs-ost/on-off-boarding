@@ -16,9 +16,6 @@ jobs:
           repository: ${{ github.event.client_payload.github.payload.repository.full_name }}
           issue-number: ${{ github.event.client_payload.github.payload.issue.number }}
           body: |
-            Farewell :v: : wishing you goodluck in your endeavors outside of our organization!
-            Below you will find a list of additional offboarding tasks to complete before your last day!
-
             ## Offboardee
               - [ ] Schedule 1:1 meeting with project lead
               - [ ] Create a list of current and future tasks that were assigned to you
