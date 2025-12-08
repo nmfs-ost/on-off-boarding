@@ -15,7 +15,7 @@ jobs:
         uses: peter-evans/slash-command-dispatch@v4
         with:
           # Must link a personal PAT to this repository
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.PAT }}
           # List all of the commands that you want to work in lowercase
           # Where onboarding options are listed first and then offboarding
           commands: |
