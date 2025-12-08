@@ -68,13 +68,13 @@ config:
 
 flowchart TD;
     A(["Navigate to Issues"]) --- A0(("Branch Director")) & A1(("New Employee")) & PL(("Project Lead"));
-    A0 --> B(["Create a new Issue using 'Onboard Team Member' issue type"]);
+    A0 --> B(["Create a new Issue using 'Add new profile' issue type"]);
     A1 ----> G["Read through README"];
     B --> C(["Follow instructions in the Issue"]);
     C --> E["Assign Issue to Onboardee"];
     PL --> D["Add project specific command (e.g., comment /onboard-FIMS)"];
-    G --> new("Navigate to your Onboarding Issue and complete onboarding tasks or comment on the issue to get help when you reach roadblocks");
-    new --> F["Close Issue after tasks are completed"];
+    G --> new("Navigate to your Profile and complete opened tasks or comment on the issue to get help when you reach roadblocks");
+    new --> F["Check off each task after they are completed"];
     E ---> H["Direct employee to this README"];
 
     E@{ shape: lin-rect};
@@ -91,6 +91,37 @@ flowchart TD;
     style E fill:#FFE0B2;
     style D fill:#E1BEE7;
     style new fill:#C8E6C9;
+    style F fill:#D50000;
+    style H fill:#FFCDD2;
+    click A "https://github.com/nmfs-ost/on-off-boarding/issues";
+```
+
+### Offboarding
+
+```mermaid
+---
+config:
+  theme: default
+---
+
+flowchart TD;
+    A(["Navigate to Issues"]) --- A0(("Branch Director")) & A1(("Employee"));
+    A0 --> B(["Execute command for offboarding from team and project."]);
+    A1 ----> G["Read through offboarding task list"];
+    B --> E["Reassign Issue to offboardee"];
+    G --> F["Check off each task after they are completed"];
+    E --> H["Once employee is offboarded, close out their profile."]
+
+    E@{ shape: lin-rect};
+    D@{ shape: lin-rect};
+    F@{ shape: dbl-circ};
+    H@{ shape: div-rect};
+    style A fill:transparent;
+    style A0 fill:#BBDEFB;
+    style A1 fill:#C8E6C9;
+    style B fill:#BBDEFB;
+    style G fill:#C8E6C9;
+    style E fill:#FFE0B2;
     style F fill:#D50000;
     style H fill:#FFCDD2;
     click A "https://github.com/nmfs-ost/on-off-boarding/issues";
