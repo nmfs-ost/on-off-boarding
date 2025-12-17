@@ -38,11 +38,12 @@ We are happy for you to join onto our team in NOAA! Here at OST, we take on a la
 In ST4, we work on the following projects:
 
 :::: {.columns}
-
 ::: {.column width="50%"}
 
 **National Stock Assessment Program**
+
 ---
+
 - Fisheris Integrated Modeling System (FIMS)
 - Stock Assessment Workflows (asar, stockplotr)
 - Fisheries Integrated Toolbox (FIT)
@@ -57,14 +58,15 @@ In ST4, we work on the following projects:
 ::: {.column width="50%"}
 
 **Monitoring**
+
 ---
+
 - National Survey Program
 - National Fishery Observer Program
 - Bycatch Monitoring
 - Cooperative Research
 
 :::
-
 ::::
 
 ### How to Get Started
