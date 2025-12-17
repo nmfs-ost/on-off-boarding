@@ -17,18 +17,14 @@ website:
     right:
       - text: home
         href: index.qmd
-      # - text: about
-      #   href:
       - text: projects & software
         href: projects_software.qmd
-      # - text: st4 community
-      #   menu:
-      #     - text: nsap
-      #       href: 
-      #     - text: monitoring
-      #       href: 
-      # - text: resources
-      #   href:
+      - text: st4 community
+        menu:
+          - text: nsap
+            href: nsap.qmd
+          - text: monitoring
+            href: monitoring.qmd
       - icon: github
         href: https://github.com/nmfs-ost/on-off-boarding
   page-footer:

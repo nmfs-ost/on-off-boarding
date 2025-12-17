@@ -1,0 +1,23 @@
+---
+title: "Monitoring Branch"
+format: html
+---
+
+# Monitoring Branch
+
+## Director
+
+Elizabeth Chilton
+
+## People and Projects
+
+Brett Alger - Electronic Technologies Coordinator, National Observer Program
+Derek Bolser - National Fishery-Independent Survey Science Coordinator
+Mark Chandler - National Coordinator of NOAA Fisheries' National Cooperative Research Program
+Jihong Dai - InPort Data
+Matthew Dunlap - National Environmental Compliance Coordinator
+Jason Gedamke - ?
+Kenneth Keene - National Observer Program Coordinator
+Matthew Lettrich - ?
+Holly Mcbride - Electronic Technologies Coordinator
+Erin McMichael - ?
