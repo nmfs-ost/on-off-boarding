@@ -14,7 +14,8 @@ listing:
         - path: st4-people.qmd
           title: 👥 ST4 People
           description: >
-            A list of ST4 branches, team members, and which projects team members are involved in.
+            A list of ST4 branches, team members, and which projects 
+            team members are involved in.
 ---
 
 # Onboarding
@@ -23,7 +24,7 @@ listing:
 flowchart TD;
     A(["Navigate to Issues"]) --- A0(("Branch Director")) & A1(("New Employee")) & PL(("Project Lead"));
     A0 --> B(["Create a new Issue using 'Onboard Team Member' issue type"]);
-    A1 ----> G["Read through [Getting Started nstructions](getting-started.qmd)"];
+    A1 ----> G["Read through Getting Started Instructions"];
     B --> C(["Follow instructions in the Issue"]);
     C --> E["Assign Issue to Onboardee"];
     PL --> D["Add project specific command (e.g., comment /onboard-FIMS)"];
@@ -48,9 +49,9 @@ flowchart TD;
     style F fill:#D50000;
     style H fill:#FFCDD2;
     click A "https://github.com/nmfs-ost/on-off-boarding/issues";
+    click G "/getting-started.qmd";
 ```
 
-# ST4 People
 ::: {#people}
 :::
 
