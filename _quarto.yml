@@ -18,13 +18,13 @@ website:
       - text: home
         href: index.qmd
       - text: projects & software
-        href: projects_software.qmd
+        href: getting-started.qmd#-projects-and-software
       - text: st4 community
         menu:
           - text: nsap
-            href: st4people.qmd#-national-stock-assessment-program-nsap
+            href: st4-people.qmd#-national-stock-assessment-program-nsap
           - text: monitoring
-            href: st4people.qmd#-monitoring-branch
+            href: st4-people.qmd#-monitoring-branch
       - icon: github
         href: https://github.com/nmfs-ost/on-off-boarding
   page-footer:

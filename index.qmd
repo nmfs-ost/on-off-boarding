@@ -14,11 +14,11 @@ listing:
           title: Onboarding
           description: >
             How to join or add someone to one of the ST4 projects listed above.
-        - path: projects_software.qmd
-          title: getting-started.qmd#-projects-and-software
+        - path: getting-started.qmd#-projects-and-software
+          title: Projects and Software
           description: >
             A list of ST4 projects and software with their status.
-        - path: st4people.qmd
+        - path: st4-people.qmd
           title: ST4 People
           description: >
             A list of ST4 branches, team members, and which projects team members are involved in.
