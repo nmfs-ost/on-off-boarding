@@ -7,10 +7,10 @@ listing:
     categories: false
     sort-ui: false
     filter-ui: false
-    fields: [title]
+    fields: [title, description]
     contents:
         - path: st4-people.qmd
-          title: ST4 People
+          title: 👥 ST4 People
           description: >
             A list of ST4 branches, team members, and which projects team members are involved in.
 ---
@@ -18,11 +18,6 @@ listing:
 # Onboarding
 
 ```mermaid
----
-config:
-  theme: default
----
-
 flowchart TD;
     A(["Navigate to Issues"]) --- A0(("Branch Director")) & A1(("New Employee")) & PL(("Project Lead"));
     A0 --> B(["Create a new Issue using 'Onboard Team Member' issue type"]);
@@ -62,7 +57,7 @@ flowchart TD;
 ## Projects
 ::: {.callout-note}
 Only projects that are associated with a GitHub repository are 
-listed in the table below. There is an additional [list of projects](index.qmd#projects) 
+listed in the table below. There is an additional [list of projects](index.qmd#st4-projects-overview) 
 on the home page which includes projects that don't have associated 
 GitHub repositories.
 :::

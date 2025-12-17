@@ -8,34 +8,30 @@ listing:
     categories: false
     sort-ui: false
     filter-ui: false
-    fields: [title]
+    fields: [title, description]
     contents:
         - path: getting-started.qmd#-onboarding
-          title: Onboarding
+          title: 🆕 Onboarding
           description: >
             How to join or add someone to one of the ST4 projects listed above.
         - path: getting-started.qmd#-projects-and-software
-          title: Projects and Software
+          title: 💻 Projects and Software
           description: >
             A list of ST4 projects and software with their status.
         - path: st4-people.qmd
-          title: ST4 People
+          title: 👥 ST4 People
           description: >
             A list of ST4 branches, team members, and which projects team members are involved in.
 ---
 
-This website contains information about onboarding and offboarding employees and collaborators to projects within NOAA Fisheries Office of Science and Technology (OST).
-
-Continue below for the process that a branch director and onboarded/offboarded employee should follow to successfully integrate or leave the agency.
+This website contains information about onboarding and offboarding employees and collaborators to projects within NOAA Fisheries Office of Science and Technology (OST). Below is the process that a branch director and onboarded/offboarded employee should follow to successfully integrate or leave the agency.
 
 
 ## 👋 Welcome
 
 We are happy for you to join onto our team in NOAA! Here at OST, we take on a large breadth of responsibilities. We aim to execute modern and high-quality data collection, management, and open access programs. For more information, please go to our [internal webpage](https://sites.google.com/noaa.gov/inside-fisheries-ost/office-of-science-and-technology) to access resources, organization charts, and more.
 
-### Projects
-
-In ST4, we work on the following projects:
+### ST4 Projects Overview
 
 :::: {.columns}
 ::: {.column width="50%"}
