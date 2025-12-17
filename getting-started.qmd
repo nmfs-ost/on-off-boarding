@@ -1,6 +1,8 @@
 ---
 title: "Getting Started"
-format: html
+format:
+  html:
+    mermaid: true
 listing:
   - id: people
     type: grid
