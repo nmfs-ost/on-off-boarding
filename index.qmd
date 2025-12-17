@@ -40,6 +40,7 @@ In ST4, we work on the following projects:
 :::: {.columns}
 
 ::: {.column width="50%"}
+
 **National Stock Assessment Program**
 ---
 - Fisheris Integrated Modeling System (FIMS)
@@ -50,15 +51,18 @@ In ST4, we work on the following projects:
 - Stock Synthesis 3 (SS3)
 - Ecosystem and Socioeconomic Indicators
 - Human Dimension in Stock Assessments
+
 :::
 
 ::: {.column width="50%"}
+
 **Monitoring**
 ---
 - National Survey Program
 - National Fishery Observer Program
 - Bycatch Monitoring
 - Cooperative Research
+
 :::
 
 ::::
