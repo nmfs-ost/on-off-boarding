@@ -1,6 +1,18 @@
 ---
 title: "Getting Started"
 format: html
+listing:
+  - id: people
+    type: grid
+    categories: false
+    sort-ui: false
+    filter-ui: false
+    fields: [title]
+    contents:
+        - path: st4people.qmd
+          title: ST4 People
+          description: >
+            A list of ST4 branches, team members, and which projects team members are involved in.
 ---
 
 # Onboarding
@@ -14,7 +26,7 @@ config:
 flowchart TD;
     A(["Navigate to Issues"]) --- A0(("Branch Director")) & A1(("New Employee")) & PL(("Project Lead"));
     A0 --> B(["Create a new Issue using 'Onboard Team Member' issue type"]);
-    A1 ----> G["Read through README"];
+    A1 ----> G["Read through [Getting Started nstructions](getting-started.qmd)"];
     B --> C(["Follow instructions in the Issue"]);
     C --> E["Assign Issue to Onboardee"];
     PL --> D["Add project specific command (e.g., comment /onboard-FIMS)"];
@@ -41,10 +53,18 @@ flowchart TD;
     click A "https://github.com/nmfs-ost/on-off-boarding/issues";
 ```
 
+# ST4 People
+::: {#people}
+:::
+
 # Projects and Software
 
+## Projects
 ::: {.callout-note}
-Only projects that are associated with a GitHub repository are listed in the table below. There is an additional [list of projects](index.qmd#projects) on the home page which includes projects that don't have associated GitHub repositories.
+Only projects that are associated with a GitHub repository are 
+listed in the table below. There is an additional [list of projects](index.qmd#projects) 
+on the home page which includes projects that don't have associated 
+GitHub repositories.
 :::
 
 ![GitHub stats](https://github-readme-stats.vercel.app/api?username=nmfs-ost&show_icons=true&theme=transparent&role=OWNER,COLLABORATOR,ORGANIZATION_MEMBER)
@@ -60,3 +80,27 @@ Only projects that are associated with a GitHub repository are listed in the tab
 | [journals](https://github.com/nmfs-ost/journals) | ![journals-stars](https://img.shields.io/github/stars/nmfs-ost/journals?style=social) | [![journals-status-link](https://lifecycle.r-lib.org/articles/figures/lifecycle-experimental.svg)](https://lifecycle.r-lib.org/articles/figures/lifecycle-experimental.svg) | Bibliography files for journals of interest to fisheries |
 | [nmfspalette](https://github.com/nmfs-ost/nmfspalette) | ![nmfspalette-stars](https://img.shields.io/github/stars/nmfs-ost/nmfspalette?style=social) | ![nmfspalette-status](https://github.com/nmfs-ost/nmfspalette/actions/workflows/call-r-cmd-check.yml/badge.svg) | R Color palette for NOAA Fisheries official colors |
 
+## 💻 Software and Tools 
+
+<p>
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/rstudio/rstudio-original.svg" alt="Rstudio" width="55" height="55"/>
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vscode/vscode-original.svg" alt="vscode" width="55" height="55" />
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg" alt="git" width="55" height="55" />
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original-wordmark.svg" alt="github" width="55" height="55" />
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/googlecloud/googlecloud-plain.svg" alt="google cloud" width="55" height="55"/>
+<img src="assets/FIMS-logo.png" alt="FIMS logo" width="55" height="55"/>
+<img src="assets/asar-hex.png" alt="asar logo" width="55" height="55"/>
+<img src="assets/stockplotr-hex.png" alt="stock plot R logo" width="55" height="55"/>
+</p>
+
+
+## 💬 AI Resources at NOAA Fisheries
+
+![Google Gemini](https://img.shields.io/badge/google%20gemini-8E75B2?style=for-the-badge&logo=google%20gemini&logoColor=white) ![ChatGPT](https://img.shields.io/badge/chatGPT-74aa9c?style=for-the-badge&logo=openai&logoColor=white)
+
+::: {.callout-important}
+AI tools are currently under pilot use and only some users 
+have access to GitHub copilot.
+:::
+
+## Cloud Computing Resources at NOAA Fisheries

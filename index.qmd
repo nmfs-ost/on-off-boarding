@@ -19,7 +19,7 @@ listing:
           description: >
             A list of ST4 projects and software with their status.
         - path: st4people.qmd
-          title: ST4 Team Members
+          title: ST4 People
           description: >
             A list of ST4 branches, team members, and which projects team members are involved in.
 ---
