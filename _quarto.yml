@@ -22,9 +22,9 @@ website:
       - text: st4 community
         menu:
           - text: nsap
-            href: nsap.qmd
+            href: st4people.qmd#-national-stock-assessment-program-nsap
           - text: monitoring
-            href: monitoring.qmd
+            href: st4people.qmd#-monitoring-branch
       - icon: github
         href: https://github.com/nmfs-ost/on-off-boarding
   page-footer:

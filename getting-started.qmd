@@ -1,9 +1,51 @@
 ---
-title: "Projects & Software"
+title: "Getting Started"
 format: html
 ---
 
-# Projects & Software
+# Onboarding
+
+```mermaid
+---
+config:
+  theme: default
+---
+
+flowchart TD;
+    A(["Navigate to Issues"]) --- A0(("Branch Director")) & A1(("New Employee")) & PL(("Project Lead"));
+    A0 --> B(["Create a new Issue using 'Onboard Team Member' issue type"]);
+    A1 ----> G["Read through README"];
+    B --> C(["Follow instructions in the Issue"]);
+    C --> E["Assign Issue to Onboardee"];
+    PL --> D["Add project specific command (e.g., comment /onboard-FIMS)"];
+    G --> new("Navigate to your Onboarding Issue and complete onboarding tasks or comment on the issue to get help when you reach roadblocks");
+    new --> F["Close Issue after tasks are completed"];
+    E ---> H["Direct employee to this README"];
+
+    E@{ shape: lin-rect};
+    D@{ shape: lin-rect};
+    F@{ shape: dbl-circ};
+    H@{ shape: div-rect};
+    style A fill:transparent;
+    style A0 fill:#BBDEFB;
+    style A1 fill:#C8E6C9;
+    style PL fille:#F54927,fill:#E1BEE7,color:none;
+    style B fill:#BBDEFB;
+    style G fill:#C8E6C9;
+    style C fill:#BBDEFB;
+    style E fill:#FFE0B2;
+    style D fill:#E1BEE7;
+    style new fill:#C8E6C9;
+    style F fill:#D50000;
+    style H fill:#FFCDD2;
+    click A "https://github.com/nmfs-ost/on-off-boarding/issues";
+```
+
+# Projects and Software
+
+::: {.callout-note}
+Only projects that are associated with a GitHub repository are listed in the table below. There is an additional [list of projects](index.qmd#projects) on the home page which includes projects that don't have associated GitHub repositories.
+:::
 
 ![GitHub stats](https://github-readme-stats.vercel.app/api?username=nmfs-ost&show_icons=true&theme=transparent&role=OWNER,COLLABORATOR,ORGANIZATION_MEMBER)
 
@@ -17,3 +59,4 @@ format: html
 | [FIT](https://nmfs-ost.github.io/noaa-fit/) | ![fit-stars](https://img.shields.io/github/stars/nmfs-ost/noaa-fit-resources?style=social) | ![fit-status](https://lifecycle.r-lib.org/articles/figures/lifecycle-stable.svg) | Fisheries Integrated Toolbox |
 | [journals](https://github.com/nmfs-ost/journals) | ![journals-stars](https://img.shields.io/github/stars/nmfs-ost/journals?style=social) | [![journals-status-link](https://lifecycle.r-lib.org/articles/figures/lifecycle-experimental.svg)](https://lifecycle.r-lib.org/articles/figures/lifecycle-experimental.svg) | Bibliography files for journals of interest to fisheries |
 | [nmfspalette](https://github.com/nmfs-ost/nmfspalette) | ![nmfspalette-stars](https://img.shields.io/github/stars/nmfs-ost/nmfspalette?style=social) | ![nmfspalette-status](https://github.com/nmfs-ost/nmfspalette/actions/workflows/call-r-cmd-check.yml/badge.svg) | R Color palette for NOAA Fisheries official colors |
+
