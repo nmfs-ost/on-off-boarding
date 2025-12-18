@@ -2,7 +2,6 @@
 title: "Getting Started"
 format:
   html:
-    mermaid: {}
 listing:
   - id: people
     type: grid
@@ -11,11 +10,11 @@ listing:
     filter-ui: false
     fields: [title, description]
     contents:
-        - path: st4-people.qmd
-          title: 👥 ST4 People
-          description: >
-            A list of ST4 branches, team members, and which projects 
-            team members are involved in.
+      - path: st4-people.qmd
+        title: 👥 ST4 People
+        description: >
+          A list of ST4 branches, team members, and which projects
+          team members are involved in.
 ---
 
 # Onboarding
@@ -39,7 +38,7 @@ flowchart TD;
     style A fill:transparent;
     style A0 fill:#BBDEFB;
     style A1 fill:#C8E6C9;
-    style PL fille:#F54927,fill:#E1BEE7,color:none;
+    style PL fill:#F54927,fill:#E1BEE7,color:none;
     style B fill:#BBDEFB;
     style G fill:#C8E6C9;
     style C fill:#BBDEFB;
