@@ -17,7 +17,7 @@ $gray-800: $slate-20;
 $gray-900: $slate-10;
 $black:    $slate-00;
 
-$blue:    $blue-30;
+$blue:    #003087 ;
 $indigo:  #E574BC !default;
 $purple:  $purple-30;
 $pink:    $pink-40;
@@ -26,10 +26,10 @@ $orange:  $orange-30;
 $yellow:  $orange-70;
 $green:   $green-50;
 $teal:    $blue-50;
-$cyan:    $blue-70;
+$cyan:    #0085CA;
 
-$primary:       $blue !default;
-$secondary:     $blue-50 !default;
+$primary:       #003087 !default;
+$secondary:     #0085CA !default;
 $success:       $green !default;
 $info:          $cyan !default;
 $warning:       $yellow !default;
@@ -43,7 +43,7 @@ $navbar-bg: $white;
 $code-color: $purple-30;
 $code-bg: $white;
 $footer-bg: $white;
-$heading-color: $blue-20;
+$heading-color: #003087;
 $title-banner-color: $heading-color;
 
 // Bootstrap fixups

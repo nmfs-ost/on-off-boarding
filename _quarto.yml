@@ -10,6 +10,7 @@ project:
 website:
   favicon: assets/noaa-logo.png
   title: "NOAA Fisheries OST On & Offboarding"
+  logo: assets/noaa_fisheries_logo.png
   # site-url: https://noaa-fims.github.io
   repo-url: https://github.com/nmfs-ost/on-off-boarding
   open-graph: true
