@@ -12,12 +12,12 @@ listing:
     fields: [title, description]
     contents:
       - path: st4-people.qmd#national-stock-assessment-program-nsap
-        title: NSAP
+        title: 🎏 NSAP
         description: >
           A list of NSAP team members and projects
           they are involved in.
       - path: st4-people.qmd#monitoring-branch
-        title: Monitoring
+        title: 🎣 Monitoring
         description: > 
           A list of the Monitoring team members and 
           projects they are involved in.
