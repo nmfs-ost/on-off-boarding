@@ -1,4 +1,7 @@
 ---
+format:
+  html:
+    toc: true
 pagetitle: "NOAA Fisheries OST Onboarding and Offboarding"
 page-layout: full
 title-block-banner: false
