@@ -7,7 +7,9 @@ format: html
 
 ## Director
 
-<a href="https://github.com/Melissa-Karp"><img src="https://avatars.githubusercontent.com/u/61592412?v=4" width="100px;" alt=""/><br>
+<a href="https://github.com/Melissa-Karp"><img src="https://avatars.githubusercontent.com/u/61592412?v=4" width="100px;" alt=""/>
+</a>
+<br>
 Melissa Karp
 
 ## Projects
@@ -15,7 +17,9 @@ Melissa Karp
 ### FIMS
 **Project Contact**
 
-<a href="https://github.com/kellijohnson-NOAA"><img src="https://avatars.githubusercontent.com/u/4108564?v=4" width="100px;" alt=""/><br>
+<a href="https://github.com/kellijohnson-NOAA"><img src="https://avatars.githubusercontent.com/u/4108564?v=4" width="100px;" alt=""/>
+</a>
+<br>
 Kelli Johnson
 
 ---
@@ -26,41 +30,56 @@ Kelli Johnson
 
 **Project Contact**
 
-<a href="https://github.com/Schiano-NOAA"><img src="https://avatars.githubusercontent.com/u/125507018?u=b6dab08f04000188734eb3bbf78a40616e99b921&v=4" width="100px;" alt=""/><br>
+<a href="https://github.com/Schiano-NOAA"><img src="https://avatars.githubusercontent.com/u/125507018?u=b6dab08f04000188734eb3bbf78a40616e99b921&v=4" width="100px;" alt=""/>
+</a>
+<br>
 Sam Schiano
 
 ---
 
-<a href="https://github.com/sbreitbart-NOAA"><img src="https://avatars.githubusercontent.com/u/181890943?v=4" width="100px;" alt=""/><br>
+<a href="https://github.com/sbreitbart-NOAA"><img src="https://avatars.githubusercontent.com/u/181890943?v=4" width="100px;" alt=""/></a>
+<br>
 Sophie Brietbart
 
 ### DisMap
 
 **Project Contact**
 
-<a href="https://github.com/Melissa-Karp"><img src="https://avatars.githubusercontent.com/u/61592412?v=4" width="100px;" alt=""/><br>
+<a href="https://github.com/Melissa-Karp"><img src="https://avatars.githubusercontent.com/u/61592412?v=4" width="100px;" alt=""/>
+</a>
+<br>
 Melissa Karp
 
 ### SIS
 
 **Project Contact**
 
-<a href="https://github.com/orgs/nmfs-ost/teams/nsap"><img src="https://avatars.githubusercontent.com/t/9092421?s=116&v=4" width="100px;" alt=""/><br>
+<a href="https://github.com/orgs/nmfs-ost/teams/nsap"><img src="https://avatars.githubusercontent.com/t/9092421?s=116&v=4" width="100px;" alt=""/>
+</a>
+<br>
 Jeff Vieser
 
 ### FIT
 
 **Project Contact**
 
-<a href="https://github.com/k-doering-NOAA"><img src="https://avatars.githubusercontent.com/u/48930335?v=4" width="100px;" alt=""/><br>
+<a href="https://github.com/k-doering-NOAA">
+  <img src="https://avatars.githubusercontent.com/u/48930335?v=4" width="100px;" alt=""/>
+</a>
+<br>
 Kathryn Doering
+
 
 ### SS3
 
 **Project Contact**
 
-<a href="https://github.com/e-perl-NOAA"><img src="https://avatars.githubusercontent.com/u/118312785?v=4" width="100px;" alt=""/><br>
+<a href="https://github.com/e-perl-NOAA"><img src="https://avatars.githubusercontent.com/u/118312785?v=4" width="100px;" alt=""/>
+</a>
+<br>
 Elizabeth Perl
+
+<br>
 
 ### Other team members
 <table><tr><td align="center" valign="top" style="padding:12px"><td align="center" valign="top" style="padding:12px"><a href="https://github.com/JoelRice-NOAA"><img src="https://avatars.githubusercontent.com/u/225041363?v=4" width="100" alt="JoelRice-NOAA" style="border-radius:8px"/><br/><sub>Joel Rice</sub></a></td><td align="center" valign="top" style="padding:12px"><a href="https://github.com/AndreaChan-NOAA"><img src="https://avatars.githubusercontent.com/u/85881950?v=4" width="100" alt="AndreaChan-NOAA" style="border-radius:8px"/><br/><sub>Andrea Chan</sub></a></td><td align="center" valign="top" style="padding:12px"><a href="https://github.com/orgs/nmfs-ost/teams/nsap"><img src="https://avatars.githubusercontent.com/t/9092421?s=116&v=4" width="100" alt="Abigail Furnish" style="border-radius:8px"/><br/><sub>Abigail Furnish</sub></a></td></tr></table><br>
