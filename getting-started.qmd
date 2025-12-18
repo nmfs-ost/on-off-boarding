@@ -18,7 +18,7 @@ listing:
 
 # Onboarding
 
-```mermaid
+```{mermaid}
 flowchart TD;
     A(["Navigate to Issues"]) --- A0(("Branch Director")) & A1(("New Employee")) & PL(("Project Lead"));
     A0 --> B(["Create a new Issue using 'Onboard Team Member' issue type"]);

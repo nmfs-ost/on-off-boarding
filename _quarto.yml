@@ -17,6 +17,8 @@ website:
     right:
       - text: home
         href: index.qmd
+      - text: getting started
+        href: getting-started.qmd
       - text: projects & software
         href: getting-started.qmd#projects-and-software
       - text: st4 community
