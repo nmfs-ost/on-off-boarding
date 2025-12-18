@@ -15,12 +15,20 @@ website:
   open-graph: true
   navbar:
     right:
-      - text: home
+      - text: about
         href: index.qmd
       - text: getting started
         href: getting-started.qmd
-      - text: projects & software
-        href: getting-started.qmd#projects-and-software
+      - text: resources
+        menu:
+          - text: projects
+            href: getting-started.qmd#projects
+          - text: software
+            href: getting-started.qmd#software-and-tools
+          - text: ai resources
+            href: getting-started.qmd#ai-resources-at-noaa-fisheries
+          - text: cloud resources
+            href: getting-started.qmd#cloud-resources-at-noaa-fisheries
       - text: st4 community
         menu:
           - text: nsap

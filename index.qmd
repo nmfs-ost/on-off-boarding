@@ -22,7 +22,7 @@ listing:
           description: >
             A list of ST4 projects and software with their status.
         - path: st4-people.qmd
-          title: 👥 ST4 People
+          title: 👥 Community
           description: >
             A list of ST4 branches, team members, and which projects team members are involved in.
 ---

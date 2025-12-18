@@ -11,11 +11,16 @@ listing:
     filter-ui: false
     fields: [title, description]
     contents:
-      - path: st4-people.qmd
-        title: 👥 ST4 People
+      - path: st4-people.qmd#national-stock-assessment-program-nsap
+        title: NSAP
         description: >
-          A list of ST4 branches, team members, and which projects
-          team members are involved in.
+          A list of NSAP team members and projects
+          they are involved in.
+      - path: st4-people.qmd#monitoring-branch
+        title: Monitoring
+        description: > 
+          A list of the Monitoring team members and 
+          projects they are involved in.
 ---
 
 # Onboarding
@@ -52,6 +57,7 @@ flowchart TD;
     click G "/getting-started.qmd";
 ```
 
+# 👥 Community
 ::: {#people}
 :::
 
@@ -101,4 +107,4 @@ AI tools are currently under pilot use and only some users
 have access to GitHub copilot.
 :::
 
-## ☁️ Cloud Computing Resources at NOAA Fisheries
+## ☁️ Cloud Resources at NOAA Fisheries
