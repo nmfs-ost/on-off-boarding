@@ -10,11 +10,11 @@ listing:
     filter-ui: false
     fields: [title, description]
     contents:
-        - path: getting-started.qmd#-onboarding
+        - path: getting-started.qmd#onboarding
           title: 🆕 Onboarding
           description: >
             How to join or add someone to one of the ST4 projects listed above.
-        - path: getting-started.qmd#-projects-and-software
+        - path: getting-started.qmd#projects-and-software
           title: 💻 Projects and Software
           description: >
             A list of ST4 projects and software with their status.
