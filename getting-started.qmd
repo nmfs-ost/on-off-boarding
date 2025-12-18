@@ -57,7 +57,7 @@ flowchart TD;
 
 # Projects and Software
 
-## Projects
+## 🗂️ Projects
 ::: {.callout-note}
 Only projects that are associated with a GitHub repository are 
 listed in the table below. There is an additional [list of projects](index.qmd#st4-projects-overview) 
@@ -101,4 +101,4 @@ AI tools are currently under pilot use and only some users
 have access to GitHub copilot.
 :::
 
-## Cloud Computing Resources at NOAA Fisheries
+## ☁️ Cloud Computing Resources at NOAA Fisheries
