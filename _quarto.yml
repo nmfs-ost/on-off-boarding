@@ -13,6 +13,7 @@ website:
   # site-url: https://noaa-fims.github.io
   repo-url: https://github.com/nmfs-ost/on-off-boarding
   open-graph: true
+  sidebar: true
   navbar:
     right:
       - text: home
