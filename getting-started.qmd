@@ -1,7 +1,6 @@
 ---
 title: "Getting Started"
-format:
-  html:
+format: html
 listing:
   - id: people
     type: grid
