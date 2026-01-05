@@ -1,0 +1,137 @@
+---
+title: "Getting Started"
+format:
+  html:
+    toc: true
+listing:
+  - id: people
+    type: grid
+    categories: false
+    sort-ui: false
+    filter-ui: false
+    fields: [title, description]
+    contents:
+      - path: st4-people.qmd#national-stock-assessment-program-nsap
+        title: 🎏 NSAP
+        description: >
+          A list of NSAP team members and projects
+          they are involved in.
+      - path: st4-people.qmd#monitoring-branch
+        title: 🎣 Monitoring
+        description: > 
+          A list of the Monitoring team members and 
+          projects they are involved in.
+---
+
+# Onboarding
+
+```{mermaid}
+flowchart TD;
+    A(["Navigate to Issues"]) --- A0(("Branch Director")) & A1(("New Employee")) & PL(("Project Lead"));
+    A0 --> B(["Create a new Issue using 'Onboard Team Member' issue type"]);
+    A1 ----> G["Read through Getting Started Instructions"];
+    B --> C(["Follow instructions in the Issue"]);
+    C --> E["Assign Issue to Onboardee"];
+    PL --> D["Add project specific command (e.g., comment /onboard-FIMS)"];
+    G --> new("Navigate to your Onboarding Issue and complete onboarding tasks or comment on the issue to get help when you reach roadblocks");
+    new --> F["Close Issue after tasks are completed"];
+    E ---> H["Direct employee to this README"];
+
+    E@{ shape: lin-rect};
+    D@{ shape: lin-rect};
+    F@{ shape: dbl-circ};
+    H@{ shape: div-rect};
+    style A fill:transparent;
+    style A0 fill:#BBDEFB;
+    style A1 fill:#C8E6C9;
+    style PL fill:#F54927,fill:#E1BEE7,color:none;
+    style B fill:#BBDEFB;
+    style G fill:#C8E6C9;
+    style C fill:#BBDEFB;
+    style E fill:#FFE0B2;
+    style D fill:#E1BEE7;
+    style new fill:#C8E6C9;
+    style F fill:#D50000;
+    style H fill:#FFCDD2;
+    click A "https://github.com/nmfs-ost/on-off-boarding/issues";
+    click G "/getting-started.qmd";
+```
+
+# Offboarding
+
+```{mermaid}
+flowchart TD;
+    A(["Navigate to Issues"]) --- A0(("Branch Director")) & A1(("Employee"));
+    A0 --> B(["Execute command for offboarding from team and project."]);
+    A1 ----> G["Read through offboarding task list"];
+    B --> E["Reassign Issue to offboardee"];
+    G --> F["Check off each task after they are completed"];
+    E --> H["Once employee is offboarded, close out their profile."]
+
+    E@{ shape: lin-rect};
+    D@{ shape: lin-rect};
+    F@{ shape: dbl-circ};
+    H@{ shape: div-rect};
+    style A fill:transparent;
+    style A0 fill:#BBDEFB;
+    style A1 fill:#C8E6C9;
+    style B fill:#BBDEFB;
+    style G fill:#C8E6C9;
+    style E fill:#FFE0B2;
+    style F fill:#D50000;
+    style H fill:#FFCDD2;
+    click A "https://github.com/nmfs-ost/on-off-boarding/issues";
+```
+
+
+# 👥 Community
+::: {#people}
+:::
+
+# Projects and Software
+
+## 🗂️ Projects
+::: {.callout-note}
+Only projects that are associated with a GitHub repository are 
+listed in the table below. There is an additional [list of projects](index.qmd#st4-projects-overview) 
+on the home page which includes projects that don't have associated 
+GitHub repositories.
+:::
+
+![GitHub stats](https://github-readme-stats.vercel.app/api?username=nmfs-ost&show_icons=true&theme=transparent&role=OWNER,COLLABORATOR,ORGANIZATION_MEMBER)
+
+| Project | Stars | Status | Description |
+|---------|-------|--------|-------------|
+| [FIMS](https://github.com/noaa-fims/fims/) | ![fims-stars](https://img.shields.io/github/stars/noaa-fims/fims?style=social) | [![fims-status](https://noaa-fims.r-universe.dev/badges/FIMS)](https://noaa-fims.r-universe.dev/FIMS) | Fisheries Integrated Modelling System |
+| [asar](https://github.com/nmfs-ost/asar) | ![asar-stars](https://img.shields.io/github/stars/nmfs-ost/asar?style=social) | [![asar-status](https://camo.githubusercontent.com/ec28d5c98ba24b18acce2adfea29626c528588d2600739498b9918899fb89851/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f6c6966656379636c652d6578706572696d656e74616c2d6f72616e67652e737667)](https://lifecycle.r-lib.org/articles/stages.html#experimental) | Partially Automated Stock Assessment Reporting |
+| [stockplotr](https://github.com/nmfs-ost/stockplotr) | ![stockplotr-stars](https://img.shields.io/github/stars/nmfs-ost/stockplotr?style=social) | [![stockplotr-status](https://camo.githubusercontent.com/ec28d5c98ba24b18acce2adfea29626c528588d2600739498b9918899fb89851/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f6c6966656379636c652d6578706572696d656e74616c2d6f72616e67652e737667)](https://lifecycle.r-lib.org/articles/stages.html#experimental) | Tables and figures for stock assessment documents |
+| [ss3-source-code](https://github.com/nmfs-ost/ss3-source-code) | ![ss3-stars](https://img.shields.io/github/stars/nmfs-ost/ss3-source-code?style=social) | [![ss3-status](https://camo.githubusercontent.com/cb06a0179e842ca184a96ef71ef6bca508b245577b474e301951a79641c71406/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f762f72656c656173652f6e6d66732d6f73742f7373332d736f757263652d636f6465)](https://github.com/nmfs-ost/ss3-source-code/releases/tag/v3.30.23.2) | Stock Synthesis source code |
+| [DisMAP](https://apps-st.fisheries.noaa.gov/dismap/index.html) | ![dismap-stars](https://img.shields.io/github/stars/nmfs-ost/DisMAP?style=social) | ![dismap-status](https://lifecycle.r-lib.org/articles/figures/lifecycle-stable.svg) | Distribution Mapping and Analysis Portal |
+| [FIT](https://nmfs-ost.github.io/noaa-fit/) | ![fit-stars](https://img.shields.io/github/stars/nmfs-ost/noaa-fit-resources?style=social) | ![fit-status](https://lifecycle.r-lib.org/articles/figures/lifecycle-stable.svg) | Fisheries Integrated Toolbox |
+| [journals](https://github.com/nmfs-ost/journals) | ![journals-stars](https://img.shields.io/github/stars/nmfs-ost/journals?style=social) | [![journals-status-link](https://lifecycle.r-lib.org/articles/figures/lifecycle-experimental.svg)](https://lifecycle.r-lib.org/articles/figures/lifecycle-experimental.svg) | Bibliography files for journals of interest to fisheries |
+| [nmfspalette](https://github.com/nmfs-ost/nmfspalette) | ![nmfspalette-stars](https://img.shields.io/github/stars/nmfs-ost/nmfspalette?style=social) | ![nmfspalette-status](https://github.com/nmfs-ost/nmfspalette/actions/workflows/call-r-cmd-check.yml/badge.svg) | R Color palette for NOAA Fisheries official colors |
+
+## 💻 Software and Tools 
+
+<p>
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/rstudio/rstudio-original.svg" alt="Rstudio" width="55" height="55"/>
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vscode/vscode-original.svg" alt="vscode" width="55" height="55" />
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg" alt="git" width="55" height="55" />
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original-wordmark.svg" alt="github" width="55" height="55" />
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/googlecloud/googlecloud-plain.svg" alt="google cloud" width="55" height="55"/>
+<img src="assets/FIMS-logo.png" alt="FIMS logo" width="55" height="55"/>
+<img src="assets/asar-hex.png" alt="asar logo" width="55" height="55"/>
+<img src="assets/stockplotr-hex.png" alt="stock plot R logo" width="55" height="55"/>
+</p>
+
+
+## 💬 AI Resources at NOAA Fisheries
+
+![Google Gemini](https://img.shields.io/badge/google%20gemini-8E75B2?style=for-the-badge&logo=google%20gemini&logoColor=white) ![ChatGPT](https://img.shields.io/badge/chatGPT-74aa9c?style=for-the-badge&logo=openai&logoColor=white)
+
+::: {.callout-important}
+AI tools are currently under pilot use and only some users 
+have access to GitHub copilot.
+:::
+
+## ☁️ Cloud Resources at NOAA Fisheries

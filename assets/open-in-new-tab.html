@@ -1,0 +1,12 @@
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+  // Select all anchor tags with href starting with http (external links only)
+  document.querySelectorAll("a[href^='http']").forEach(function(link) {
+    // Ignore links to the current site's domain
+    if (!link.href.includes(window.location.hostname)) {
+      link.setAttribute('target', '_blank');
+      link.setAttribute('rel', 'noopener');
+    }
+  });
+});
+</script>

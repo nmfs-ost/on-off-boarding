@@ -1,0 +1,73 @@
+---
+format:
+  html:
+    toc: true
+pagetitle: "NOAA Fisheries OST Onboarding and Offboarding"
+page-layout: full
+title-block-banner: false
+listing:
+  - id: getting-started
+    type: grid
+    categories: false
+    sort-ui: false
+    filter-ui: false
+    fields: [title, description]
+    contents:
+        - path: getting-started.qmd#onboarding
+          title: 🆕 Onboarding
+          description: >
+            How to join or add someone to one of the ST4 projects listed above.
+        - path: getting-started.qmd#projects-and-software
+          title: 💻 Projects and Software
+          description: >
+            A list of ST4 projects and software with their status.
+        - path: st4-people.qmd
+          title: 👥 Community
+          description: >
+            A list of ST4 branches, team members, and which projects team members are involved in.
+---
+
+This website contains information about onboarding and offboarding employees and collaborators to projects within NOAA Fisheries Office of Science and Technology (OST). Below is the process that a branch director and onboarded/offboarded employee should follow to successfully integrate or leave the agency.
+
+
+## 👋 Welcome
+
+We are happy for you to join onto our team in NOAA! Here at OST, we take on a large breadth of responsibilities. We aim to execute modern and high-quality data collection, management, and open access programs. For more information, please go to our [internal webpage](https://sites.google.com/noaa.gov/inside-fisheries-ost/office-of-science-and-technology) to access resources, organization charts, and more.
+
+### ST4 Projects Overview
+
+:::: {.columns}
+::: {.column width="50%"}
+
+🎏 **National Stock Assessment Program**
+
+---
+
+- Fisheris Integrated Modeling System (FIMS)
+- Stock Assessment Workflows (asar, stockplotr)
+- Fisheries Integrated Toolbox (FIT)
+- DisMAP
+- Stock Information System (SIS)
+- Stock Synthesis 3 (SS3)
+- Ecosystem and Socioeconomic Indicators
+- Human Dimension in Stock Assessments
+
+:::
+
+::: {.column width="50%"}
+
+🎣 **Monitoring**
+
+---
+
+- National Survey Program
+- National Fishery Observer Program
+- Bycatch Monitoring
+- Cooperative Research
+
+:::
+::::
+
+### How to Get Started
+::: {#getting-started}
+:::
