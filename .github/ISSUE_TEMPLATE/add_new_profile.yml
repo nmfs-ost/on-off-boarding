@@ -92,9 +92,9 @@ body:
       description: Do not modify. These are instructions for using this issue to track progress.
       value: |            
         :bulb: **Tips**
-        - After this issue is created, onboarding or offboarding checklists may be added. Please mark items as complete as you progress.
+        - After this issue is created, onboarding or offboarding checklists may be added for both the Onboardee/Offboardee and Project Leads. Please mark items as complete as you progress.
         - You can edit this issue to add more details about your progress by clicking the "..." button in the top-right corner of the issue. 
-        - If you have any questions or encounter any problems, please feel free to comment on this issue. 
+        - If you have any questions or encounter any problems, please feel free to comment on this issue, reach out to the various Project Leads or Directors, or open a new issue if you want to chat about anything.
 
         :tada: :tada: :tada: Thank you for your cooperation and welcome aboard!
     validations:

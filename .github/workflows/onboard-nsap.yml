@@ -16,11 +16,9 @@ jobs:
           repository: ${{ github.event.client_payload.github.payload.repository.full_name }}
           issue-number: ${{ github.event.client_payload.github.payload.issue.number }}
           body: |
-            Welcome :wave: the [README](https://github.com/nmfs-ost/on-off-boarding) describes the onboarding process for new members of the National Stock Assessment Program (NSAP). Below are the checklist items that will drive the onboarding process.
+            Welcome :wave: to the National Stock Assessment Program (NSAP).
 
-            ## Onboarding Task Checklist
-
-            ## Assignee: Assessment Branch Director (Acting) @Melissa-Karp
+            ## Assessment Branch Director (Acting) @Melissa-Karp
             ### First Day
             - [ ] Schedule first-day welcome meeting to review the onboarding process to the NSAP.
     
@@ -38,7 +36,7 @@ jobs:
             Please report if you encounter any problems and leave a comment on this onboarding issue. 
             </details>
             
-            ## Assignee: Onboardee
+            ## Onboardee
             ### Desired completion: First week
             - [ ] Write a short bio and send it to [Assessment Branch Director](mailto:melissa.karp@noaa.gov) so it can be included in a welcome email to members of OST and add your bio to the [NSAP bios document ](https://docs.google.com/document/d/1_E8D4-m8F3FLYzGrYeZXm2NBDpMeroXb1miQxYf1wgo/edit?tab=t.0).
             - [ ] Contact [IT](mailto:christopher.bradley@example.com) and cc the [service desk](mailto:nmfs.servicedesk@noaa.gov) to set up your workstation. 
@@ -86,11 +84,5 @@ jobs:
             - [ ] [National Fish Assessment Chat Space](https://chat.google.com/room/AAAAZ8BL_qA?cls=7): Inquiries, announcements, and discussions among stock assessment scientists.
             - [ ] [ECS Comms](https://chat.google.com/room/AAAANDzN_GU?cls=7): Chat space for ECS contractors at NSAP to ask questions and have discussions. 
             </details>
-                
-            :bulb: **Tips**
-            - Please mark the checklist items as complete as you progress through the onboarding process. 
-            - You can edit this issue to add more details about your progress by clicking the "..." button in the top-right corner of the issue. 
-            - If you have any questions or encounter any problems, please feel free to comment on this issue. 
-            - Please close this issue once all tasks are completed.
-    
+
             :tada: :tada: :tada: Thank you for your cooperation and welcome aboard!

@@ -17,8 +17,7 @@ jobs:
           issue-number: ${{ github.event.client_payload.github.payload.issue.number }}
           body: |
             Welcome :wave: to the Stock Assessment Workflows Team!
-            Below you will find a list of onboarding tasks for both the onboardee and for the Project Lead.
-            Please mark off tasks once they are accomplished to ease the communication chain and decrease duplication. Feel free reach out on the [asar Discussion Board]( https://github.com/nmfs-ost/asar/discussions) if you want to chat about anything.
+            Feel free reach out on the [asar Discussion Board]( https://github.com/nmfs-ost/asar/discussions) if you want to chat about anything.
 
             ## Onboardee
               - [ ] Discuss/establish with project lead the Github collaboration workflow and norms (e.g., when to make a PR vs. directly change a branch, reviewer requests, code review expectations...)

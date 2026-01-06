@@ -16,9 +16,7 @@ jobs:
           repository: ${{ github.event.client_payload.github.payload.repository.full_name }}
           issue-number: ${{ github.event.client_payload.github.payload.issue.number }}
           body: |
-            Welcome :wave: to the [FIT Team](https://nmfs-ost.github.io/noaa-fit/), below you will find a list of onboarding tasks for both the onboardee and for the Project Lead.
-            Please mark off tasks once they are accomplished to ease the communication chain and decrease duplication. 
-            Feel free reach out on the project lead, leave a comment on this issue, or open a new issue if you want to chat about anything.
+            Welcome :wave: to the [FIT Team](https://nmfs-ost.github.io/noaa-fit/).
 
             ## Onboardee
               - [ ] Request access to [the nmfs-ost organization on GitHub Enterprise Cloud](https://sites.google.com/noaa.gov/nmfs-st-github-governance-team/github-users#h.le8f02tylt40)
