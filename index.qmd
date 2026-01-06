@@ -27,7 +27,10 @@ listing:
             A list of ST4 branches, team members, and which projects team members are involved in.
 ---
 
-This website contains information about onboarding and offboarding employees and collaborators to projects within NOAA Fisheries Office of Science and Technology (OST). Below is the process that a branch director and onboarded/offboarded employee should follow to successfully integrate or leave the agency.
+This website contains information about onboarding and offboarding employees and collaborators to projects within NOAA Fisheries Office of Science and Technology (OST). Below is some information about
+* our teams,
+* projects that we work on, and 
+* the process that a branch director and onboarded/offboarded employee should follow to successfully integrate or leave the agency.
 
 
 ## 👋 Welcome
@@ -43,12 +46,12 @@ We are happy for you to join onto our team in NOAA! Here at OST, we take on a la
 
 ---
 
-- Fisheris Integrated Modeling System (FIMS)
-- Stock Assessment Workflows (asar, stockplotr)
-- Fisheries Integrated Toolbox (FIT)
-- DisMAP
-- Stock Information System (SIS)
-- Stock Synthesis 3 (SS3)
+- [Fisheries Integrated Modeling System (FIMS)](https://noaa-fims.github.io/)
+- Stock Assessment Workflows ([asar](https://nmfs-ost.github.io/asar/), [stockplotr](https://nmfs-ost.github.io/stockplotr/))
+- [Fisheries Integrated Toolbox (FIT)](https://nmfs-ost.github.io/noaa-fit/)
+- [Distribution Mapping and Analysis Portal (DisMAP)](https://apps-st.fisheries.noaa.gov/dismap/)
+- [Stock Information System (SIS)](https://www.fisheries.noaa.gov/resource/data/species-information-system)
+- [Stock Synthesis 3 (SS3)](https://nmfs-ost.github.io/ss3-website/)
 - Ecosystem and Socioeconomic Indicators
 - Human Dimension in Stock Assessments
 

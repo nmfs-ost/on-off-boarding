@@ -2,23 +2,15 @@
 
 # NOAA Fisheries OST Onboarding and Offboarding <img src="assets/noaa-logo.png" align="right" height="150" style="float:right; height:150px;" />
 
-This repository stores information about onboarding and offboarding collaborators 
-to projects within NOAA Fisheries Office of Science and Technology (OST). This 
-README describes the process that a branch director and onboarded/offboarded 
-employee should follow to successfully integrate or leave the agency.
+This repository stores information about onboarding and offboarding collaborators to projects within NOAA Fisheries Office of Science and Technology (OST). The website offers guidance and describes the process that a branch director and onboarded/offboarded employee should follow to successfully integrate or leave the agency. See the [getting started guide](https://nmfs-ost.github.io/on-off-boarding/getting-started.html).
 
-Each employee should  have a "profile" located under the issues page. There you 
-will find onboarding or offboarding tasks and other relevant information to understand who is currently in the organization.
+Each employee should  have a "[profile](https://github.com/nmfs-ost/on-off-boarding/issues?q=is%3Aissue%20state%3Aopen%20label%3Aprofile)" located under the issues page. There you will find onboarding or offboarding tasks and other relevant information to understand who is currently in the organization.
 
 ## 👋 Welcome
 
 We are happy for you to join onto our team in NOAA! Here at OST, we take on a large breadth of responsibilities. We aim to execute modern and high-quality data collection, management, and open access programs. For more information, please go to our [internal webpage](https://sites.google.com/noaa.gov/inside-fisheries-ost/office-of-science-and-technology) to access resources, organization charts, and more.
 
-Below is a table of some of our projects that we work on. See the next section on [Getting Started](#-getting-started) for how to join or add someone to one of these projects.
-
-<!---
-![GitHub stats](https://github-readme-stats.vercel.app/api?username=nmfs-ost&show_icons=true&theme=transparent&role=OWNER,COLLABORATOR,ORGANIZATION_MEMBER)
---->
+Below is a table of some of our projects that we work on. See the site on [Getting Started]([#-getting-started](https://nmfs-ost.github.io/on-off-boarding/getting-started.html)) for how to join or add someone to one of these projects.
 
 | Project     | Stars                           | Status                              | Description                                             |
 | ----------- | ----------- | ----------------------------------- | ------------------------------------------------------- |
@@ -32,8 +24,8 @@ Below is a table of some of our projects that we work on. See the next section o
 | [nmfspalette] | ![nmfspalette-stars] | ![nmfspalette-status] | R Color palette for NOAA Fisheries official colors |
 
 [FIMS]: https://github.com/noaa-fims/fims/
-[fims-status]: https://noaa-fims.r-universe.dev/badges/FIMS
-[fims-status-link]: https://noaa-fims.r-universe.dev/FIMS
+[fims-status]: https://noaa-fisheries-integrated-toolbox.r-universe.dev/badges/FIMS
+[fims-status-link]: https://noaa-fisheries-integrated-toolbox.r-universe.dev/FIMS
 [asar]: https://github.com/nmfs-ost/asar
 [asar-status]: https://camo.githubusercontent.com/ec28d5c98ba24b18acce2adfea29626c528588d2600739498b9918899fb89851/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f6c6966656379636c652d6578706572696d656e74616c2d6f72616e67652e737667
 [asar-status-link]: https://lifecycle.r-lib.org/articles/stages.html#experimental
@@ -62,77 +54,6 @@ Below is a table of some of our projects that we work on. See the next section o
 [journals-stars]: https://img.shields.io/github/stars/nmfs-ost/journals?style=social
 [nmfspalette-stars]: https://img.shields.io/github/stars/nmfs-ost/nmfspalette?style=social
 
-## 👉 Getting Started
-
-### Onboarding
-
-```mermaid
----
-config:
-  theme: default
----
-
-flowchart TD;
-    A(["Navigate to Issues"]) --- A0(("Branch Director")) & A1(("New Employee")) & PL(("Project Lead"));
-    A0 --> B(["Create a new Issue using 'Add new profile' issue type"]);
-    A1 ----> G["Read through README"];
-    B --> C(["Follow instructions in the Issue"]);
-    C --> E["Assign Issue to Onboardee/Team Member"];
-    PL --> D["Add project specific command (e.g., comment /onboard-FIMS)"];
-    G --> new("Navigate to your profile and complete onboarding tasks or comment on the issue to get help when you reach roadblocks");
-    new --> F["Keep your profile open! It will only be closed upon exit with the agency."];
-    E ---> H["Direct employee to this README"];
-
-    E@{ shape: lin-rect};
-    D@{ shape: lin-rect};
-    F@{ shape: dbl-circ};
-    H@{ shape: div-rect};
-    style A fill:transparent;
-    style A0 fill:#BBDEFB;
-    style A1 fill:#C8E6C9;
-    style PL fille:#F54927,fill:#E1BEE7,color:none;
-    style B fill:#BBDEFB;
-    style G fill:#C8E6C9;
-    style C fill:#BBDEFB;
-    style E fill:#FFE0B2;
-    style D fill:#E1BEE7;
-    style new fill:#C8E6C9;
-    style F fill:#D50000;
-    style H fill:#FFCDD2;
-    click A "https://github.com/nmfs-ost/on-off-boarding/issues";
-```
-
-### Offboarding
-
-```mermaid
----
-config:
-  theme: default
----
-
-flowchart TD;
-    A(["Navigate to Issues"]) --- A0(("Branch Director")) & A1(("Employee"));
-    A0 --> B(["Execute command for offboarding from team and project."]);
-    A1 ----> G["Read through offboarding task list"];
-    B --> E["Reassign Issue to offboardee"];
-    G --> F["Check off each task after they are completed"];
-    E --> H["Once employee is offboarded, close out their profile."]
-
-    E@{ shape: lin-rect};
-    D@{ shape: lin-rect};
-    F@{ shape: dbl-circ};
-    H@{ shape: div-rect};
-    style A fill:transparent;
-    style A0 fill:#BBDEFB;
-    style A1 fill:#C8E6C9;
-    style B fill:#BBDEFB;
-    style G fill:#C8E6C9;
-    style E fill:#FFE0B2;
-    style F fill:#D50000;
-    style H fill:#FFCDD2;
-    click A "https://github.com/nmfs-ost/on-off-boarding/issues";
-```
-
 ## 📣 Project Contacts
 
 ### 🎏 National Stock Assessment Program (NSAP)
@@ -146,22 +67,3 @@ flowchart TD;
 
 ### 🐟 Other OST Divisions
           
-## 💻 Software and Tools 
-
-<p>
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/rstudio/rstudio-original.svg" alt="Rstudio" width="55" height="55"/>
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vscode/vscode-original.svg" alt="vscode" width="55" height="55" />
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg" alt="git" width="55" height="55" />
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original-wordmark.svg" alt="github" width="55" height="55" />
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/googlecloud/googlecloud-plain.svg" alt="google cloud" width="55" height="55"/>
-<img src="assets/FIMS-logo.png" alt="FIMS logo" width="55" height="55"/>
-<img src="assets/asar-hex.png" alt="asar logo" width="55" height="55"/>
-<img src="assets/stockplotr-hex.png" alt="stock plot R logo" width="55" height="55"/>
-</p>
-
-## 💬 AI Resources at NOAA Fisheries
-
-![Google Gemini](https://img.shields.io/badge/google%20gemini-8E75B2?style=for-the-badge&logo=google%20gemini&logoColor=white) ![ChatGPT](https://img.shields.io/badge/chatGPT-74aa9c?style=for-the-badge&logo=openai&logoColor=white)
-	
-> [!IMPORTANT]
-> AI tools are currently under pilot use and only some users have access to GitHub copilot
