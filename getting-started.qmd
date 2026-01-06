@@ -23,6 +23,8 @@ listing:
           projects they are involved in.
 ---
 
+We use GitHub Issues to both onboard and offboard employees to OST and projects within OST. [Employee profiles](https://github.com/nmfs-ost/on-off-boarding/issues?q=is%3Aissue%20state%3Aopen%20label%3Aprofile) are tracked using GitHub Issues, and new profiles can be added by navigating to the [Profile Template](https://github.com/nmfs-ost/on-off-boarding/issues/new?template=add_new_profile.yml). Follow the instructions below to navigate creating a new profile and onboarding and offboarding employees to different divisions and projects.
+
 # Onboarding
 
 ```{mermaid}
@@ -57,6 +59,12 @@ flowchart TD;
     click A0 "https://github.com/nmfs-ost/on-off-boarding/issues/new?template=add_new_profile.yml";
     click G "/getting-started.qmd";
 ```
+
+## Slash commands
+
+Once a profile is created, an onboardee can be onboarded to a division or a project through the use of slash commands in Issue comments. When an Issue comment is started with, or only contains, a forward slash followed by "onboard-*", where the star must be replaced with a project name, e.g., "/onboard-sis", a task list will appear in the Issue with instructions and checkboxes for either the Onboardee, Project Lead, or Division Director to complete. These tasks lists are stored in the .github/workflows/ directory as .yml files. All task lists related to onboarding start with onboard and all task lists related to offboarding start with offboard. The filename without the extension reflects the name of the slash command.
+
+If a new slash command is created, the command must have its own .yml file and the command must be listed in .github/workflows/slash-command-dispatch.yml. A big thank you to Peter Evans for creating [slash command dispatch](https://github.com/peter-evans/slash-command-dispatch) and maintaining it for us all to use.
 
 # Offboarding
 
