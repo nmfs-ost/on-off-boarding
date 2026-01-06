@@ -126,6 +126,19 @@ Only projects that are associated with a GitHub repository are listed in the tab
 <img src="assets/stockplotr-hex.png" alt="stock plot R logo" width="55" height="55"/>
 </p>
 
+### IDEs
+
+#### Positron
+
+Instructions for [installing Positron](https://positron.posit.co/install.html) can be found on the [Positron website](https://positron.posit.co), where Positron is the successor of RStudio and is built as an [Electron](https://electronjs.org/) app, the same as [VS Code](https://code.visualstudio.com/).
+
+#### RStudio
+
+Download the latest version of RStudio from [Posit's](https://posit.co) [download page](https://posit.co/downloads/)
+#### Visual Studio Code
+
+[Visual Studio Code (VS Code)](https://code.visualstudio.com/) is an [Electron](https://electronjs.org/) app that is meant to facilitate coding in any language. To download the latest version navigate to their [download page](https://code.visualstudio.com/Download) and follow the instructions specific to your operating system.
+
 ## 💬 AI Resources at NOAA Fisheries
 
 ![Google Gemini](https://img.shields.io/badge/google%20gemini-8E75B2?style=for-the-badge&logo=google%20gemini&logoColor=white) ![ChatGPT](https://img.shields.io/badge/chatGPT-74aa9c?style=for-the-badge&logo=openai&logoColor=white)
