@@ -448,14 +448,14 @@ window.Quarto = {
 <div>
 <pre class="mermaid mermaid-js">flowchart TD;
     A(["Navigate to Issues"]) --- A0(("Branch Director")) &amp; A1(("New Employee")) &amp; PL(("Project Lead"));
-    A0 --&gt; B(["Create a new Issue using 'Onboard Team Member' issue type"]);
+    A0 --&gt; B(["Create a new Issue using 'Add new profile' issue type"]);
     A1 ----&gt; G["Read through Getting Started Instructions"];
     B --&gt; C(["Follow instructions in the Issue"]);
     C --&gt; E["Assign Issue to Onboardee"];
     PL --&gt; D["Add project specific command (e.g., comment /onboard-FIMS)"];
-    G --&gt; new("Navigate to your Onboarding Issue and complete onboarding tasks or comment on the issue to get help when you reach roadblocks");
-    new --&gt; F["Close Issue after tasks are completed"];
-    E ---&gt; H["Direct employee to this README"];
+    G --&gt; new("Navigate to your profile Issue and complete tasks or comment on the issue to get help when you reach roadblocks");
+    new --&gt; F["Complete all assigned tasks"];
+    E ---&gt; H["Direct employee to this site"];
 
     E@{ shape: lin-rect};
     D@{ shape: lin-rect};
@@ -474,6 +474,7 @@ window.Quarto = {
     style F fill:#D50000;
     style H fill:#FFCDD2;
     click A "https://github.com/nmfs-ost/on-off-boarding/issues";
+    click A0 "https://github.com/nmfs-ost/on-off-boarding/issues/new?template=add_new_profile.yml";
     click G "/getting-started.qmd";
 </pre>
 </div>
@@ -491,11 +492,11 @@ window.Quarto = {
 <div>
 <pre class="mermaid mermaid-js">flowchart TD;
     A(["Navigate to Issues"]) --- A0(("Branch Director")) &amp; A1(("Employee"));
-    A0 --&gt; B(["Execute command for offboarding from team and project."]);
+    A0 --&gt; B(["Execute command for offboarding from team and/or project"]);
     A1 ----&gt; G["Read through offboarding task list"];
     B --&gt; E["Reassign Issue to offboardee"];
     G --&gt; F["Check off each task after they are completed"];
-    E --&gt; H["Once employee is offboarded, close out their profile."]
+    E --&gt; H["If employee is leaving ST4 and all offboarding tasks are complete, close out their profile"]
 
     E@{ shape: lin-rect};
     D@{ shape: lin-rect};
@@ -565,14 +566,8 @@ Note
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>Only projects that are associated with a GitHub repository are listed in the table below. There is an additional <a href="./index.html#st4-projects-overview">list of projects</a> on the home page which includes projects that don’t have associated GitHub repositories.</p>
+<p>Only projects that are associated with a GitHub repository are listed in the table below. There is an additional <a href="./index.html#st4-projects-overview">list of projects</a> on the home page which includes projects that do not have associated GitHub repositories.</p>
 </div>
-</div>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="https://github-readme-stats.vercel.app/api?username=nmfs-ost&amp;show_icons=true&amp;theme=transparent&amp;role=OWNER,COLLABORATOR,ORGANIZATION_MEMBER.png" class="img-fluid figure-img"></p>
-<figcaption>GitHub stats</figcaption>
-</figure>
 </div>
 <table class="caption-top table">
 <thead>
@@ -587,25 +582,25 @@ Note
 <tr class="odd">
 <td><a href="https://github.com/noaa-fims/fims/">FIMS</a></td>
 <td><img src="https://img.shields.io/github/stars/noaa-fims/fims?style=social.png" class="img-fluid" alt="fims-stars"></td>
-<td><a href="https://noaa-fims.r-universe.dev/FIMS"><img src="https://noaa-fims.r-universe.dev/badges/FIMS.png" class="img-fluid" alt="fims-status"></a></td>
+<td><img src="https://noaa-fisheries-integrated-toolbox.r-universe.dev/badges/FIMS.png" class="img-fluid" alt="fims-status"></td>
 <td>Fisheries Integrated Modelling System</td>
 </tr>
 <tr class="even">
 <td><a href="https://github.com/nmfs-ost/asar">asar</a></td>
 <td><img src="https://img.shields.io/github/stars/nmfs-ost/asar?style=social.png" class="img-fluid" alt="asar-stars"></td>
-<td><a href="https://lifecycle.r-lib.org/articles/stages.html#experimental"><img src="https://camo.githubusercontent.com/ec28d5c98ba24b18acce2adfea29626c528588d2600739498b9918899fb89851/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f6c6966656379636c652d6578706572696d656e74616c2d6f72616e67652e737667.png" class="img-fluid" alt="asar-status"></a></td>
+<td><img src="https://camo.githubusercontent.com/ec28d5c98ba24b18acce2adfea29626c528588d2600739498b9918899fb89851/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f6c6966656379636c652d6578706572696d656e74616c2d6f72616e67652e737667.png" class="img-fluid" alt="asar-status"></td>
 <td>Partially Automated Stock Assessment Reporting</td>
 </tr>
 <tr class="odd">
 <td><a href="https://github.com/nmfs-ost/stockplotr">stockplotr</a></td>
 <td><img src="https://img.shields.io/github/stars/nmfs-ost/stockplotr?style=social.png" class="img-fluid" alt="stockplotr-stars"></td>
-<td><a href="https://lifecycle.r-lib.org/articles/stages.html#experimental"><img src="https://camo.githubusercontent.com/ec28d5c98ba24b18acce2adfea29626c528588d2600739498b9918899fb89851/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f6c6966656379636c652d6578706572696d656e74616c2d6f72616e67652e737667.png" class="img-fluid" alt="stockplotr-status"></a></td>
+<td><img src="https://camo.githubusercontent.com/ec28d5c98ba24b18acce2adfea29626c528588d2600739498b9918899fb89851/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f6c6966656379636c652d6578706572696d656e74616c2d6f72616e67652e737667.png" class="img-fluid" alt="stockplotr-status"></td>
 <td>Tables and figures for stock assessment documents</td>
 </tr>
 <tr class="even">
 <td><a href="https://github.com/nmfs-ost/ss3-source-code">ss3-source-code</a></td>
 <td><img src="https://img.shields.io/github/stars/nmfs-ost/ss3-source-code?style=social.png" class="img-fluid" alt="ss3-stars"></td>
-<td><a href="https://github.com/nmfs-ost/ss3-source-code/releases/tag/v3.30.23.2"><img src="https://camo.githubusercontent.com/cb06a0179e842ca184a96ef71ef6bca508b245577b474e301951a79641c71406/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f762f72656c656173652f6e6d66732d6f73742f7373332d736f757263652d636f6465.png" class="img-fluid" alt="ss3-status"></a></td>
+<td><img src="https://camo.githubusercontent.com/cb06a0179e842ca184a96ef71ef6bca508b245577b474e301951a79641c71406/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f762f72656c656173652f6e6d66732d6f73742f7373332d736f757263652d636f6465.png" class="img-fluid" alt="ss3-status"></td>
 <td>Stock Synthesis source code</td>
 </tr>
 <tr class="odd">
