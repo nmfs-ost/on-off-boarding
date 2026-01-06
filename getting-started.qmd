@@ -66,11 +66,10 @@ flowchart TD;
     A0 --> B(["Execute command for offboarding from team and/or project"]);
     A1 ----> G["Read through offboarding task list"];
     B --> E["Reassign Issue to offboardee"];
-    G --> F["Check off each task after they are completed"];
+    G --> F["Check off each task after it is completed"];
     E --> H["If employee is leaving ST4 and all offboarding tasks are complete, close out their profile"]
 
     E@{ shape: lin-rect};
-    D@{ shape: lin-rect};
     F@{ shape: dbl-circ};
     H@{ shape: div-rect};
     style A fill:transparent;
