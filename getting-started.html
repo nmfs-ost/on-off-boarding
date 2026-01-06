@@ -147,6 +147,7 @@ window.Quarto = {
 
 <link rel="stylesheet" href="assets/panelset-extras.css">
 <meta property="og:title" content="Getting Started – OST On &amp; Offboarding">
+<meta property="og:description" content="">
 <meta property="og:image" content="assets/FIMS-logo.png">
 <meta property="og:site_name" content="OST On &amp; Offboarding">
 <meta property="og:image:alt" content="FIMS logo">
@@ -403,13 +404,19 @@ window.Quarto = {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#onboarding" id="toc-onboarding" class="nav-link active" data-scroll-target="#onboarding">Onboarding</a></li>
+  <li><a href="#onboarding" id="toc-onboarding" class="nav-link active" data-scroll-target="#onboarding">Onboarding</a>
+  <ul class="collapse">
+  <li><a href="#slash-commands" id="toc-slash-commands" class="nav-link" data-scroll-target="#slash-commands">Slash commands</a></li>
+  </ul></li>
   <li><a href="#offboarding" id="toc-offboarding" class="nav-link" data-scroll-target="#offboarding">Offboarding</a></li>
   <li><a href="#community" id="toc-community" class="nav-link" data-scroll-target="#community">👥 Community</a></li>
   <li><a href="#projects-and-software" id="toc-projects-and-software" class="nav-link" data-scroll-target="#projects-and-software">Projects and Software</a>
   <ul class="collapse">
   <li><a href="#projects" id="toc-projects" class="nav-link" data-scroll-target="#projects">🗂️ Projects</a></li>
-  <li><a href="#software-and-tools" id="toc-software-and-tools" class="nav-link" data-scroll-target="#software-and-tools">💻 Software and Tools</a></li>
+  <li><a href="#software-and-tools" id="toc-software-and-tools" class="nav-link" data-scroll-target="#software-and-tools">💻 Software and Tools</a>
+  <ul class="collapse">
+  <li><a href="#ides" id="toc-ides" class="nav-link" data-scroll-target="#ides">IDEs</a></li>
+  </ul></li>
   <li><a href="#ai-resources-at-noaa-fisheries" id="toc-ai-resources-at-noaa-fisheries" class="nav-link" data-scroll-target="#ai-resources-at-noaa-fisheries">💬 AI Resources at NOAA Fisheries</a></li>
   <li><a href="#cloud-resources-at-noaa-fisheries" id="toc-cloud-resources-at-noaa-fisheries" class="nav-link" data-scroll-target="#cloud-resources-at-noaa-fisheries">☁️ Cloud Resources at NOAA Fisheries</a></li>
   </ul></li>
@@ -439,6 +446,7 @@ window.Quarto = {
 </header>
 
 
+<p>We use GitHub Issues to both onboard and offboard employees to OST and projects within OST. <a href="https://github.com/nmfs-ost/on-off-boarding/issues?q=is%3Aissue%20state%3Aopen%20label%3Aprofile">Employee profiles</a> are tracked using GitHub Issues, and new profiles can be added by navigating to the <a href="https://github.com/nmfs-ost/on-off-boarding/issues/new?template=add_new_profile.yml">Profile Template</a>. Follow the instructions below to navigate creating a new profile and onboarding and offboarding employees to different divisions and projects.</p>
 <section id="onboarding" class="level1">
 <h1>Onboarding</h1>
 <div class="cell" data-layout-align="default">
@@ -482,6 +490,11 @@ window.Quarto = {
 </div>
 </div>
 </div>
+<section id="slash-commands" class="level2">
+<h2 class="anchored" data-anchor-id="slash-commands">Slash commands</h2>
+<p>Once a profile is created, an onboardee can be onboarded to a division or a project through the use of slash commands in Issue comments. When an Issue comment is started with, or only contains, a forward slash followed by “onboard-*“, where the star must be replaced with a project name, e.g.,”/onboard-sis”, a task list will appear in the Issue with instructions and checkboxes for either the Onboardee, Project Lead, or Division Director to complete. These tasks lists are stored in the .github/workflows/ directory as .yml files. All task lists related to onboarding start with onboard and all task lists related to offboarding start with offboard. The filename without the extension reflects the name of the slash command.</p>
+<p>If a new slash command is created, the command must have its own .yml file and the command must be listed in .github/workflows/slash-command-dispatch.yml. A big thank you to Peter Evans for creating <a href="https://github.com/peter-evans/slash-command-dispatch">slash command dispatch</a> and maintaining it for us all to use.</p>
+</section>
 </section>
 <section id="offboarding" class="level1">
 <h1>Offboarding</h1>
@@ -495,11 +508,10 @@ window.Quarto = {
     A0 --&gt; B(["Execute command for offboarding from team and/or project"]);
     A1 ----&gt; G["Read through offboarding task list"];
     B --&gt; E["Reassign Issue to offboardee"];
-    G --&gt; F["Check off each task after they are completed"];
+    G --&gt; F["Check off each task after it is completed"];
     E --&gt; H["If employee is leaving ST4 and all offboarding tasks are complete, close out their profile"]
 
     E@{ shape: lin-rect};
-    D@{ shape: lin-rect};
     F@{ shape: dbl-circ};
     H@{ shape: div-rect};
     style A fill:transparent;
@@ -635,6 +647,18 @@ Note
 <p>
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/rstudio/rstudio-original.svg" alt="Rstudio" width="55" height="55"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vscode/vscode-original.svg" alt="vscode" width="55" height="55"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg" alt="git" width="55" height="55"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original-wordmark.svg" alt="github" width="55" height="55"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/googlecloud/googlecloud-plain.svg" alt="google cloud" width="55" height="55"> <img src="assets/FIMS-logo.png" alt="FIMS logo" width="55" height="55"> <img src="assets/asar-hex.png" alt="asar logo" width="55" height="55"> <img src="assets/stockplotr-hex.png" alt="stock plot R logo" width="55" height="55">
 </p>
+<section id="ides" class="level3">
+<h3 class="anchored" data-anchor-id="ides">IDEs</h3>
+<section id="positron" class="level4">
+<h4 class="anchored" data-anchor-id="positron">Positron</h4>
+<p>Instructions for <a href="https://positron.posit.co/install.html">installing Positron</a> can be found on the <a href="https://positron.posit.co">Positron website</a>, where Positron is the successor of RStudio and is built as an <a href="https://electronjs.org/">Electron</a> app, the same as <a href="https://code.visualstudio.com/">VS Code</a>.</p>
+</section>
+<section id="rstudio" class="level4">
+<h4 class="anchored" data-anchor-id="rstudio">RStudio</h4>
+<p>Download the latest version of RStudio from <a href="https://posit.co">Posit’s</a> <a href="https://posit.co/downloads/">download page</a> #### Visual Studio Code</p>
+<p><a href="https://code.visualstudio.com/">Visual Studio Code (VS Code)</a> is an <a href="https://electronjs.org/">Electron</a> app that is meant to facilitate coding in any language. To download the latest version navigate to their <a href="https://code.visualstudio.com/Download">download page</a> and follow the instructions specific to your operating system.</p>
+</section>
+</section>
 </section>
 <section id="ai-resources-at-noaa-fisheries" class="level2">
 <h2 class="anchored" data-anchor-id="ai-resources-at-noaa-fisheries">💬 AI Resources at NOAA Fisheries</h2>

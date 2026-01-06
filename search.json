@@ -39,7 +39,14 @@
     "href": "getting-started.html",
     "title": "Getting Started",
     "section": "",
-    "text": "flowchart TD;\n    A([\"Navigate to Issues\"]) --- A0((\"Branch Director\")) & A1((\"New Employee\")) & PL((\"Project Lead\"));\n    A0 --&gt; B([\"Create a new Issue using 'Add new profile' issue type\"]);\n    A1 ----&gt; G[\"Read through Getting Started Instructions\"];\n    B --&gt; C([\"Follow instructions in the Issue\"]);\n    C --&gt; E[\"Assign Issue to Onboardee\"];\n    PL --&gt; D[\"Add project specific command (e.g., comment /onboard-FIMS)\"];\n    G --&gt; new(\"Navigate to your profile Issue and complete tasks or comment on the issue to get help when you reach roadblocks\");\n    new --&gt; F[\"Complete all assigned tasks\"];\n    E ---&gt; H[\"Direct employee to this site\"];\n\n    E@{ shape: lin-rect};\n    D@{ shape: lin-rect};\n    F@{ shape: dbl-circ};\n    H@{ shape: div-rect};\n    style A fill:transparent;\n    style A0 fill:#BBDEFB;\n    style A1 fill:#C8E6C9;\n    style PL fill:#F54927,fill:#E1BEE7,color:none;\n    style B fill:#BBDEFB;\n    style G fill:#C8E6C9;\n    style C fill:#BBDEFB;\n    style E fill:#FFE0B2;\n    style D fill:#E1BEE7;\n    style new fill:#C8E6C9;\n    style F fill:#D50000;\n    style H fill:#FFCDD2;\n    click A \"https://github.com/nmfs-ost/on-off-boarding/issues\";\n    click A0 \"https://github.com/nmfs-ost/on-off-boarding/issues/new?template=add_new_profile.yml\";\n    click G \"/getting-started.qmd\";"
+    "text": "We use GitHub Issues to both onboard and offboard employees to OST and projects within OST. Employee profiles are tracked using GitHub Issues, and new profiles can be added by navigating to the Profile Template. Follow the instructions below to navigate creating a new profile and onboarding and offboarding employees to different divisions and projects."
+  },
+  {
+    "objectID": "getting-started.html#slash-commands",
+    "href": "getting-started.html#slash-commands",
+    "title": "Getting Started",
+    "section": "Slash commands",
+    "text": "Slash commands\nOnce a profile is created, an onboardee can be onboarded to a division or a project through the use of slash commands in Issue comments. When an Issue comment is started with, or only contains, a forward slash followed by “onboard-*“, where the star must be replaced with a project name, e.g.,”/onboard-sis”, a task list will appear in the Issue with instructions and checkboxes for either the Onboardee, Project Lead, or Division Director to complete. These tasks lists are stored in the .github/workflows/ directory as .yml files. All task lists related to onboarding start with onboard and all task lists related to offboarding start with offboard. The filename without the extension reflects the name of the slash command.\nIf a new slash command is created, the command must have its own .yml file and the command must be listed in .github/workflows/slash-command-dispatch.yml. A big thank you to Peter Evans for creating slash command dispatch and maintaining it for us all to use."
   },
   {
     "objectID": "getting-started.html#projects",
@@ -53,7 +60,7 @@
     "href": "getting-started.html#software-and-tools",
     "title": "Getting Started",
     "section": "💻 Software and Tools",
-    "text": "💻 Software and Tools"
+    "text": "💻 Software and Tools\n\n       \n\n\nIDEs\n\nPositron\nInstructions for installing Positron can be found on the Positron website, where Positron is the successor of RStudio and is built as an Electron app, the same as VS Code.\n\n\nRStudio\nDownload the latest version of RStudio from Posit’s download page #### Visual Studio Code\nVisual Studio Code (VS Code) is an Electron app that is meant to facilitate coding in any language. To download the latest version navigate to their download page and follow the instructions specific to your operating system."
   },
   {
     "objectID": "getting-started.html#ai-resources-at-noaa-fisheries",
