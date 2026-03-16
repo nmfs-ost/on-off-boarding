@@ -135,6 +135,7 @@ Instructions for [installing Positron](https://positron.posit.co/install.html) c
 #### RStudio
 
 Download the latest version of RStudio from [Posit's](https://posit.co) [download page](https://posit.co/downloads/)
+
 #### Visual Studio Code
 
 [Visual Studio Code (VS Code)](https://code.visualstudio.com/) is an [Electron](https://electronjs.org/) app that is meant to facilitate coding in any language. To download the latest version navigate to their [download page](https://code.visualstudio.com/Download) and follow the instructions specific to your operating system.
