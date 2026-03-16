@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.8.26">
+<meta name="generator" content="quarto-1.8.27">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -19,6 +19,41 @@ ul.task-list li input[type="checkbox"] {
   width: 0.8em;
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
+}
+/* CSS for syntax highlighting */
+html { -webkit-text-size-adjust: 100%; }
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
 </style>
 
@@ -43,9 +78,9 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet" class="quarto-color-scheme-extra">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-168d4409ff879ab63941a81be2a1fc02.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/bootstrap/bootstrap-dark-bb8569e0cb349f7ab286507ca45983c2.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="site_libs/bootstrap/bootstrap-168d4409ff879ab63941a81be2a1fc02.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-65e3309048092fc0078694162017e34b.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dark-653b20e419510450ea8fcf6c3afaa642.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="site_libs/bootstrap/bootstrap-65e3309048092fc0078694162017e34b.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -416,6 +451,7 @@ window.Quarto = {
   <li><a href="#software-and-tools" id="toc-software-and-tools" class="nav-link" data-scroll-target="#software-and-tools">💻 Software and Tools</a>
   <ul class="collapse">
   <li><a href="#ides" id="toc-ides" class="nav-link" data-scroll-target="#ides">IDEs</a></li>
+  <li><a href="#wsl" id="toc-wsl" class="nav-link" data-scroll-target="#wsl">WSL</a></li>
   </ul></li>
   <li><a href="#ai-resources-at-noaa-fisheries" id="toc-ai-resources-at-noaa-fisheries" class="nav-link" data-scroll-target="#ai-resources-at-noaa-fisheries">💬 AI Resources at NOAA Fisheries</a></li>
   <li><a href="#cloud-resources-at-noaa-fisheries" id="toc-cloud-resources-at-noaa-fisheries" class="nav-link" data-scroll-target="#cloud-resources-at-noaa-fisheries">☁️ Cloud Resources at NOAA Fisheries</a></li>
@@ -655,8 +691,36 @@ Note
 </section>
 <section id="rstudio" class="level4">
 <h4 class="anchored" data-anchor-id="rstudio">RStudio</h4>
-<p>Download the latest version of RStudio from <a href="https://posit.co">Posit’s</a> <a href="https://posit.co/downloads/">download page</a> #### Visual Studio Code</p>
+<p>Download the latest version of RStudio from <a href="https://posit.co">Posit’s</a> <a href="https://posit.co/downloads/">download page</a></p>
+</section>
+<section id="visual-studio-code" class="level4">
+<h4 class="anchored" data-anchor-id="visual-studio-code">Visual Studio Code</h4>
 <p><a href="https://code.visualstudio.com/">Visual Studio Code (VS Code)</a> is an <a href="https://electronjs.org/">Electron</a> app that is meant to facilitate coding in any language. To download the latest version navigate to their <a href="https://code.visualstudio.com/Download">download page</a> and follow the instructions specific to your operating system.</p>
+</section>
+</section>
+<section id="wsl" class="level3">
+<h3 class="anchored" data-anchor-id="wsl">WSL</h3>
+<p>Windows Subsystem for Linux (WSL) allows developers to run a Linux on your personal machine without having to use a dual-boot setup. This install takes help from the IT department if you are working on a NOAA-issued computer.</p>
+<section id="hammer-install-wsl2-and-docker-engine" class="level4">
+<h4 class="anchored" data-anchor-id="hammer-install-wsl2-and-docker-engine">:hammer: Install WSL2 and Docker Engine</h4>
+<ul>
+<li>Install WSL2 and Docker Engine on the Windows machine with IT. Both tools are on the <a href="https://docs.google.com/spreadsheets/d/1oPaTegdBGEmkjrmkbOVjGAJpPFg755p3Wws50ddLwCI/edit?usp=sharing">approved software list</a>.</li>
+<li>For installation details, see the official <a href="https://learn.microsoft.com/en-us/windows/wsl/install">WSL documentation</a> and <a href="https://docs.docker.com/engine/install/">Docker documentation</a>.</li>
+<li>Be sure to have IT “Turn Windows features on or off” for WSL on Windows in addition to installing it. Here are some <a href="https://www.tenforums.com/tutorials/46769-enable-disable-windows-subsystem-linux-wsl-windows-10-a.html">similar instructions</a> to what IT will need to do.</li>
+</ul>
+</section>
+<section id="hammer-install-vs-code-and-extensions" class="level4">
+<h4 class="anchored" data-anchor-id="hammer-install-vs-code-and-extensions">:hammer: Install VS Code and extensions</h4>
+<p>Open VS Code and install the following extensions from the Extensions view (<code>Ctrl + Shift + X</code>): - WSL extension (ID: ms-vscode-remote.remote-wsl): allows VS Code to connect to the WSL2 environment. - Dev Containers extension (ID: ms-vscode-remote.remote-containers): builds and manages development containers from the <code>.devcontainers/devcontainer.json</code> file.</p>
+</section>
+<section id="hammer-install-ubuntu" class="level4">
+<h4 class="anchored" data-anchor-id="hammer-install-ubuntu">:hammer: Install Ubuntu</h4>
+<ul>
+<li>Open a Windows Command Prompt and check if <code>Ubuntu</code> is listed as a WSL distribution:</li>
+</ul>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="ex">wsl</span> <span class="at">--list</span> <span class="at">--verbose</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<p>If <code>Ubuntu</code> is not listed under the <code>NAME</code> column, run the following command to install it: Ubuntu:</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb2"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="ex">wsl</span> <span class="at">--install</span> <span class="at">-d</span> Ubuntu</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </section>
 </section>
 </section>
