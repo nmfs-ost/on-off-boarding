@@ -17,11 +17,6 @@ jobs:
           issue-number: ${{ github.event.client_payload.github.payload.issue.number }}
           body: |
             ## Offboardee
-              - [ ] Schedule 1:1 meeting with project lead
               - [ ] Create a list of current and future tasks that were assigned to you
               - [ ] Ensure that all recent work to 'asar' or 'stockplotr' has been submitted or pushed to the remote repository
-              
-            ## Project leads
-              - [ ] Remove access to *project* level resources
-              - [ ] Remove offboardee from individual Google Meet invites
               
