@@ -38,8 +38,8 @@ jobs:
             
             ## Onboardee
             ### Desired completion: First week
-            - [ ] Write a short bio and send it to [Assessment Branch Director](mailto:melissa.karp@noaa.gov) so it can be included in a welcome email to members of OST and add your bio to the [NSAP bios document ](https://docs.google.com/document/d/1_E8D4-m8F3FLYzGrYeZXm2NBDpMeroXb1miQxYf1wgo/edit?tab=t.0).
-            - [ ] Contact [IT](mailto:christopher.bradley@example.com) and cc the [service desk](mailto:nmfs.servicedesk@noaa.gov) to set up your workstation. 
+            - [ ] Write a short bio and send it to Assessment Branch Director (melissa.karp@noaa.gov) so it can be included in a welcome email to members of OST and add your bio to the [NSAP bios document ](https://docs.google.com/document/d/1_E8D4-m8F3FLYzGrYeZXm2NBDpMeroXb1miQxYf1wgo/edit?tab=t.0).
+            - [ ] Contact IT (christopher.bradley@example.com) and cc the service desk (nmfs.servicedesk@noaa.gov) to set up your workstation. 
             <details>
               <summary>
                 Expand this section to see the list of software applications to be installed
@@ -57,7 +57,7 @@ jobs:
             All of the software applications are on the [list of NMFS-approved software](https://docs.google.com/spreadsheets/d/1oPaTegdBGEmkjrmkbOVjGAJpPFg755p3Wws50ddLwCI/edit?usp=sharing).
             </details>
     
-            - [ ] Set up a GitHub account and request access to the nmfs-ost GitHub Enterprise organization by following the [guide](https://sites.google.com/noaa.gov/nmfs-st-github-governance-team/github-users). Note the [GitHub user agreement](https://drive.google.com/file/d/1yP0mLpD5d5rsgNv5-_Z6OWpwhLROjxMg/view) should be signed by the [Assessment Branch Director](mailto:melissa.karp@noaa.gov) as supervisor or manager.
+            - [ ] Set up a GitHub account and request access to the nmfs-ost GitHub Enterprise organization by following the [guide](https://sites.google.com/noaa.gov/nmfs-st-github-governance-team/github-users). Note the [GitHub user agreement](https://drive.google.com/file/d/1yP0mLpD5d5rsgNv5-_Z6OWpwhLROjxMg/view) should be signed by the Assessment Branch Director (melissa.karp@noaa.gov) as supervisor or manager.
             - [ ] Share your Google calendar ([instructions here](https://support.google.com/calendar/answer/37082?hl=en)) with those that need to know your schedule because everyone by default sees you as busy instead of getting appointment details.
             - [ ] Add the following calendars to your Google Calendar if you're interested
             <details>
