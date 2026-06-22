@@ -16,6 +16,7 @@ jobs:
           repository: ${{ github.event.client_payload.github.payload.repository.full_name }}
           issue-number: ${{ github.event.client_payload.github.payload.issue.number }}
           body: |
+            Thank you for your contributions to the Workflow Project! Please complete the following tasks for successfully offboard from the project.
             ## Offboardee
               - [ ] Create a list of current and future tasks that were assigned to you
               - [ ] Ensure that all recent work to 'asar' or 'stockplotr' has been submitted or pushed to the remote repository
