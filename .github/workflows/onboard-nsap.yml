@@ -17,6 +17,12 @@ jobs:
           issue-number: ${{ github.event.client_payload.github.payload.issue.number }}
           body: |
             Welcome :wave: to the National Stock Assessment Program (NSAP).
+            
+            ## ST4 Division Director @PatrickLynch-NOAA
+            
+            - [ ] Add onboardee to the branch email list
+            - [ ] Confirm whether the onboardee has access to the division and office hour meetings
+            - [ ] Confirm whether the onboardee has access to the communications documents and the divsion meeting notes
 
             ## Assessment Branch Director (Acting) @Melissa-Karp
             ### First Day
