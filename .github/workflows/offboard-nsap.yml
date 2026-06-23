@@ -35,4 +35,10 @@ jobs:
               - [ ] Remove from project specific GitHub repository(ies)
               - [ ] Transfer ownership of non-exploratory GitHub repositories to the nmfs-ost Organization
               - [ ] Remove offboardee from individual Google Meet invites (meet owners will receieve a kickback email once their account is deactivated)
+            
+            ## ST4 Division Director @PatrickLynch-NOAA
+            
+            - [ ] Remove offboardee from the branch email list
+            - [ ] Remove offboardee access to the division and office hour meetings
+            - [ ] Remove offboardee access to the communications documents and the divsion meeting notes
               
