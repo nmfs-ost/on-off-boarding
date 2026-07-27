@@ -114,7 +114,7 @@ Melissa Karp
 ---
 
 <!-- BEGIN AUTO MEMBERS: dismap -->
-<table><tr><td align="center" valign="top" style="padding:12px"><a href="https://github.com/ClaireGonzales-NOAA"><img src="https://github.com/ClaireGonzales-NOAA.png?size=100" width="100" alt="ClaireGonzales-NOAA" style="border-radius:8px"/><br/><sub>Claire Gonzales</sub></a></td></tr></table>
+<!-- Project members will appear here when onboarded members exist. -->
 <!-- END AUTO MEMBERS: dismap -->
 
 <br>
