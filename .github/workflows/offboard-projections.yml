@@ -1,7 +1,7 @@
-name: offboard-workflows-command
+name: offboard-projections-command
 on:
   repository_dispatch:
-    types: [offboard-workflows-command]
+    types: [offboard-projections-command]
 jobs:
   list:
     runs-on: ubuntu-latest

@@ -1,7 +1,7 @@
-name: offboard-workflows-command
+name: offboard-fims-command
 on:
   repository_dispatch:
-    types: [offboard-workflows-command]
+    types: [offboard-fims-command]
 jobs:
   list:
     runs-on: ubuntu-latest
