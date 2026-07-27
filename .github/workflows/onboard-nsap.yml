@@ -24,12 +24,8 @@ jobs:
             - [ ] Confirm whether the onboardee has access to the division and office hour meetings
             - [ ] Confirm whether the onboardee has access to the communications documents and the divsion meeting notes
 
-            ## Assessment Branch Director (Acting) @Melissa-Karp
-            ### First Day
-            - [ ] Schedule first-day welcome meeting to review the onboarding process to the NSAP.
-    
             ### First Week
-            - [ ] Provide access to NSAP or higher-level email distribution lists.
+            - [ ] Provide access to the following email distribution lists.
             <details>
               <summary>
                 Expand this section to see the list of email distribution lists to be added to
@@ -37,10 +33,15 @@ jobs:
     
             - [ ] OST email distribution list (Should be added to this listserv when onboardee starts)
             - [ ] ST4 email distribution list (Not typically used, as the assessment branch listserv is kept more up to date)
-            - [ ] _NMFS HQ ST4 Assessment Branch
-            - [ ] _NMFS Fish Assessment
             Please report if you encounter any problems and leave a comment on this onboarding issue. 
             </details>
+
+            ## Assessment Branch Director (Acting) @Melissa-Karp
+            ### First Day
+            - [ ] Schedule first-day welcome meeting to review the onboarding process to the NSAP.
+    
+            ### First Week
+            - [ ] Provide access to _NMFS Fish Assessment email distribution list.
             
             ## Onboardee
             ### Desired completion: First week
