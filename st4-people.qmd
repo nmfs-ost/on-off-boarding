@@ -131,7 +131,7 @@ Jeff Vieser
 ---
 
 <!-- BEGIN AUTO MEMBERS: sis -->
-<table><tr><td align="center" valign="top" style="padding:12px"><a href="https://github.com/RoselynAguila-NOAA"><img src="https://github.com/RoselynAguila-NOAA.png?size=100" width="100" alt="RoselynAguila-NOAA" style="border-radius:8px"/><br/><sub>Roselyn (Len) Aguila</sub></a></td></tr></table>
+<!-- Project members will appear here when onboarded members exist. -->
 <!-- END AUTO MEMBERS: sis -->
 
 <br>
