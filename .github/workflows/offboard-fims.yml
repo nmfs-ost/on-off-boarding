@@ -1,0 +1,31 @@
+name: offboard-workflows-command
+on:
+  repository_dispatch:
+    types: [offboard-workflows-command]
+jobs:
+  list:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      issues: write
+    steps:
+      - name: Create comment
+        uses: peter-evans/create-or-update-comment@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          repository: ${{ github.event.client_payload.github.payload.repository.full_name }}
+          issue-number: ${{ github.event.client_payload.github.payload.issue.number }}
+          body: |
+            Thank you for your contributions to FIMS! Please complete the following tasks for successfully offboarding from the project.
+
+            ## Offboardee
+              - [ ] Schedule a 1:1 meeting with the Project Lead of FIMS
+              - [ ] Transfer ownership of any documents/files in Google Drive to the FIMS Project Lead within the FIMS folder
+              - [ ] Ensure that all recent work to repositories within the NOAA-FIMS organization are pushed to the given repository
+              - [ ] Sign up for the FIMS list serve to receive future communication material
+            
+            ## Project Lead
+              - [ ] Remove the offboardee from the FIMS email distribution list
+              - [ ] Remove the offboardee from the FIMS Implementation Team monthly meeting calendar invite
+              - [ ] Update the [FIMS Team website](https://noaa-fims.github.io/contact/contributors.html)
+              - [ ] If needed, find a replacement Implementation Team Member
