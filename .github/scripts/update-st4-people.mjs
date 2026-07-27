@@ -76,20 +76,32 @@ function profileFromIssue(issue) {
   };
 }
 
+function shouldIgnoreProfile(profile) {
+  const text = `${profile.fullName || ""} ${profile.username || ""}`.toLowerCase();
+  return /jane[-_ ]?doe/.test(text) || /test profile/.test(text);
+}
+
 function membershipFromComments(comments) {
   const state = new Map();
-  const cmdRe = /^\s*\/(onboard|offboard)-([a-z0-9-]+)/gim;
+  const cmdRe = /^\/(onboard|offboard)-([a-z0-9-]+)\b/i;
 
   for (const comment of comments) {
-    const body = comment.body || "";
-    let match;
-    while ((match = cmdRe.exec(body)) !== null) {
-      const mode = match[1].toLowerCase();
-      const project = match[2].toLowerCase();
+    const body = (comment.body || "").trim();
+    if (!body.startsWith("/")) {
+      continue;
+    }
 
-      if (Object.hasOwn(PROJECTS, project)) {
-        state.set(project, mode === "onboard");
-      }
+    const firstLine = body.split(/\r?\n/, 1)[0].trim();
+    const match = firstLine.match(cmdRe);
+    if (!match) {
+      continue;
+    }
+
+    const mode = match[1].toLowerCase();
+    const project = match[2].toLowerCase();
+
+    if (Object.hasOwn(PROJECTS, project)) {
+      state.set(project, mode === "onboard");
     }
   }
 
@@ -156,6 +168,10 @@ async function main() {
   for (const issue of profileIssues) {
     const profile = profileFromIssue(issue);
     if (!profile.username) {
+      continue;
+    }
+
+    if (shouldIgnoreProfile(profile)) {
       continue;
     }
 

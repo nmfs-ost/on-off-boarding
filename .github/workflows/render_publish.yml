@@ -1,6 +1,9 @@
 on:
   push:
     branches: main
+  workflow_run:
+    workflows: [Update ST4 People Tables]
+    types: [completed]
   workflow_dispatch:
 
 concurrency:
@@ -15,7 +18,7 @@ jobs:
     env:
       R_REMOTES_NO_ERRORS_FROM_WARNINGS: true
       GITHUB_PAT: ${{ secrets.GITHUB_TOKEN }}
-    if: github.event_name == 'push' || github.event_name == 'workflow_dispatch'
+    if: github.event_name == 'push' || github.event_name == 'workflow_dispatch' || (github.event_name == 'workflow_run' && github.event.workflow_run.conclusion == 'success')
     steps:
       - name: Check out repository
         uses: actions/checkout@v4
