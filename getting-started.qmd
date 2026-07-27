@@ -144,20 +144,20 @@ Download the latest version of RStudio from [Posit's](https://posit.co) [downloa
 
 Windows Subsystem for Linux (WSL) allows developers to run a Linux on your personal machine without having to use a dual-boot setup. This install takes help from the IT department if you are working on a NOAA-issued computer.
 
-#### :hammer: Install WSL2 and Docker Engine
+#### 🔨 Install WSL2 and Docker Engine
 
 - Install WSL2 and Docker Engine on the Windows machine with IT. Both tools are on the [approved software list](https://docs.google.com/spreadsheets/d/1oPaTegdBGEmkjrmkbOVjGAJpPFg755p3Wws50ddLwCI/edit?usp=sharing).
 - For installation details, see the official [WSL documentation](https://learn.microsoft.com/en-us/windows/wsl/install) and [Docker documentation](https://docs.docker.com/engine/install/).
 - Be sure to have IT "Turn Windows features on or off" for WSL on Windows in addition to installing it. Here are some [similar instructions](https://www.tenforums.com/tutorials/46769-enable-disable-windows-subsystem-linux-wsl-windows-10-a.html) to what IT will need to do.
 
-#### :hammer: Install VS Code and extensions
+#### 🔨 Install VS Code and extensions
 
 Open VS Code and install the following extensions from the Extensions view
 (`Ctrl + Shift + X`):
 - WSL extension (ID: ms-vscode-remote.remote-wsl): allows VS Code to connect to the WSL2 environment.
 - Dev Containers extension (ID: ms-vscode-remote.remote-containers): builds and manages development containers from the `.devcontainers/devcontainer.json` file.
 
-#### :hammer: Install Ubuntu
+#### 🔨 Install Ubuntu
 
 - Open a Windows Command Prompt and check if `Ubuntu` is listed as a WSL distribution:
 
