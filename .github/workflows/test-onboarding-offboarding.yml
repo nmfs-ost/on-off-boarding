@@ -5,9 +5,9 @@ on:
   push:
     paths:
       - '.github/workflows/*.yml'
-  # Monthly scheduled run (1st of each month at 00:00 UTC)
+  # Quarterly scheduled run (first Monday of January, April, July, and October at 00:00 UTC)
   schedule:
-    - cron: '0 0 1 * *'
+    - cron: '0 0 1-7 1,4,7,10 1'
   # Allow manual triggering for testing
   workflow_dispatch:
 
