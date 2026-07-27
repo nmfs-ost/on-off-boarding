@@ -37,4 +37,5 @@ jobs:
               offboard-workflows
               offboard-dismap
               offboard-ggt
-          permission: write
+          # Allow any GitHub user who can comment on the issue to trigger commands.
+          permission: none
