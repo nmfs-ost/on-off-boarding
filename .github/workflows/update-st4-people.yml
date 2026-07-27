@@ -1,0 +1,67 @@
+name: Update ST4 People Tables
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 6 1 * *'
+  issues:
+    types: [opened, edited, reopened, closed, labeled, unlabeled]
+  issue_comment:
+    types: [created, edited, deleted]
+
+permissions:
+  contents: write
+  issues: read
+
+jobs:
+  update-manual:
+    if: github.event_name == 'workflow_dispatch' || github.event_name == 'schedule'
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Update tables from profile issues
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: node .github/scripts/update-st4-people.mjs
+
+      - name: Commit changes if needed
+        run: |
+          if git diff --quiet -- st4-people.qmd; then
+            echo "No changes to commit."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add st4-people.qmd
+          git commit -m "chore: update ST4 people tables from profile issues"
+          git push origin HEAD:${{ github.ref_name }}
+
+  update-profile-events:
+    if: |
+      contains(join(github.event.issue.labels.*.name, ','), 'profile') ||
+      contains(join(github.event.issue.labels.*.name, ','), 'Profile')
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Update tables from profile issues
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: node .github/scripts/update-st4-people.mjs
+
+      - name: Commit changes if needed
+        run: |
+          if git diff --quiet -- st4-people.qmd; then
+            echo "No changes to commit."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add st4-people.qmd
+          git commit -m "chore: update ST4 people tables from profile issues"
+          git push origin HEAD:${{ github.ref_name }}
