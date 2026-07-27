@@ -3,9 +3,9 @@ name: Sync Code of Conduct
 on:
   # Allows to run this workflow manually from the Actions tab
   workflow_dispatch:
-  # Runs at 00:00 UTC on the 1st day of every month
+  # Runs on the first day of each quarter at 00:00 UTC
   schedule:
-    - cron: '0 0 1 * *'
+    - cron: '0 0 1 1,4,7,10 *'
 
 # Grant the GITHUB_TOKEN write permissions to push the changes
 permissions:
@@ -24,11 +24,6 @@ jobs:
         run: |
           curl -o CODE_OF_CONDUCT.md https://raw.githubusercontent.com/nmfs-ost/FIT-resource-files/refs/heads/main/CODE_OF_CONDUCT.md
 
-      # Modify the downloaded file with custom details
-      - name: Modify Enforcement Section
-        run: |
-          sed -i 's|enforcement at.*|enforcement at [Contact information to be determined].|' CODE_OF_CONDUCT.md
-      
       # Check for changes, and if there are any, commit and push them
       - name: Commit and Push if Changed
         run: |
