@@ -1,0 +1,27 @@
+name: offboard-workflows-command
+on:
+  repository_dispatch:
+    types: [offboard-workflows-command]
+jobs:
+  list:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      issues: write
+    steps:
+      - name: Create comment
+        uses: peter-evans/create-or-update-comment@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          repository: ${{ github.event.client_payload.github.payload.repository.full_name }}
+          issue-number: ${{ github.event.client_payload.github.payload.issue.number }}
+          body: |
+            Thank you for your contributions to FIMS! Please complete the following tasks for successfully offboarding from the project.
+
+            ## Offboardee
+              - [ ] Schedule a 1:1 meeting with the Project Lead of the Projections project
+              - [ ] Transfer ownership of any documents/files in Google Drive to the Project Lead
+            
+            ## Project Lead
+              - [ ] Remove offboardee from monthly Projections steering committee meet
+              - [ ] Remove access to material in the [Projections Google drive folder](https://drive.google.com/drive/folders/1LyAdDaLAEQ_fAnrWbBYg60bknfUTpFhL)
