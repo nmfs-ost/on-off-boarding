@@ -1,10 +1,6 @@
 name: Test Onboarding and Offboarding Workflows
 
 on:
-  # Trigger on changes to workflow files
-  push:
-    paths:
-      - '.github/workflows/*.yml'
   # Quarterly scheduled run (first Monday of January, April, July, and October at 00:00 UTC)
   schedule:
     - cron: '0 0 1-7 1,4,7,10 1'
