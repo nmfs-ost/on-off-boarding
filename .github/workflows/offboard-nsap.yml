@@ -16,10 +16,10 @@ jobs:
           repository: ${{ github.event.client_payload.github.payload.repository.full_name }}
           issue-number: ${{ github.event.client_payload.github.payload.issue.number }}
           body: |
-            Farewell :v: : wishing you goodluck in your endeavors outside of our organization!
+            Farewell :v: : wishing you good luck in your endeavors outside of our organization!
             Below you will find a list of offboarding tasks for both you and for the Project Lead.
             Please mark off tasks once they are accomplished to ease the communication chain and decrease duplication. 
-            Feel free reach out on the NSAP Google Chat if you want to discuss about anything.
+            Feel free reach out on the NSAP Google Chat if you want to discuss anything.
 
             ## Offboardee
               - [ ] Schedule 1:1 meeting with project lead
@@ -27,18 +27,18 @@ jobs:
               - [ ] Organize and save relevant local files to your respective project folder in the NSAP shared drive
               - [ ] Contact Chris Bradley for directions on returning your laptop
               
-            ## Relevant leads (please edit this comment and assign the following tasks to the revelant people)
+            ## Relevant leads (please edit this comment and assign the following tasks to the relevant people)
               - [ ] Remove access to *project* level resources
               - [ ] Remove access to *program* level-resources
               - [ ] Remove from noaa-ost GitHub organization
               - [ ] Remove from the NSAP GitHub Team
               - [ ] Remove from project specific GitHub repository(ies)
               - [ ] Transfer ownership of non-exploratory GitHub repositories to the nmfs-ost Organization
-              - [ ] Remove offboardee from individual Google Meet invites (meet owners will receieve a kickback email once their account is deactivated)
+              - [ ] Remove offboardee from individual Google Meet invites (meet owners will receive a kickback email once their account is deactivated)
             
             ## ST4 Division Director @PatrickLynch-NOAA
             
             - [ ] Remove offboardee from the branch email list
             - [ ] Remove offboardee access to the division and office hour meetings
-            - [ ] Remove offboardee access to the communications documents and the divsion meeting notes
+            - [ ] Remove offboardee access to the communications documents and the division meeting notes
               
