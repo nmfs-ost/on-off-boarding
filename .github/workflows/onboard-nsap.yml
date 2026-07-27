@@ -65,6 +65,7 @@ jobs:
             </details>
     
             - [ ] Set up a GitHub account and request access to the nmfs-ost GitHub Enterprise organization by following the [guide](https://sites.google.com/noaa.gov/nmfs-st-github-governance-team/github-users). Note the [GitHub user agreement](https://drive.google.com/file/d/1yP0mLpD5d5rsgNv5-_Z6OWpwhLROjxMg/view) should be signed by the Assessment Branch Director (melissa.karp@noaa.gov) as supervisor or manager.
+            - [ ] Click the "Request to join" button to join the [nmfs-ost NSAP Team](https://github.com/orgs/nmfs-ost/teams/nsap)
             - [ ] Share your Google calendar ([instructions here](https://support.google.com/calendar/answer/37082?hl=en)) with those that need to know your schedule because everyone by default sees you as busy instead of getting appointment details.
             - [ ] Add the following calendars to your Google Calendar if you're interested
             <details>
