@@ -62,7 +62,7 @@ Melissa Karp
 ---
 
 <!-- BEGIN AUTO MEMBERS: projections -->
-<!-- Project members will appear here when onboarded members exist. -->
+<table><tr><td align="center" valign="top" style="padding:12px"><a href="https://github.com/JoelRice-NOAA"><img src="https://github.com/JoelRice-NOAA.png?size=100" width="100" alt="JoelRice-NOAA" style="border-radius:8px"/><br/><sub>Joel Rice</sub></a></td></tr></table>
 <!-- END AUTO MEMBERS: projections -->
 
 <br>
