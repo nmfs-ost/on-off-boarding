@@ -1,0 +1,28 @@
+name: offboard-ggt-command
+on:
+  repository_dispatch:
+    types: [offboard-ggt-command]
+jobs:
+  list:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      issues: write
+    steps:
+      - name: Create comment
+        uses: peter-evans/create-or-update-comment@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          repository: ${{ github.event.client_payload.github.payload.repository.full_name }}
+          issue-number: ${{ github.event.client_payload.github.payload.issue.number }}
+          body: |
+            Thank you for your contributions to the GitHub Governance Team! Please complete the following tasks for successfully offboarding from the project.
+
+            ## Offboardee
+            - [ ] Ensure all current work is distributed to other members or project lead
+            - [ ] Communicate to the project lead any open tasks
+            
+            ## Project Lead
+              - [ ] Remove from _NMFS GitHub Governance Reps group on [NOAA White Pages](https://whitepages.noaa.gov)
+              - [ ] Remove offboardee from the [GGT members team](https://github.com/orgs/nmfs-ost/teams/ggt-members)
+              - [ ] Remove offboardee from the [GGT chat space](https://chat.google.com/room/AAAAXJOn8SQ?cls=7)
