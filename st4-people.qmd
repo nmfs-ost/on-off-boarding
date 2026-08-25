@@ -131,7 +131,7 @@ Jeff Vieser
 ---
 
 <!-- BEGIN AUTO MEMBERS: sis -->
-<!-- Project members will appear here when onboarded members exist. -->
+<table><tr><td align="center" valign="top" style="padding:12px"><a href="https://github.com/jeffreyvieser-NOAA"><img src="https://github.com/jeffreyvieser-NOAA.png?size=100" width="100" alt="jeffreyvieser-NOAA" style="border-radius:8px"/><br/><sub>Jeff Vieser</sub></a></td></tr></table>
 <!-- END AUTO MEMBERS: sis -->
 
 <br>
