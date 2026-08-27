@@ -26,3 +26,5 @@ jobs:
               - [ ] Remove from _NMFS GitHub Governance Reps group on [NOAA White Pages](https://whitepages.noaa.gov)
               - [ ] Remove offboardee from the [GGT members team](https://github.com/orgs/nmfs-ost/teams/ggt-members)
               - [ ] Remove offboardee from the [GGT chat space](https://chat.google.com/room/AAAAXJOn8SQ?cls=7)
+              - [ ] Remove offboardee from the GGT monthly meeting invites
+              - [ ] Remove offboardee from the nmfs-ost GitHub organization (if they aren't involved in any other `nmfs-ost repos/projects`)
