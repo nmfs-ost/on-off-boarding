@@ -1,9 +1,9 @@
 name: Test Onboarding and Offboarding Workflows
 
 on:
-  # Quarterly scheduled run (first Monday of January, April, July, and October at 00:00 UTC)
+  # Quarterly scheduled run on 1st of January, April, July, and October at 00:00 UTC
   schedule:
-    - cron: '0 0 1-7 1,4,7,10 1'
+    - cron: '0 0 1 1,4,7,10 *'
   # Allow manual triggering for testing
   workflow_dispatch:
 
