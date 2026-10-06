@@ -1,7 +1,7 @@
-name: offboard-workflows-command
+name: offboard-dismap-command
 on:
   repository_dispatch:
-    types: [offboard-workflows-command]
+    types: [offboard-dismap-command]
 jobs:
   list:
     runs-on: ubuntu-latest
@@ -16,8 +16,12 @@ jobs:
           repository: ${{ github.event.client_payload.github.payload.repository.full_name }}
           issue-number: ${{ github.event.client_payload.github.payload.issue.number }}
           body: |
-            Thank you for your contributions to the Workflows Project! Please complete the following tasks for successfully offboarding from the project.
+            Thank you for your contributions to DisMAP! Please complete the following tasks for successfully offboarding from the project.
+
             ## Offboardee
-              - [ ] Create a list of current and future tasks that were assigned to you
-              - [ ] Ensure that all recent work to 'asar' or 'stockplotr' has been submitted or pushed to the remote repository
-              
+              - [ ] 
+
+            ## Project Lead
+              - [ ] Remove from monthly DisMAWG meetings
+              - [ ] Remove from biweekly development team meetings
+              - [ ] Remove as collaborator to [DisMAP GitHub Repository](https://github.com/nmfs-ost/DisMAP)

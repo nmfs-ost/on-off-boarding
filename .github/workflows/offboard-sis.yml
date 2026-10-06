@@ -1,0 +1,28 @@
+name: offboard-sis-command
+on:
+  repository_dispatch:
+    types: [offboard-sis-command]
+jobs:
+  list:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      issues: write
+    steps:
+      - name: Create comment
+        uses: peter-evans/create-or-update-comment@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          repository: ${{ github.event.client_payload.github.payload.repository.full_name }}
+          issue-number: ${{ github.event.client_payload.github.payload.issue.number }}
+          body: |
+            Thank you for your contributions to the Species Information System! Please complete the following tasks for successfully offboarding from the project.
+
+            ## Offboardee
+              - [ ] 
+
+            ## Project Lead
+              - [ ] Remove permissions to SIS database - Test / Dev / Prod
+              - [ ] Remove from monthly SIS POC meetings
+              - [ ] Remove from monthly SIS Admin team meetings
+              - [ ] Remove web content editing access
