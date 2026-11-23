@@ -1,0 +1,36 @@
+---
+title: "ST4 Projects"
+format:
+  html:
+    toc: true
+---
+
+# ST4 Project Summaries
+
+## Assessment Division
+
+### Fisheries Integrated Modeling System (FIMS)
+
+### Stock Assessment Workflows (asar, stockplotr)
+
+### Fisheries Integrated Toolbox (FIT)
+
+### Distribution Mapping and Analysis Portal (DisMAP)
+
+### Stock Information System (SIS)
+
+### Stock Synthesis 3 (SS3)
+
+### Ecosystem and Socioeconomic Indicators
+
+### Human Dimension in Stock Assessments
+
+## Monitoring Division
+
+### National Survey Program
+
+###National Fishery Observer Program
+
+###Bycatch Monitoring
+
+###Cooperative Research
