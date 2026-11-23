@@ -1,0 +1,54 @@
+name: Create a new project
+description: Track the setup of a new project or a project joining NSAP.
+title: "[New project]: "
+type: Task
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Use this issue to track the setup of a new project or one joining NSAP.
+        This repository is public; do not include sensitive information. Edit the
+        checklist as needed and mark tasks complete as you work. Note tasks that
+        do not apply.
+
+  - type: input
+    id: project-name
+    attributes:
+      label: Project name
+      description: Include the project name and acronym, if applicable.
+    validations:
+      required: true
+
+  - type: textarea
+    id: project-details
+    attributes:
+      label: Project details
+      description: Identify the project lead, describe the project, and link to any existing public resources.
+    validations:
+      required: true
+
+  - type: textarea
+    id: setup
+    attributes:
+      label: Project setup
+      description: Adapt this checklist to the project and track progress after creating the issue.
+      value: |
+        - [ ] Identify the project lead, collaborators, and existing resources; agree on responsibilities and any transfer of ownership or access.
+        - [ ] Request a distribution list through the IT helpdesk, following the [naming convention](https://docs.google.com/document/d/1PAGHnCv7ms0b43-OhHUCroZD1KaYncdDtau4S1s3mvk/edit?tab=t.0#heading=h.t8dgcx2jjlww); request multiple list managers if needed.
+        - [ ] Add and maintain group members in [NOAA White Pages](https://whitepages.noaa.gov/whitepages/#/) (search for the group, open it, and select Edit).
+        - [ ] Create or arrange a project folder, ideally in the NSAP shared drive, and grant access to the distribution list rather than individuals.
+        - [ ] Add the distribution list to project meeting invitations rather than inviting members individually.
+        - [ ] If needed, request a service account through the IT helpdesk for a shared project inbox and arrange ownership or delegated access.
+        - [ ] Establish or transfer the project's GitHub repositories, teams, permissions, and other resources as appropriate.
+
+  - type: textarea
+    id: repository-integration
+    attributes:
+      label: Add the project to onboarding and offboarding
+      description: Use existing projects such as FIMS and FIT as examples; adapt the tasks to the project.
+      value: |
+        - [ ] Add the project and its links to the NSAP overview in `index.qmd`, the projects table in `getting-started.qmd` if it has a GitHub repository, and the project contacts in `README.md` as appropriate.
+        - [ ] Create `.github/workflows/onboard-<project>.yml` and `.github/workflows/offboard-<project>.yml` with project-specific tasks for collaborators and project leads, including access, communication, and transfer or removal of resources.
+        - [ ] Register both lowercase commands in `.github/workflows/slash-command-dispatch.yml` and test that each command posts the intended checklist to a profile issue.
+        - [ ] If the project should appear in the automated people listing, add its key and lead handles to `.github/scripts/update-st4-people.mjs` and add a corresponding section and `BEGIN AUTO MEMBERS` / `END AUTO MEMBERS` markers to `st4-people.qmd`.
+        - [ ] Share the project resources and onboarding and offboarding instructions with the project lead.
