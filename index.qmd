@@ -37,7 +37,7 @@ This website contains information about onboarding and offboarding employees and
 
 We are happy for you to join onto our team in NOAA! Here at OST, we take on a large breadth of responsibilities. We aim to execute modern and high-quality data collection, management, and open access programs. For more information, please go to our [internal webpage](https://sites.google.com/noaa.gov/inside-fisheries-ost/office-of-science-and-technology) to access resources, organization charts, and more.
 
-### ST4 Projects Overview
+### ST4 Projects
 
 :::: {.columns}
 ::: {.column width="50%"}
@@ -70,6 +70,8 @@ We are happy for you to join onto our team in NOAA! Here at OST, we take on a la
 
 :::
 ::::
+
+For more information into each of these project see our [Projects Page]
 
 ### How to Get Started
 ::: {#getting-started}
