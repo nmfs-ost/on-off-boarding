@@ -182,3 +182,7 @@ have access to GitHub copilot.
 :::
 
 ## ☁️ Cloud Resources at NOAA Fisheries
+
+Nothing to see here yet!
+
+To learn more about the software mentioned above, please visit the [National Stock Assessment Training Library](https://nmfs-ost.github.io/training-resource-hub/) page.
